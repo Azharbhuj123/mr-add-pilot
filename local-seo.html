@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Assets/images/fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+    <!-- JQuery Installation -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" async
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- OWL SLIDER INSTALLATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+    <title>Local SEO | Mr Adpilot Internet Marketing </title>
+
+<style>
+.seo-page h1{
+    padding-bottom:30px;
+}
+.seo-page .adds-management p{
+    max-width:900px;
+    margin:25px auto !important;
+} 
+.seo-page .main_btn a{
+    padding:15px 40px;
+}
+.seo-page .view-pricing-btn a{
+    background:transparent !important;
+    border:1px solid #272E2F;
+    color:#272E2F;
+}
+.seo-page .view-pricing-btn a:hover{
+    background:#e9ba44 !important;
+    color:#fff;
+    border-color:#e9ba44
+}
+.seo-page section.adds-management .row {
+    padding-top: 30px;
+}
+.seo-page section.adds-management {
+    background:#f3f3f3;
+    padding-bottom:80px;
+}
+.seo-page .custom-developed-page {
+    padding:40px 0;
+}
+.seo-page .custom-developed-page .sub-container{
+    align-items:center !important;
+    width:100% !important;
+    justify-content:space-between;
+}
+.seo-page .custom-developed-page .sub-container .image-container{
+    flex:0 0 30%;
+}
+.seo-page .custom-developed-page .sub-container .main-text-container{
+    flex: 0 0 66%;
+}
+.seo-page .rm-sub-container {
+    border-radius:0 !important;
+    background:#f3f3f3;
+    border-left: 15px solid #21A85D !important;
+}
+.seo-page .rm-sub-container p{
+    font-size:18px !important;
+    color:#000 !important;
+    font-style:normal !important
+}
+.seo-page .rm-sub-container .read-more-btn{
+    color:#43AFC9 !important;
+    font-size:18px !important;
+    text-decoration:underline !important;
+}
+.seo-page .heading-and-detail .sub-container {
+    padding:20px !important
+}
+.seo-page .heading-and-detail .sub-container p{
+    max-width:900px;
+    line-height:25px;
+}
+.seo-page .heading-and-detail{
+    padding-bottom:0 !important;
+}
+.seo-page .image-with-text{
+    padding:0px !important;
+    margin-bottom: 30px;
+}
+.seo-page .image-with-text h2{
+    font-weight:600 !important;
+}
+.seo-page .image-with-text p{
+    font-family: Urbanist, sans-serif !important;
+    font-weight:400 !important;
+    font-size:18px !important;
+    line-height:26px !important;
+    color:#1A1B1C !important;
+}
+.seo-page .image-with-text .image-with-text-container{
+    padding: 35px 50px !important;
+}
+.seo-page .image-with-text h2{
+    font-weight:600 !important;
+}
+.seo-page .image-with-text p{
+    font-family: Urbanist, sans-serif !important;
+    font-weight:400 !important;
+    font-size:18px !important;
+    line-height:26px !important;
+    color:#1A1B1C !important;
+}
+.seo-page .image-with-text .image-with-text-container{
+    padding: 35px 50px !important;
+}
+.seo-page section#prices-views {
+    background:#fff;
+}
+.seo-packages .package-card {
+    width: 100% !important;
+    box-shadow: none;
+    background: #fff !important;
+    border: 1px solid #272E2F40;
+}
+.seo-packages .card-body {
+    background: #ffffff;
+}
+.seo-packages .owl-item.active.center 
+    .card-body {
+        background: #fff;
+}
+a.cta-get-started path {
+    stroke:#000;
+}
+.seo-packages .owl-item.active.center a.cta-get-started path{
+    stroke:#fff;
+}
+.seo-packages .feature-button:hover {
+    background: #C92027;
+}
+a.cta-get-started:hover,
+.seo-packages .owl-item.active.center a.cta-get-started:hover{
+    color:red;
+}
+a.cta-get-started:hover path,
+.seo-packages .owl-item.active.center a.cta-get-started:hover path{
+    stroke:red ;
+}
+@media(max-width:1024px){
+    .seo-packages .pkg-price .price-amount {
+    font-size: 50px;
+}
+.seo-packages .national-company{
+    height: auto!important;
+}
+   }
+   @media(max-width:768px){
+    .large-heading{
+    font-size: 34px !important;
+}
+   } 
+ @media(max-width:767px){
+    .seo-page .custom-developed-page .sub-container .main-text-container {
+    flex: 0 0 100%;
+    padding: 0 20px;
+}
+   .seo-page .main-container,
+   .seo-page .sub-container{
+    padding:0 10px !important;
+}
+.seo-page .custom-developed-page {
+    padding: 40px 0;
+}
+
+.seo-page .image-with-text .image-with-text-container {
+    padding: 35px 30px !important;
+}
+.seo-page  section.custom-developed-page.image-with-text {
+    margin-bottom: 30px;
+}
+#prices-views .large-heading,
+#prices-views .heading-container{
+    margin-bottom: 0;
+}
+#prices-views{
+    padding-bottom: 40px;
+}
+.seo-packages .packages-grid {
+   
+    padding: 20px 20px;
+}
+ }  
+    </style>
+     <script src="script.js"></script>
+</head>
+
+
+<body class="seo-page">
+
+  <div class="announcement-bar">
+        <div class="container">
+            <div class="row">
+                <div class="announcement-col">
+                     <div class="announcement-inner">
+                        <a href="https://maps.app.goo.gl/z2rWUbfy4xBqNDEn7"
+                            target="_blank">
+                            <img src="Assets/images/map.svg" />
+                            <p>8222 Colonial Oaks Ln, Spring, TX, United States.</p>
+                        </a>
+                    </div>
+ 
+                    <div class="announcement-inner">
+                        <a href="tel:945-229-7999">
+                            <img src="Assets/images/call.svg" />
+                            <p>945-229-7999</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61583201891867">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/mradpilot">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/@MrAdPilot-agency">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo"> <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /> </a>
+                </div>
+               <div class="nav-menu">  
+                   
+                <div class="menu_logo">
+                    <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /></a>
+                    <div class="cross_icon">
+                        <img src="Assets/images/cross_img.png " alt="">
+                    </div>
+                </div>
+                 
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="who-we-serve.html">Who We Serve </a><img src="Assets/images/Vector (3).svg"></button> 
+                            <div class="dropdown-content"> 
+                                <a href="home-services.html">Home Services Marketing Agency</a> 
+                                <a href="small-business.html">Small Business</a> 
+                                <a href="healthcare.html">Healthcare</a> 
+                                </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn"><a href="Ad-pilot.html"> Why Mr Adpilot</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content">
+                                <a href="review.html">Review</a>
+                                <a href="success-stories.html">Case Studies</a> 
+                                <a href="blogs.html">Blogs</a>
+                                <!-- <a href="case-study-holiday-lighting.html">Pivot to Holiday Lighting</a> -->
+                                <a href="./Mr-adpilot-landing-page.html">Get Started</a> </div>
+                        </li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="#">Services</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content"> <a href="local-ppc-management.html">Local PPC Management</a> 
+                                <a href="local-seo.html">Search Engine Optimization</a>
+                                <a href="website-design.html">Lead Machine Websites</a>
+                                <a href="organic-social-posts.html">Social Media Posts</a> </div>
+                        </li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+
+                <div class="inner_social_link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MrPipelineMktg/">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.linkedin.com/company/mrpipeline/">
+                            <img src="Assets/images/linkdin.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+
+
+
+                </div>
+
+                <div class="header-btn"> <a href="website-analysis.html" class="main_btn">Free Website Analysis</a> </div>
+
+                <div class="hamburger"> <a href="#"> <img src="Assets/images/hamburger.png" /> </a> </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section serve">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Local SEO</h1>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="adds-management">
+        <div class="container">
+            <div class="adds-col">
+                <h2>Local SEO and Maps Optimization</h2>
+                <p>Local SEO and Maps Optimization puts your business in front of those looking for a local product or
+                    service. We work with you to produce content for your website as well as search engine map listings
+                    such as Google+ Local and Yahoo! Local. We combine on-page optimization with off-page syndication to
+                    help boost your authority and get you ranked where you need to be.</p>
+            </div>
+            <div class="row">
+                <div class="main_btn view-pricing-btn">
+                    <a href="#prices-views">View Pricing</a>
+                </div>
+
+                <div class="main_btn">
+                    <a href="get-started.html">Let’s Strategize</a>
+                    <button></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-developed-page image-with-text-and-read-more">
+        <div class="container">
+            <div class="sub-container">
+                <div class="image-container">
+                    <img src="Assets/images/seo-image.png" alt="seo-image">
+                </div>
+                <div class="main-text-container">
+                    <div class="heading-container">
+                        <div class="large-heading">Searches That Actually Matter</div>
+                    </div>
+                    <div class="para-container">
+                        <p>
+                            At Mr.AdPilot we have done extensive research to help improve your business presence
+                            online.
+                            We know what works and have a proven track record of increasing your visibility. SEO helps
+                            your page rank higher on organic searches online. We use specific guidelines and tailor them
+                            to your business specific needs. Not every search is created equal, so we create a game plan
+                            that will be the most effective and track your business success every step of the way. We
+                            find what works and pivot in the right direction. We are always monitoring your site with
+                            the latest technology and have metrics ready on hand.
+                        </p>
+                    </div>
+                    <div class="read-more-container">
+                        <div class="rm-sub-container">
+                            <p>
+                                “I just started using Mr. Adpilot, but these guys are great to work with. I have
+                                already
+                                started seeing results after a few months of SEO. I would highly recommend Mr.AdPilot.”
+                            </p>
+
+                            <a href="get-started.html" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="national-company">
+        <div class="container">
+            <div class="row">
+                <div class="national-company-images"></div>
+                <div class="national-company-headings">
+                    <h2>We Are a National Company</h2>
+                    <p>We at Mr. Adpilot help Small Business, Healthcare and Home Service Companies across the country
+                        stand out and dominate their local market. Whether you want to increase your lead flow or
+                        dominate
+                        the organic rankings on the search engines; Mr. Adpilot will help you smoke your competition!
+                    </p>
+                    <div class="main_btn">
+                        <a href="get-started.html">Let’s Strategize</a>
+                    </div>
+    </section>
+
+    <section class="custom-developed-page heading-and-detail">
+        <div class="main-container">
+            <div class="sub-container">
+                <h2 class="large-heading">Honing in on Your Critical Keywords</h2>
+                <p class="small-sub-heading">
+                    We analyze your business and website to create a strategy that is unique to your business. We narrow
+                    your business into specific keywords that will help your business rank higher on major search
+                    engines.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-developed-page image-with-text">
+        <div class="main-container">
+            <div class="sub-container">
+                <div class="image-with-text-container">
+                    <div class="text-container">
+                        <h2 class="large-heading">Why SEO Matters</h2>
+                        <div class="paragraph-container">
+                            <p class="small-sub-heading">
+
+                                Major search engines such as Google use over 200 different
+                                elements to rank web pages. At Mr.AdPilot our team of experts have been trained and
+                                certified to tackle your business SEO to ensure the best results. Some of the elements
+                                that
+                                search engines look for are mobile-friendliness, content, user experience, website
+                                markup,
+                                backend code, and much more. Our Team of experts look at every detail with a fine comb
+                                and
+                                point out weaknesses and correct them. Mr.AdPilot delivers and executes results.
+
+                            </p>
+                        </div>
+                        <div class="button-container">
+                            <a href="Ad-pilot.html" class="button">Why Choose Mr. Adpilot</a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="Assets/images/seo-matters.png" alt="seo-image-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-developed-page image-with-text">
+        <div class="main-container">
+            <div class="sub-container">
+                <div class="image-with-text-container">
+                    <div class="image-container">
+                        <img src="Assets/images/shield-image.png" alt="seo-image-2">
+                    </div>
+                    <div class="text-container">
+                        <h2 class="large-heading">Why You Can Put Your Trust in Us</h2>
+                        <div class="paragraph-container">
+                            <p class="small-sub-heading">
+                                We have been in business for over 8 years and we have shown over and over that we are a
+                                leader in the internet marketing industry. Since Mr.AdPilot’s inception, we have been
+                                growing and have even outgrown our office, twice. Since we believe you shouldn’t just
+                                take our word, we want you to read our outstanding reviews that are everywhere including
+                                Google, Facebook, and much more! Find one of the most successful businesses in your area
+                                and ask them about Mr. Adpilot. Chances are we are probably taking care of their
+                                internet marketing services. With Mr. Adpilot you will Smoke your competition!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="prices-views" class="custom-developed-page seo-packages">
+        <div class="container">
+            <div class="sub-container">
+                <div class="heading-container">
+                    <h2 class="large-heading">
+                        Local SEO Packages
+                    </h2>
+                </div>
+                <!-- packages Grid -->
+                <div class="packages-grid owl-carousel" aria-label="Local SEO Packages">
+                    <article class="package-card" aria-labelledby="pkg-pro-title">
+                        <div class="card-hero" role="region" aria-hidden="false">
+                            <h3 id="pkg-pro-title" class="pkg-title">Pro Package</h3>
+                            <div class="pkg-price" aria-hidden="true">
+                                <span class="price-amount">$745</span>
+                            </div>
+                            <div class="pkg-meta">Monthly Cost</div>
+                            <a href="get-started.html" class="cta-get-started" aria-label="Get Started with Pro Package">
+                                <span>Get Started</span>
+                                <!-- small right arrow SVG -->
+                                <svg class="icon icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M5 12h14M13 5l6 7-6 7" stroke="#fff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="card-body" role="region" aria-label="Package details">
+                            <ul class="features-list">
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Locations</span>
+                                    <span class="feature-value">Home City + 3</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Services</span>
+                                    <span class="feature-value">3</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Keywords</span>
+                                    <span class="feature-value">40</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Mr. Adpilot Reporting</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Local Listings</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Google My Business</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Bing Places</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Citation Listings</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Ongoing Updates</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Included Monthly</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Generation Software</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Syndication Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Weekly GMB Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">On-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Off-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Yext</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row feature-bottom">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Setup Fee</span>
+                                    <span class="feature-value feature-discount">$200 OFF</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="package-card" aria-labelledby="pkg-pro-title">
+                        <div class="card-hero" role="region" aria-hidden="false">
+                            <h3 id="pkg-pro-title" class="pkg-title">Plus Package</h3>
+                            <div class="pkg-price" aria-hidden="true">
+                                <span class="price-amount">$1090</span>
+                            </div>
+                            <div class="pkg-meta">Monthly Cost</div>
+                            <a href="get-started.html" class="cta-get-started" aria-label="Get Started with Pro Package">
+                                <span>Get Started</span>
+                                <!-- small right arrow SVG -->
+                                <svg class="icon icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M5 12h14M13 5l6 7-6 7" stroke="#fff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="card-body" role="region" aria-label="Package details">
+                            <ul class="features-list">
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Locations</span>
+                                    <span class="feature-value">Home City + 5</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Services</span>
+                                    <span class="feature-value">5</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Keywords</span>
+                                    <span class="feature-value">72</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Mr. Adpilot Reporting</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Local Listings</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Google My Business</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Bing Places</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Citation Listings</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Ongoing Updates</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Included Monthly</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Generation Software</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Syndication Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Weekly GMB Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">On-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Off-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Yext</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row feature-bottom">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Setup Fee</span>
+                                    <span class="feature-value feature-discount">$200 OFF</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="package-card" aria-labelledby="pkg-pro-title">
+                        <div class="card-hero" role="region" aria-hidden="false">
+                            <h3 id="pkg-pro-title" class="pkg-title">Premium Package</h3>
+                            <div class="pkg-price" aria-hidden="true">
+                                <span class="price-amount">$1665</span>
+                            </div>
+                            <div class="pkg-meta">Monthly Cost</div>
+                            <a href="get-started.html" class="cta-get-started" aria-label="Get Started with Pro Package">
+                                <span>Get Started</span>
+                                <!-- small right arrow SVG -->
+                                <svg class="icon icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M5 12h14M13 5l6 7-6 7" stroke="#fff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="card-body" role="region" aria-label="Package details">
+                            <ul class="features-list">
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Locations</span>
+                                    <span class="feature-value">Home City + 7</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Services</span>
+                                    <span class="feature-value">7</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Keywords</span>
+                                    <span class="feature-value">128</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Mr. Adpilot Reporting</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Local Listings</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Google My Business</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Bing Places</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Citation Listings</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Ongoing Updates</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Included Monthly</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Generation Software</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Syndication Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Weekly GMB Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">On-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Off-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Yext</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row feature-bottom">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Setup Fee</span>
+                                    <span class="feature-value feature-discount">$200 OFF</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="package-card" aria-labelledby="pkg-pro-title">
+                        <div class="card-hero" role="region" aria-hidden="false">
+                            <h3 id="pkg-pro-title" class="pkg-title">Platinum Package</h3>
+                            <div class="pkg-price" aria-hidden="true">
+                                <span class="price-amount">$2245</span>
+                            </div>
+                            <div class="pkg-meta">Monthly Cost</div>
+                            <a href="get-started.html" class="cta-get-started" aria-label="Get Started with Pro Package">
+                                <span>Get Started</span>
+                                <!-- small right arrow SVG -->
+                                <svg class="icon icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M5 12h14M13 5l6 7-6 7" stroke="#fff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="card-body" role="region" aria-label="Package details">
+                            <ul class="features-list">
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Locations</span>
+                                    <span class="feature-value">Home City + 7</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Services</span>
+                                    <span class="feature-value">7</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Keywords</span>
+                                    <span class="feature-value">128</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Mr. Adpilot Reporting</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Local Listings</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Google My Business</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Bing Places</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Citation Listings</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Ongoing Updates</span>
+                                    <span class="feature-value">?</span>
+                                </li>
+
+                                <li class="feature-row feature-cta">
+                                    <button class="feature-button" type="button">Included Monthly</button>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Generation Software</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Review Syndication Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Weekly GMB Posts</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">On-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Off-site Optimization</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Yext</span>
+                                    <span class="feature-value"> </span>
+                                </li>
+
+                                <li class="feature-row feature-bottom">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 6.82335C0 5.01369 0.718887 3.27814 1.99851 1.99851C3.27814 0.718887 5.01369 0 6.82335 0C8.63302 0 10.3686 0.718887 11.6482 1.99851C12.9278 3.27814 13.6467 5.01369 13.6467 6.82335C13.6467 8.63302 12.9278 10.3686 11.6482 11.6482C10.3686 12.9278 8.63302 13.6467 6.82335 13.6467C5.01369 13.6467 3.27814 12.9278 1.99851 11.6482C0.718887 10.3686 0 8.63302 0 6.82335ZM6.43397 9.74375L10.3624 4.83275L9.65277 4.26505L6.30296 8.45095L3.93025 6.474L3.34799 7.17271L6.43397 9.74375Z"
+                                            fill="#272E2F" />
+                                    </svg>
+                                    <span class="feature-label">Setup Fee</span>
+                                    <span class="feature-value feature-discount">$200 OFF</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer>
+        <div class="container">
+
+            <div class="inner_flex">
+
+            <div class="footer_colume">
+             <a href="index.html"> <img class="footer-image" src="Assets/images/MrAdPilot-final-08.png"></a>
+             <p>MrAdpilot help small businesses grow online with expert Google Ads and SEO strategies designed to increase leads, traffic, and revenue. </p> 
+
+            <div class="social_media_link">
+                    <div class="footer_links">
+                    <a href="https://www.facebook.com/profile.php?id=61583201891867"><img src="Assets/images/facebook_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.instagram.com/mradpilot"><img src="Assets/images/insta_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.youtube.com/@MrAdPilot-agency"><img src="Assets/images/youtube_img.png" /></a>
+                    </div>
+            </div>
+            </div>
+
+            <div class="footer_colume"> 
+                    <div class="footer-links">
+                    <h5>Navigation</h5>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-serve.html">Who We Serve</a></li>
+                    <li><a href="Ad-pilot.html">Why Mr. Adpilot</a></li>
+                    <li><a href="blogs.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                    </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-links">
+                <h5>Other Links</h5>
+                <ul>
+                <li><a href="terms-and-condition.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-contact-us">
+                <h5>Contact us</h5>
+                <ul>
+                <li><img src="Assets/images/call.svg.svg" alt=""><a href="tel:+1945-229-7999">945-229-7999</a></li>
+                <li><img src="Assets/images/email.svg.svg" alt=""><a href="mailto:info@mradpilot.com">info@mradpilot.com</a></li>
+                <li><img src="Assets/images/map.svg.svg" alt=""><a href="https://www.google.com/maps/place/8222+Colonial+Oaks+Ln,+Spring,+TX+77379/@30.0258517,-95.5496665,1969m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8640cd4496cabaeb:0x585105fafba818a8!8m2!3d30.0258517!4d-95.5496665!16s%2Fg%2F11cp8g_w9l?coh=277533&entry=tts&g_ep=EgoyMDI1MTIwNy4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=d73911c2-33ac-4b6c-b3ff-25c48d211611" target="_blank">
+                8222 Colonial Oaks Ln,<br> Spring, TX, United States</a></li>
+                </ul>
+                </div>
+            </div>
+
+             </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright 2025, All Rights Reserved by Mr. Adpilot Ventures Inc.</p>
+        </div>
+    </footer>
+
+   
+</body>
+
+</html>

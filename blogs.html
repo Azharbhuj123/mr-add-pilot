@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs Mr Adpilot </title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Assets/images/fav.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+ <style>
+#blogs .blog-content .date {
+    font-size: 17px;
+    font-weight: 400;
+}
+#blogs p.date:before {
+    content:'';
+    background-image:url('Assets/images/calendar.svg');
+    background-repeat:no-repeat;
+    width:20px;
+    height:20px;
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:-3px;
+}
+#blogs p.blog-text {
+    padding: 25px 0 30px;
+    font-size: 18px;
+    line-height: 28px;
+}
+#blogs .blog-item {
+    border-radius: 20px;
+   
+}
+#blogs .blog-img img{
+    border-radius: 20px 0 0 20px;
+    width: 488px;
+    height: 400px;
+    object-fit: cover;
+}
+#blogs a.blog-button {
+    color:#272E2F !important;
+    border:none;
+    font-size:18px;
+    letter-spacing:0;
+    text-decoration:underline;
+}
+#blogs a.blog-button img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7%) hue-rotate(253deg) brightness(103%) contrast(100%);
+}
+#blogs .cat {
+    padding: 20px 0 20px !important;
+}
+#blogs .blog-search {
+    position: relative;
+}
+
+#blogs .blog-search::after {
+    content: '\f002'; /* Font Awesome search icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 20px;
+}
+#blogs .blog-tabs {
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+#blogs .blog-img {
+    margin-bottom: -4px;
+}
+
+@media(max-width:1024px){
+#blogs .blog-item {
+    gap: 30px;
+}
+#blogs .blog-content {
+    padding: 50px 25px 0 0;
+}
+#blogs p.blog-text {
+    font-size: 17px;
+}
+}
+@media(max-width:1023px){
+    #blogs .blog-content {
+        padding: 10px 20px 25px 20px;
+    }
+}
+ </style>   
+
+</head>
+
+<body id="blogs">
+
+  <div class="announcement-bar">
+        <div class="container">
+            <div class="row">
+                <div class="announcement-col">
+                     <div class="announcement-inner">
+                        <a href="https://maps.app.goo.gl/z2rWUbfy4xBqNDEn7"
+                            target="_blank">
+                            <img src="Assets/images/map.svg" />
+                            <p>8222 Colonial Oaks Ln, Spring, TX, United States.</p>
+                        </a>
+                    </div>
+ 
+                    <div class="announcement-inner">
+                        <a href="tel:945-229-7999">
+                            <img src="Assets/images/call.svg" />
+                            <p>945-229-7999</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61583201891867">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/mradpilot">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/@MrAdPilot-agency">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo"> <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /> </a>
+                </div>
+               <div class="nav-menu">  
+                   
+                <div class="menu_logo">
+                    <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /></a>
+                    <div class="cross_icon">
+                        <img src="Assets/images/cross_img.png " alt="">
+                    </div>
+                </div>
+                 
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="who-we-serve.html">Who We Serve </a><img src="Assets/images/Vector (3).svg"></button> 
+                            <div class="dropdown-content"> 
+                                <a href="home-services.html">Home Services Marketing Agency</a> 
+                                <a href="small-business.html">Small Business</a> 
+                                <a href="healthcare.html">Healthcare</a> 
+                                </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn"><a href="Ad-pilot.html"> Why Mr Adpilot</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content">
+                                <a href="review.html">Review</a>
+                                <a href="success-stories.html">Case Studies</a> 
+                                <a href="blogs.html">Blogs</a>
+                                <!-- <a href="case-study-holiday-lighting.html">Pivot to Holiday Lighting</a> -->
+                                <a href="./Mr-adpilot-landing-page.html">Get Started</a> </div>
+                        </li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="#">Services</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content"> <a href="local-ppc-management.html">Local PPC Management</a> 
+                                <a href="local-seo.html">Search Engine Optimization</a>
+                                <a href="website-design.html">Lead Machine Websites</a>
+                                <a href="organic-social-posts.html">Social Media Posts</a> </div>
+                        </li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+
+                <div class="inner_social_link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MrPipelineMktg/">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.linkedin.com/company/mrpipeline/">
+                            <img src="Assets/images/linkdin.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+
+
+
+                </div>
+
+                <div class="header-btn"> <a href="website-analysis.html" class="main_btn">Free Website Analysis</a> </div>
+
+                <div class="hamburger"> <a href="#"> <img src="Assets/images/hamburger.png" /> </a> </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="hero-section serve">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Blogs</h1>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+                    aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.</p> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="container">
+
+            <div class="row">
+                <h2 class="blog-title">Explore Blogs</h2>
+
+                <div class="blog-search">
+                    <input type="text" id="searchInput" placeholder="Search Here">
+                </div>
+            </div>
+    
+            <!-- TABS -->
+            <div class="blog-tabs" id="tabs">
+                <span class="tab active" data-category="all">All</span>
+                <span class="tab" data-category="9">PPC</span>
+                <span class="tab" data-category="10">SEO</span>
+                <span class="tab" data-category="11">Social Media </span>
+                <!-- <span class="tab" data-category="12">Digital Marketing</span> -->
+                <span class="tab" data-category="12">Website Development</span>
+                <!-- <span class="tab" data-category="12">Graphic Design</span>
+                <span class="tab" data-category="12">Guerrilla Marketing</span> -->
+            </div>
+
+            <div class="container">
+
+            <!-- BLOG GRID -->
+            <div class="blog-grid" id="blogList">
+
+                <!-- BLOG ITEM -->
+                <div class="blog-item" data-category="9" data-title="Wooden Home Ideas">
+                    <div class="blog-img">
+                        <img src="Assets/images/ppcc.jpg" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <p class="date">November 10, 2025</p>
+                        <span class="cat">Marketing , Small Business</span>
+                        <h3 class="blog-heading">Local PPC Management</h3>
+                        <p class="blog-text">Local PPC management helps small businesses attract customers who are actively searching for their services in the same city or region. 
+                            Through highly targeted keyword research, ad optimization, and location-based bidding. 
+                        </p>
+                        <a class="blog-button" href="ppc-blog.html">Read More <span><img
+                                    src="Assets/images/Vector (1).svg"></span></a>
+                    </div>
+                </div>
+
+                <!-- BLOG ITEM -->
+                <div class="blog-item" data-category="10" data-title="Modern Architecture">
+                    <div class="blog-img">
+                        <img src="Assets/images/seo-local.jpg" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <p class="date">November 6, 2025</p>
+                        <span class="cat">SEO</span>
+                        <h3 class="blog-heading">Local SEO</h3>
+                        <p class="blog-text">Local SEO focuses on improving your online visibility in map searches and local organic results. 
+                            When customers search phrases like “dentist near me” or “best plumber in my city,” Google prioritizes businesses with strong local SEO signals. 
+                          </p>
+                        <a class="blog-button" href="seo.html">Read More <span><img
+                                    src="Assets/images/Vector (1).svg"></span></a>
+                    </div>
+                </div>
+
+                <!-- BLOG ITEM -->
+                <div class="blog-item" data-category="11" data-title="Lifestyle Creativity">
+                    <div class="blog-img">
+                        <img src="Assets/images/social-media.jpg" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <p class="date">November 3, 2025</p>
+                        <span class="cat">Marketing</span>
+                        <h3 class="blog-heading">Social Media Marketing</h3>
+                        <p class="blog-text">Social media marketing allows brands to connect directly with local customers through platforms like Facebook, Instagram, and TikTok. 
+                            By creating engaging posts, running targeted ads, and building a consistent digital presence, 
+                            businesses can boost brand awareness.</p>
+                        <a class="blog-button" href="social-media.html">Read More <span><img
+                                    src="Assets/images/Vector (1).svg"></span></a>
+                    </div>
+                </div>
+
+                <!-- BLOG ITEM -->
+                <div class="blog-item" data-category="12" data-title="Outdoor Decoration Tips">
+                    <div class="blog-img">
+                        <img src="Assets/images/websites.jpg" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <p class="date">October 29, 2025</p>
+                        <span class="cat"> Development</span>
+                        <h3 class="blog-heading">Website Development</h3>
+                        <p class="blog-text">A professional website is the foundation of every successful digital marketing strategy. 
+                            Your website is often the first impression customers have of your business, so it must be fast, mobile-friendly, and visually appealing. 
+                            Good web development includes clean design.</p>
+                        <a class="blog-button" href="website-development.html">Read More <span><img
+                                    src="Assets/images/Vector (1).svg"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+
+            <div class="inner_flex">
+
+            <div class="footer_colume">
+             <a href="index.html"> <img class="footer-image" src="Assets/images/MrAdPilot-final-08.png"></a>
+             <p>MrAdpilot help small businesses grow online with expert Google Ads and SEO strategies designed to increase leads, traffic, and revenue. </p> 
+
+            <div class="social_media_link">
+                    <div class="footer_links">
+                    <a href="https://www.facebook.com/profile.php?id=61583201891867"><img src="Assets/images/facebook_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.instagram.com/mradpilot"><img src="Assets/images/insta_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.youtube.com/@MrAdPilot-agency"><img src="Assets/images/youtube_img.png" /></a>
+                    </div>
+            </div>
+            </div>
+
+            <div class="footer_colume"> 
+                    <div class="footer-links">
+                    <h5>Navigation</h5>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-serve.html">Who We Serve</a></li>
+                    <li><a href="Ad-pilot.html">Why Mr. Adpilot</a></li>
+                    <li><a href="blogs.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                    </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-links">
+                <h5>Other Links</h5>
+                <ul>
+                <li><a href="terms-and-condition.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-contact-us">
+                <h5>Contact us</h5>
+                <ul>
+                <li><img src="Assets/images/call.svg.svg" alt=""><a href="tel:+1945-229-7999">945-229-7999</a></li>
+                <li><img src="Assets/images/email.svg.svg" alt=""><a href="mailto:info@mradpilot.com">info@mradpilot.com</a></li>
+                <li><img src="Assets/images/map.svg.svg" alt=""><a href="https://www.google.com/maps/place/8222+Colonial+Oaks+Ln,+Spring,+TX+77379/@30.0258517,-95.5496665,1969m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8640cd4496cabaeb:0x585105fafba818a8!8m2!3d30.0258517!4d-95.5496665!16s%2Fg%2F11cp8g_w9l?coh=277533&entry=tts&g_ep=EgoyMDI1MTIwNy4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=d73911c2-33ac-4b6c-b3ff-25c48d211611" target="_blank">
+                8222 Colonial Oaks Ln,<br> Spring, TX, United States</a></li>
+                </ul>
+                </div>
+            </div>
+
+             </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright 2025, All Rights Reserved by Mr. Adpilot Ventures Inc.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const tabs = document.querySelectorAll(".tab");
+        const blogs = document.querySelectorAll(".blog-item");
+        const searchInput = document.getElementById("searchInput");
+
+        // TAB FILTER
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                tabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+
+                filterBlogs();
+            });
+        });
+
+
+
+        // SEARCH FILTER
+        // searchInput.addEventListener("input", filterBlogs);
+
+        function filterBlogs() {
+            let category = document.querySelector(".tab.active").dataset.category;
+            let keyword = searchInput.value.toLowerCase();
+
+            blogs.forEach(blog => {
+                let blogCategory = blog.dataset.category;
+                let title = blog.dataset.title.toLowerCase();
+
+                let matchCategory = (category === "all" || category === blogCategory);
+                let matchSearch = title.includes(keyword);
+
+                if (matchCategory && matchSearch) {
+                    blog.classList.add("show");
+                    blog.style.display = "flex";
+                } else {
+                    blog.classList.remove("show");
+                    blog.style.display = "none";
+                }
+            });
+        }
+
+        // Initial load animation
+        setTimeout(() => {
+            blogs.forEach(b => b.classList.add("show"));
+        }, 50);
+
+
+        
+        jQuery('#searchInput').on('keyup', function () {
+    var value = jQuery(this).val().toLowerCase();
+
+    jQuery('.blog-item').filter(function () {
+        let title = jQuery(this).find('.blog-heading').text().toLowerCase();
+        let cat   = jQuery(this).find('.cat').text().toLowerCase();
+
+        jQuery(this).toggle(title.indexOf(value) > -1 || cat.indexOf(value) > -1);
+    });
+});
+
+jQuery(".hamburger").click(function () {
+    jQuery(".nav-menu").addClass("active");
+});
+
+jQuery(".cross_icon img").click(function () {
+    jQuery(".nav-menu").removeClass("active");
+});
+
+    </script>
+</body>
+
+</html>

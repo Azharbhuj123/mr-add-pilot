@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Adpilot Internet Marketing Reviews %</title>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+
+    <!-- JQuery Installation (remove async to preserve load order) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- OWL SLIDER INSTALLATION (load after jQuery, no async) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="icon" type="image/x-icon" href="Assets/images/fav.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+<Style>
+    #review section.our-clients {
+    padding-top:3%;
+}
+#review .video {
+    padding-top: 40px;
+}
+#review .video-text h5 {
+    width: 100%;
+}
+#review .adss-col h2,#review .main_btn{
+    text-align:center;
+}
+#review .main_btn a{
+    padding:17px 25px;
+    margin-bottom:20px;
+}
+section.feedback {
+    padding: 60px 20px 30px !important;
+    
+}
+section.feedback .owl-carousel .owl-stage-outer {
+    background-color: #ffffff00 !important;
+}
+.feedback-head {
+    max-width: 100%;
+    background:transparent !important;
+}
+ .feeds.item{
+    max-width:997px;
+    margin:auto;
+    background:#fff;
+    border-radius:20px;
+    box-shadow: 20px 14px 104px 0px #0000001A;
+}
+#review .service-texts {
+    padding:0 70px 0 0;
+}
+#review .service-texts h2{
+    padding-bottom:20px;
+    padding-right:80px;
+}
+#review .service-texts p{
+    line-height:25px;
+}
+#review  section.business-industry{
+    padding: 60px 20px;
+}
+#review .stats-col p{
+    line-height:30px;
+}
+body#review section.google-management .google-content {
+    width: 64% !important;
+}
+#review .google-img {
+    width: 36%;
+}
+#review  section.google-management {
+    padding-top: 23% !important;
+}
+#review .client-says{
+    background-color: #f3f3f3;
+    background-image: url(Assets/images/review-custom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+#review .video img{
+    object-fit: cover;
+}
+#review .video{
+    flex: 0 0 32% !important;
+}
+#review .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 */
+    overflow: hidden;
+}
+
+#review .video-thumb,
+#review .video-wrapper iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#review .video-wrapper iframe {
+    display: none;
+    border: 0;
+}
+
+#review .video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#review .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+#review .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 50px;
+    background: #FF0000; /* YouTube red */
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+    pointer-events: none;
+}
+
+#review .play-btn::before {
+    content: "";
+    margin-left: 4px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+
+@media(max-width:1600px){
+    #review section.google-management {
+    margin-top: -320px;
+}
+}
+@media(max-width:1280px){
+        #review section.google-management {
+        margin-top: -570px;
+    }
+}
+@media(max-width:1024px){
+        #review section.google-management {
+        margin-top: -450px;
+    }
+    body#review .service-texts h2 {
+    width: 100%;
+    
+}
+#review .video {
+    flex:0 0 48% !important;
+}
+   #review section.our-clients .hero-content p {
+       
+        padding-bottom: 0px;
+    }
+    #review .hero-content {
+        width: 100%;
+    }
+}
+@media(max-width:991px){
+    #review section.our-clients
+ {
+    padding-bottom: 5%;
+}
+#review .service-texts h2 {
+    padding-right: 0;
+}
+body#review section.business-industry .service-texts {
+        padding: 5px 40px 0px 0px;
+    }
+    #review section.google-management {
+        margin-top: -350px;
+    }
+}
+@media(max-width:767px){
+    body#review .hero-content h2,
+body#review .hero-content p{
+    text-align:center !important;
+}
+#review .video {
+        flex: 0 0 100% !important;
+    }
+body#review section.feedback {
+    padding: 15% 4% 5% 4% !important;
+    margin-top:30px;
+}
+#review section.google-management {
+        margin-top: -100px;
+}
+body#review section.google-management .google-content {
+    width: 100% !important;
+    padding-top:40px;
+}
+#review section.our-clients {
+    padding-top: 10%;
+}
+section.feedback .owl-nav {
+    padding-top: 15px;
+}
+#review section.our-clients {
+        padding-bottom: 9%;
+    }
+#review .feeds.item {
+   box-shadow: none;
+}
+#review .google-img {
+    width: 90%;
+}
+.google-img img {
+        width: 80%;
+    padding-bottom: 20px;
+    }
+#review  section.feedback .main_btn {
+    padding-top: 20px;
+    padding-bottom: 0px;
+} 
+body#review section.our-clients .owl-nav
+ {
+    padding-top: 50px !important;
+}
+}
+</Style>
+
+</head>
+
+<body id="review">
+
+ <div class="announcement-bar">
+        <div class="container">
+            <div class="row">
+                <div class="announcement-col">
+                     <div class="announcement-inner">
+                        <a href="https://maps.app.goo.gl/z2rWUbfy4xBqNDEn7"
+                            target="_blank">
+                            <img src="Assets/images/map.svg" />
+                            <p>8222 Colonial Oaks Ln, Spring, TX, United States.</p>
+                        </a>
+                    </div>
+ 
+                    <div class="announcement-inner">
+                        <a href="tel:945-229-7999">
+                            <img src="Assets/images/call.svg" />
+                            <p>945-229-7999</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61583201891867">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/mradpilot">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/@MrAdPilot-agency">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo"> <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /> </a>
+                </div>
+               <div class="nav-menu">  
+                   
+                <div class="menu_logo">
+                    <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /></a>
+                    <div class="cross_icon">
+                        <img src="Assets/images/cross_img.png " alt="">
+                    </div>
+                </div>
+                 
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="who-we-serve.html">Who We Serve </a><img src="Assets/images/Vector (3).svg"></button> 
+                            <div class="dropdown-content"> 
+                                <a href="home-services.html">Home Services Marketing Agency</a> 
+                                <a href="small-business.html">Small Business</a> 
+                                <a href="healthcare.html">Healthcare</a> 
+                                </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn"><a href="Ad-pilot.html"> Why Mr Adpilot</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content">
+                                <a href="review.html">Review</a>
+                                <a href="success-stories.html">Case Studies</a> 
+                                <a href="blogs.html">Blogs</a>
+                                <!-- <a href="case-study-holiday-lighting.html">Pivot to Holiday Lighting</a> -->
+                                <a href="./Mr-adpilot-landing-page.html">Get Started</a> </div>
+                        </li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="#">Services</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content"> <a href="local-ppc-management.html">Local PPC Management</a> 
+                                <a href="local-seo.html">Search Engine Optimization</a>
+                                <a href="website-design.html">Lead Machine Websites</a>
+                                <a href="organic-social-posts.html">Social Media Posts</a> </div>
+                        </li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+
+                <div class="inner_social_link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MrPipelineMktg/">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.linkedin.com/company/mrpipeline/">
+                            <img src="Assets/images/linkdin.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+
+
+
+                </div>
+
+                <div class="header-btn"> <a href="website-analysis.html" class="main_btn">Free Website Analysis</a> </div>
+
+                <div class="hamburger"> <a href="#"> <img src="Assets/images/hamburger.png" /> </a> </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section serve">
+        <div class="container">
+            <div class="hero-content">
+                <h1>MrAdpilot Reviews</h1>
+                <p> Our clients’ success speaks for itself. Businesses across home services, healthcare, and small
+                    business sectors trust MrAdpilot to grow their online presence, generate more leads, and dominate
+                    their markets. Read our reviews to see how we’ve helped companies like yours achieve measurable
+                    results, increased revenue, and lasting success.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-clients">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hear What Our Clients Are Saying</h2>
+                <p style="color:#000; text-align: left;">CHECK OUT OUR REAL REVIEWS FROM OUR REAL CLIENTS!</p>
+            </div>
+            <div class="row">
+                <div class="hero-contents owl-carousels">
+
+                    <!-- <div class="videos-container">
+                        <div class="video">
+                            <div class="video-wrapper"
+                                style="position: relative; width: 100%; height: 363px; padding-bottom: 56.25%;">
+                                <img src="Assets/images/Group 1000003033 (3).png"
+                                    style="position: absolute; top: 0; left: 0; width:100%; height: 363px; cursor: pointer;"
+                                     />
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/iSytELMRpOY?si=T_q-7Vai0Sy2z2wB" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Company: Bagels &<br>
+                                    Service: SEO</h5>
+                            </div>
+                        </div>
+                        <div class="video">
+                            <div class="video-wrapper"
+                                style="position: relative; width: 100%; height: 363px; padding-bottom: 56.25%;">
+                                <img src="Assets/images/video2.png"
+                                    style="position: absolute; top: 0; left: 0; width:100%; height: 363px; cursor: pointer;"
+                                    onclick="loadVideo(this)" />
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/i4duvQ-zXLI?si=YCt_d25sBO3gYYWz" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Company: Lights All Year<br>
+                                    Service: Google Ads & SEO</h5>
+                            </div>
+                        </div>
+                        <div class="video">
+                            <div class="video-wrapper"
+                                style="position: relative; width: 100%; height: 363px; padding-bottom: 56.25%;">
+                                <img src="Assets/images/Group 1000003035 (1).png"
+                                    style="position: absolute; top: 0; left: 0; width:100%; height: 363px; cursor: pointer;"
+                                    onclick="loadVideo(this)" />
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/g6LcmRmK3FY?si=tl4NL9dewRDhfB2y" title="YouTube video player" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Company: Clean & Green Solutions<br>
+                                    Service: Google Ads & SEO</h5>
+                            </div>
+                        </div>
+                        <div class="video">
+                            <div class="video-wrapper"
+                                style="position: relative; width: 100%; height: 363px; padding-bottom: 56.25%;">
+                                <img src="Assets/images/video4.png"
+                                    style="position: absolute; top: 0; left: 0; width:100%; height: 363px; cursor: pointer;"
+                                    onclick="loadVideo(this)" />
+                                <iframe
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 363px; display: none;"
+                                    src="" id="ytPlayer" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Company: Elite Lighting<br>
+                                    Service: Google Ads</h5>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="videos-container">
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="iSytELMRpOY">
+                                    <img src="Assets/images/alex-carter.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Alex Carter Reviews </h5>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="i4duvQ-zXLI">
+                                    <img src="Assets/images/john.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>John Harrison Reviews </h5>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="g6LcmRmK3FY">
+                                    <img src="Assets/images/marrie.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Marrie Roselle Reviews </h5>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="WalGQDSGTF0">
+                                    <img src="Assets/images/micheal.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Micheal Torres Reviews </h5>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="FO91vuPeZII">
+                                    <img src="Assets/images/george.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>George Kreitem Reviews </h5>
+                            </div>
+                        </div>
+
+</div>
+
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+  <section class="feedback">
+        <div class="container">
+            <div class="adss-col">
+                <h2> Reviews</h2>
+                <div class="main_btn">
+                    <a href="#">Review us</a>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme">
+                <div class="feeds item">
+
+
+                    <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div>
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/alex-carter.jpg" class="headshot-img" />
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>Alex Carter</h4>
+                                    <!-- <p>Home Services Owner</p> -->
+                                    <img src="Assets/images/Group 1000002891.png" alt="" >
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "So, honestly, I've referred five or six people to Mr. AdPilot because they've been that good for us. 
+                                They told us we'd grow 12 to 15%, but honestly, it's been even better. 
+                                The partnership is solid, the communication is great, and the results just speak for themselves."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/john.jpg" class="headshot-img" />
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>John Harrison</h4>
+                                    <!-- <p>Healthcare Clinic Director</p> -->
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "Working with Mr. AdPilot has been one of the best decisions we've made for our
+                                business. From day one, they understood our goals and came in with a clear plan.
+                                And within a few months, we saw steady growth, more qualified leads, and most
+                                importantly, actual revenue coming in. Highly recommended." </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/marrie.jpg" class="headshot-img" />
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>Marrie Roselle</h4>
+                                    <!-- <p> Retail Business Owner</p> -->
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "I've recommended Mr. AdPilot to other businesses because the experience has
+                                been excellent. We expected good results, but what we got was even better. They communicate well, they
+                                deliver constantly, and our growth has been steady month after month. If you
+                                want a team that actually gets results and is easy to work with, Mr. AdPilot
+                                is the right choice. Highly recommended." </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/micheal.jpg"  class="headshot-img"/>
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>Michael Torres</h4>
+                                   
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "If you want to take your business to the next level, Mr. AdPilot is the perfect
+                                choice. They've consistently helped us grow, broke in high quality leads, and
+                                 acted as a true marketing partner. Every experience with them has been positive.
+                                They're truly the team you want to help you scale. Highly recommended." </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/george.jpg"  class="headshot-img"/>
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>George Kreitem</h4>
+                                    
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "I've been working with Mr. AdPilot for almost a year and the results have been
+                                    incredible. You know, we've doubled our monthly sales and the ROI has been
+                                    unreal. Easily between 9 and 10x. They promised growth and uh they
+                                    delivered. If you want a marketing partner who actually moves the needle,
+                                    Mr. AdPilot is the one." </p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <section class="business-industry">
+        <div class="container">
+            <div class="row">
+                <div class="service-images">
+                    <img src="Assets/images/mr_pipeline_reviews 1.png">
+                </div>
+                <div class="service-texts">
+                    <h2>We Are Dedicated to Your Success</h2>
+                    <p>When you partner with MrAdpilot, you gain a team fully committed to helping your business
+                        succeed. Whether it’s creating a highly targeted Google Ads campaign or boosting your online
+                        visibility through SEO, our goal is always to exceed your expectations. We work relentlessly to
+                        ensure your company becomes the next big success story with MrAdpilot.</p>
+
+                </div>
+            </div>
+    </section>
+    <section class="stats">
+        <div class="container">
+            <div class="stats-col">
+                <h2>Your Stats Anywhere, Anytime</h2>
+                <p>The MrAdpilot Results Dashboard gives you real-time access to your marketing performance. Track how
+                    your business is growing, measure key metrics, and see exactly how our strategies are working. At
+                    MrAdpilot, we believe in full transparency—no hidden data, no surprises. We’re bringing back
+                    straightforward, reliable service with modern technology to help your business thrive.</p>
+            </div>
+            <div class="stats-img">
+                <img src="Assets/images/stats.png" />
+            </div>
+    </section>
+    <section class="google-management">
+        <div class="container">
+            <div class="row">
+                 <div class="google-img">
+                    <img src="Assets/images/google-partner 1.svg" />
+                </div>
+                <div class="google-content">
+                    <h2>Google Partner</h2>
+                    <p>MrAdpilot is a proud Google Partner, committed to following all of Google’s policies and best
+                        practices while staying ahead of future changes that could impact your business. We use Google
+                        Analytics to track trends, metrics, and data, ensuring your small business dominates its local
+                        market and gets the results it deserves.</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="client-says">
+        <div class="container">
+            <div class="client-says-content">
+                <h2>“We’ll Be Customers for Life!”</h2>
+                <p>"I could write an essay about how much I appreciate MrAdpilot and their entire team, but I’ll keep it
+                    short. I started a small landscaping company in 2017 and quickly realized how overwhelming online
+                    marketing can be. From day one, Jon, Evan, JD, and the whole team delivered on their promises.
+                    Within months, my phone started ringing with new customers, all tracked through their call and lead
+                    systems. Their review management application alone has been invaluable for building my reputation
+                    online.
+                    <br>
+                    <br>
+                    Communication with MrAdpilot has been exceptional—always easy to reach and proactive in checking on
+                    progress. Their strategies, tools, and guidance have positively transformed my business and allowed
+                    me to focus on growth. Simply put, they’ve made me more successful and saved me countless hours. I
+                    can confidently say we’ll be clients for life!"
+                    <br>
+                    <br>
+                    Alex Thompson, GreenLeaf Landscaping
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+     <footer>
+        <div class="container">
+
+            <div class="inner_flex">
+
+            <div class="footer_colume">
+             <a href="index.html"> <img class="footer-image" src="Assets/images/MrAdPilot-final-08.png"></a>
+             <p>MrAdpilot help small businesses grow online with expert Google Ads and SEO strategies designed to increase leads, traffic, and revenue. </p> 
+
+            <div class="social_media_link">
+                    <div class="footer_links">
+                    <a href="https://www.facebook.com/profile.php?id=61583201891867"><img src="Assets/images/facebook_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.instagram.com/mradpilot"><img src="Assets/images/insta_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.youtube.com/@MrAdPilot-agency"><img src="Assets/images/youtube_img.png" /></a>
+                    </div>
+            </div>
+            </div>
+
+            <div class="footer_colume"> 
+                    <div class="footer-links">
+                    <h5>Navigation</h5>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-serve.html">Who We Serve</a></li>
+                    <li><a href="Ad-pilot.html">Why Mr. Adpilot</a></li>
+                    <li><a href="blogs.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                    </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-links">
+                <h5>Other Links</h5>
+                <ul>
+                <li><a href="terms-and-condition.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-contact-us">
+                <h5>Contact us</h5>
+                <ul>
+                <li><img src="Assets/images/call.svg.svg" alt=""><a href="tel:+1945-229-7999">945-229-7999</a></li>
+                <li><img src="Assets/images/email.svg.svg" alt=""><a href="mailto:info@mradpilot.com">info@mradpilot.com</a></li>
+                <li><img src="Assets/images/map.svg.svg" alt=""><a href="https://www.google.com/maps/place/8222+Colonial+Oaks+Ln,+Spring,+TX+77379/@30.0258517,-95.5496665,1969m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8640cd4496cabaeb:0x585105fafba818a8!8m2!3d30.0258517!4d-95.5496665!16s%2Fg%2F11cp8g_w9l?coh=277533&entry=tts&g_ep=EgoyMDI1MTIwNy4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=d73911c2-33ac-4b6c-b3ff-25c48d211611" target="_blank">
+                8222 Colonial Oaks Ln,<br> Spring, TX, United States</a></li>
+                </ul>
+                </div>
+            </div>
+
+             </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright 2025, All Rights Reserved by Mr. Adpilot Ventures Inc.</p>
+        </div>
+    </footer>
+
+    <script>
+        const items = document.querySelectorAll(".acc-item");
+
+        items.forEach(item => {
+            const header = item.querySelector(".acc-header");
+            const content = item.querySelector(".acc-content");
+            const btn = item.querySelector(".acc-btn");
+
+            header.addEventListener("click", () => {
+
+                // Close all others
+                items.forEach(other => {
+                    if (other !== item) {
+                        other.querySelector(".acc-content").style.maxHeight = null;
+                        other.querySelector(".acc-btn").textContent = "+";
+                    }
+                });
+
+                // Toggle this one
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    btn.textContent = "+";
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    btn.textContent = "-";
+                }
+            });
+        });
+
+    </script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.hero-contents .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 18,
+                nav: true,
+                navText: [
+                    '<div class="arrow-container"><img src="Assets/images/pre-arrow.png" alt=""></div>',
+                    '<div class="arrow-container"><img src="Assets/images/next-arrow.png" alt=""></div>'
+                ],
+                responsive: {
+                    0: { items: 2 },
+                    600: { items: 2 },
+                    1000: { items: 2 }
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.row.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 18,
+                nav: true,
+                navText: [
+                    '<div class="arrow-container"><img src="Assets/images/pre-arrow.png" alt=""></div>',
+                    '<div class="arrow-container"><img src="Assets/images/next-arrow.png" alt=""></div>'
+                ],
+                responsive: {
+                    0: { items: 2 },
+                    600: { items: 2 },
+                    1000: { items: 2 }
+                }
+            });
+        });
+    </script>
+    <script>
+        $('section.feedback .row.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [
+                '<div class="arrow-container"><img src="Assets/images/pre-arrow.png" alt=""></div>',
+                '<div class="arrow-container"><img src="Assets/images/next-arrow.png" alt=""></div>'
+            ],
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+
+        jQuery(".hamburger").click(function () {
+    jQuery(".nav-menu").addClass("active");
+});
+
+jQuery(".cross_icon img").click(function () {
+    jQuery(".nav-menu").removeClass("active");
+});
+
+
+jQuery(document).ready(function ($) {
+
+
+    $('.video-thumb').on('click', function () {
+
+        let videoId = $(this).data('video-id');
+        let iframe  = $(this).siblings('iframe');
+
+        iframe
+            .attr(
+                'src',
+                'https://www.youtube.com/embed/' + videoId +
+                '?autoplay=1&mute=1&playsinline=1'
+            )
+            .show();
+
+        $(this).hide();
+    });
+
+});
+
+
+    </script>
+
+</body>
+
+</html>

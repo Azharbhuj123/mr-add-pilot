@@ -1,0 +1,8934 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+body {
+    font-family: 'Satoshi', sans-serif;
+    font-family: "Urbanist", sans-serif;
+}
+section.Thank_you {
+    width: 100%;
+    position: relative;
+    background-image: url(./Assets/images/tHANIKS_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.main_Thank_you {
+    width: 100%;
+    z-index: 999;
+    position: relative;
+}
+
+.Thank_you_logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Thank_you_logo a {
+ width: 440px;
+height: 169.448px;
+}
+
+.Thank_you_logo a img {
+    width: 100%;
+}
+
+.Thank_you_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 0px 0px ;
+    gap: 15px;
+}
+
+
+.Thank_you_icon_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Thank_you_title h2 {
+color: #171717;
+text-align: center;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 56.323px; /* 140.808% */
+}
+
+.Thank_you_title h4 {
+ color: rgba(42, 38, 36, 0.90);
+text-align: center;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.039px; /* 150.196% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.popup-box {
+  background: #fff;
+  width: 100%;
+  max-width: 510px;
+  padding: 25px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.popup-box h3 {
+  margin-bottom: 13px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    right: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #d0202b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-field {
+  margin-bottom: 15px;
+}
+
+.popup-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.popup-field input,
+.popup-field textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popup-field textarea {
+  resize: none;
+  height: 80px;
+}
+
+.popup-btn {
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.popup_logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_logo img {
+    width: 150px;
+}
+
+
+.nav-menu ul li a {
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-menu ul li a:hover {
+    color: #d11f2a;
+    border-bottom: 2px solid #fff;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.website-visitors {
+    padding: 3% 20px 3%;
+}
+.get_start .copyright {
+    margin-top: 0;
+}
+.feedback-content .headshot-img{
+    width: 90px !important;
+    height: 90px  !important;
+    border-radius:50px;
+    object-fit:cover;
+}
+body#internet-marketing section.services-sections .service-box {
+    height: 100%;
+}
+.social-link .facebook:last-child {
+    border: 0;
+}
+.hero-section .video-bg {
+    filter: blur(10px);
+}
+.inner_social_link {
+    display: none;
+}
+.menu_logo {
+    display: none;
+}
+.logo a img {
+    width: 260px;
+}
+footer.get_start {
+    padding-top: 0;
+}
+section.website-visitors .visitors-column .content-box {
+    margin-top: 24px;
+}
+.visitors-column p {
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.video-frame {
+    position: relative;
+    padding-top: 56.25%; 
+}
+
+.video-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius:12px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+body#website-design section#micro .plan-box.fadeup {
+    background: #21A85D;
+}
+body#website-design section#micro .plan-box.fadeup span, body#website-design section#micro .plan-box.fadeup p.top-param,
+body#website-design section#micro .plan-box.fadeup h2,
+body#website-design section#micro .plan-box.fadeup p.bottom-param,
+body#website-design section#micro .plan-box.fadeup p.bottom-param,
+body#website-design section#micro .plan-box.fadeup a.btn-1 {
+    color: #fff;
+}
+.social_section .adds-col span {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #21A85D;
+    padding: 3% 0 3% 0;
+}
+.social_section .row .main_btn:first-child a {
+    color: #272E2F;
+    background: transparent;
+    border: 1px solid #272E2F;
+}
+.social_section .row .main_btn:first-child a:hover {
+    background: #e9ba44;
+    border-color: #e9ba44;
+    color: #fff;
+}
+section.adds-management.social_section {
+    background: #F3F3F3;
+    padding: 4% 20px 4%;
+}
+body#social-post section.subscription-plan div#branding .plan .plan-box.fadeup {
+    background: #21A85D;
+}
+section.custom-developed-page.site-details-with-image .main-container .sub-container {
+    gap: 64px;
+}
+.container.rightContainer ul.list-container li.text-container.text-item {
+    margin-bottom: 28px;
+}
+body#social-post section.subscription-plan div#branding .plan .plan-box.fadeup span,
+body#social-post section.subscription-plan div#branding .plan .plan-box.fadeup a.btn-1,
+body#social-post section.subscription-plan div#branding .plan .plan-box p.bottom-param,
+body#social-post section.subscription-plan div#branding .plan .plan-box.fadeup  h2,
+body#social-post section.subscription-plan div#branding .plan p.top-param {
+    color: #fff;
+}
+body#social-post section.subscription-plan div#branding .plan .plan-box.fadeup a.btn-1 img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(96deg) brightness(99%) contrast(105%);
+}
+body#website-design section#micro .plan-box.fadeup a.btn-1 img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(96deg) brightness(99%) contrast(105%);
+}
+section.website-visitors .visitors-column .content-box a {
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: underline;
+    color: #43AFC9;
+}
+body#website-design .national-company-headings p {
+    padding-bottom: 10%;
+}
+body#website-design section.phone-ring {
+    height: 100%;
+    padding: 1% 0 6% !important;
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 20px;
+}
+section.custom-developed-page.google-reviews .heading-container h3.large-heading {
+    padding-bottom: 7%;
+}
+section.custom-developed-page.text-with-bg-image {
+    padding: 6% 20px 30%;
+}
+body#website-design section.adds-management {
+    background-color: #F3F3F3;
+        padding: 4% 20px 4% !important;
+}
+body#website-design section.adds-management .adds-col h2 {
+    width: 58%;
+    margin: 0 auto;
+}
+body#website-design section.adds-management .adds-col span {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #21A85D;
+    padding: 3% 0 2%;
+}
+body#website-design section.adds-management .adds-col p {
+    font-size: 18px;
+    line-height: 26px;
+}
+body#website-design section.adds-management .row .main_btn:first-child a {
+    background: transparent;
+    border: 1px solid #272E2F;
+    color: #272E2F;
+}
+body#website-design section.adds-management .row .main_btn:first-child a:hover {
+    background: #e9ba44;
+    border-color: #e9ba44;
+    color: #fff;
+}
+body.holiday_lighting section.stats {
+    padding: 3% 0 19% 0;
+}
+.number-item p.paragraph-text {
+    color: #fff;
+    font-family: 'Satoshi';
+    font-weight: 400;
+}
+.image_sliders {
+    margin-top: -301px;
+        padding: 0 20px 4%;
+}
+body.holiday_lighting .heading-container {
+    padding-bottom: 0 !important;
+}
+section.custom-developed-page.text-with-bg-image {
+    background-image: url(Assets/images/bg_image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+body.holiday_lighting section.custom-developed-page.text-with-bg-image .text-container.paragraph-text.full-container {
+    padding-top: 1%;
+}
+section.adds-management .row {
+    padding-top: 34px !important;
+}
+
+body.holiday_lighting .heading-container h3.small-heading {
+    padding-bottom: 4%;
+}
+body.holiday_lighting .button-container a.button {
+    width: 345px;
+    font-size: 18px;
+}
+
+body#marketing-agencys section.services-sections {
+    padding-top: 4.5%;
+}
+body.holiday_lighting .text-container.paragraph-text.full-container p {
+    text-align: center;
+}
+
+.footer_colume {
+    width: 32%;
+}
+.footer_colume p {
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: middle;
+    color: #fff;
+}
+.social_media_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: -24px;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.social_media_link .footer_links {
+    border-right: 2px solid #5c6264;
+    width: 34%;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media_link .footer_links:last-child {
+    border: 0;
+}
+.inner_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.inner_flex .footer_colume:nth-child(2) {
+    width: 20%;
+    padding-left: 4%;
+}
+.inner_flex .footer_colume:nth-child(3) {
+    width: 20%;
+    padding-left: 2%;
+}
+.inner_flex .footer_colume:nth-child(4) {
+    width: 25%;
+}
+.social_media_link .footer_links a img {
+    width: 32px !important;
+}
+
+.inner_box {
+    height: 465px;
+    overflow: hidden;
+}
+
+body#marketing-agencys section.google-business .underline p {
+    text-align: left;
+    padding: 20px 0 43px;
+}
+section.google-business {
+    background-color: #00bfd9;
+    padding: 63px 20px 0;
+}
+
+body#who-we\ are .google-ads-headings h2 {
+    width: 77%;
+}
+
+body#success-stories .ads-col {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0px;
+    text-align: center;
+    width: 60%;
+    gap: 20px;
+}
+
+.blog-card {
+    width: 33.3%;
+}
+
+.main_btn a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    padding: 14px 48px;
+    background-color: #d11f2a;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+body#started .video-text h5 {
+    width: 100%;
+}
+
+.main_stats_slider {
+    position: relative;
+}
+.main_stats_slider .owl-nav {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    position: absolute;
+    top: 194px;
+    left: 0;
+    right: 0;
+}
+.main_stats_slider .owl-nav button img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(96deg) brightness(99%) contrast(105%);
+}
+.main_stats_slider .item img {
+    width: 83% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+section.services .main_btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a {
+    transition: all 0.5s ease;
+    cursor: pointer !important;
+}
+
+section.marquee-container .container {
+    overflow-x: hidden;
+}
+
+span {
+    display: block;
+}
+
+.stats-img img {
+    width: 80% !important;
+    margin: auto;
+    display: block;
+}
+
+body#homepage .underline p,
+body#marketing-agencys section.youtube-videos .underline p {
+    text-align: left;
+}
+
+body#homepage .hero-content span {
+    display: unset;
+}
+
+.row,
+.acc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: clip !important;
+}
+
+.announcement-col,
+.announcement-inner a,
+.social-link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo img,
+img.footer-image {
+    width: 178px;
+}
+
+section.custom-developed-page.marketing-board {
+    padding: 2% 20px 4% !important;
+    background-image: url(Assets/images/arrow-bg-img.png);;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
+}
+section.custom-developed-page.marketing-board .heading-container h2.large-heading {
+    color: #fff;
+    padding-bottom: 17%;
+}
+
+.announcement-inner:nth-child(2) {
+    border-left: 1px solid #D5D5D7;
+    padding-left: 10px;
+}
+
+.facebook {
+    border-right: 1px solid #D5D5D7;
+}
+
+.announcement-bar .facebook:nth-child(4) {
+    border-right: none;
+}
+
+footer .facebook:nth-child(4) {
+    border-right: 1px solid #D5D5D7 !important;
+}
+
+.announcement-bar {
+    padding: 15px 30px;
+    background: #F5F5F5;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    position: relative;
+}
+.dropdown  button{
+    cursor:pointer;
+}
+
+.dropdown-content {
+ display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    top: 114px;
+    
+}
+li.dropdown::before {
+    content: "";
+ height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn,
+.nav-menu ul li a,
+.acc-content p,
+.work-with-us-content p {
+    font-family: 'Urbanist';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+header {
+    box-shadow: 0px 4px 25px 0px #0000000F;
+    background-color: #43afc9;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 500;
+}
+
+
+a.main_btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    color: #fff;
+    width: 227px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.inner_btn a {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    width: 190px;
+    height: 52px;
+    background-color: #d11f2a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+body#contact-us .video .video-text h5 {
+    width: 100%;
+}
+
+.main_btn a:hover {
+    background-color: #e9ba44;
+}
+
+.inner_pad_none .main_btn.padding-none {
+    padding-top: 0;
+}
+
+section.Business-designeds .main_btn.padd-none {
+    padding-top: 0 !important;
+}
+
+section.national-company .national-company-headings p {
+    padding: 30px 0;
+    text-align: left;
+}
+
+section.Business-designeds .main_btn {
+    padding-top: 89px;
+}
+
+.padd_none {
+    margin-top: 0px !important;
+}
+
+section.quick-video .main_btn {
+    padding-top: 60px;
+}
+
+section.Transparency .main_btn {
+    padding-top: 50px;
+}
+
+.padding-top a {
+    width: 205px;
+}
+
+.padding-top {
+    padding-top: 31px;
+}
+
+.inner_btn a:hover {
+    background-color: #e9ba44;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn,
+.national-btn {
+    font-family: "Urbanist", sans-serif;
+    max-width: 227px;
+    width: 100%;
+    background-color: #D11F2A;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header-btn a button,
+.national-btn a {
+    font-family: "Urbanist", sans-serif;
+    padding: 15px 0px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+
+.dropdown-content a {
+    color: #000 !important;
+}
+
+
+
+section.hero-section {
+    position: relative;
+    width: 100%;
+    height: 418px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.main_logo_text .image-container img {
+    width: 30%;
+}
+.main_logo_text .text-container p {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    width: 67%;
+    padding: 3% 0 2% 0;
+}
+
+.main_logo_text .text-container a.button {
+    width: 407px !important;
+    height: 52px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+}
+.contact-form-container {
+    padding: 3% 20px 3%;
+}
+.season-cards {
+    padding: 4% 0 4% 0;
+}
+.season-cards .text-container.paragraph-text.full-container p {
+    padding: 2% 0 3% 0;
+}
+.season-cards .main-heading-container.full-container h2.main-heading.large-heading {
+    margin: 0 12% !important;
+    box-sizing: border-box;
+}
+.item-card.color-blue {
+    color: #fff;
+}
+.item-card.color-blue .card-details {
+    color: #fff !important;
+}
+.item-card .card-details .small-heading {
+    color: #fff;
+}
+.item-card .card-details .para p {
+    color: #fff !important;
+}
+.site-details-with-image {
+    padding: 3% 20px 3% !important;
+}
+
+.main_logo_text .text-container a.button:hover {
+    background-color: #e9ba44;
+}
+
+.main_logo_text {
+    padding: 2% 20px 4% !important;
+}
+
+body#homepage section.hero-section {
+    height: 580px;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+.video-bg {
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+body#started section.quick-video .video {
+    width: 55%;
+}
+
+.form-wrapper {
+    width: 45%;
+}
+
+.video-bg iframe {
+    max-width: 1000%;
+    margin-left: 0px;
+    margin-top: -61px;
+    width: 100%;
+    height: 1100px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 66px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-content h1 span {
+    color: #E9BA44;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1B1C;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A1B1C;
+
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #1A1B1C;
+
+}
+
+p,
+.footer-links ul li a,
+.footer-contact-us ul li a,
+.includes li,
+.includes h6,
+.Information-col li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #272E2F;
+}
+
+.hero-content p,
+section.Transparency .Transparency-col li span {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 25px;
+}
+
+section.Transparency .Transparency-col li span {
+    padding-top: 0;
+}
+
+.hero-section .header-btn {
+    margin: 25px auto 0 auto;
+}
+
+section.blogs .row {
+    gap: 18px;
+    align-items: flex-start;
+    padding-top: 55px;
+    justify-content: center;
+}
+
+body#homepage .youtube-videos-headings h2 {
+    width: 94%;
+}
+
+.marquee-container {
+    padding: 20px 0;
+    background-color: #F6F6F6;
+    overflow: hidden;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 100px;
+    animation: marquee-scroll 15s linear infinite;
+    width: max-content;
+}
+
+
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.blog-card h4,
+body#homepage .reviews-headings p {
+    padding-top: 15px;
+}
+
+p.date {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+}
+body#success-stories section.industry-leader.borders {
+    padding-top: 0;
+}
+
+.footer_colume p {
+    text-align: left !important;
+}
+section.blogs {
+    padding: 2% 20px 4%;
+}
+
+.blog-card p {
+    padding: 10px 0;
+}
+
+a.blog-button,
+.underline a {
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2D61A5;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #020D0A80;
+    max-width: 126px;
+    width: 100%;
+}
+
+.underline a {
+    max-width: 375px;
+    border-color: #fff;
+}
+
+
+.underline p {
+    padding-bottom: 16px;
+    font-size: 18px;
+
+}
+section.industry-leader {
+    padding: 3% 20px 2.5%;
+}
+section.business-industry {
+    padding: 0 20px 3%;
+}
+.underline p,
+.underline a,
+.youtube-videos-headings h2,
+section.clients h2,
+section.clients p,
+section.clients span,
+.clients-col h3,
+.footer-links ul li a,
+.footer-contact-us ul li a,
+.stats-col h2,
+.stats-col p,
+.designed-col h2,
+.designed-col p,
+.copyright p,
+body#website-analysis .contact-icon p,
+.stats-col span,body#marketing-agencys section.google-business h2 {
+    color: #FFFFFF !important;
+}
+
+body#website-analysis section.website-analysis .header-btn {
+    max-width: 254px;
+    margin: 60px auto 0;
+}
+
+
+section.youtube-videos {
+    padding: 60px 20px 0;
+    background: #44AFC9;
+}
+
+section.youtube-videos,
+section.client-says,
+.discovery-card:nth-child(6) {
+
+    background-image: url(Assets/images/youtube-videos.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.national-company,
+section.phone-ring,
+body#social-post section.phone-ring {
+    background-image: url(Assets/images/Rectangle\ 46.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 405px;
+    padding: 0 20px;
+
+}
+
+section.google-reviews {
+    /* background-image: url(Assets/images/reviews-image.png); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.adlogo-image {
+    box-shadow: 0px 11px 72.1px 9px #0000000A;
+    width: 25%;
+    background-color: #fff;
+    min-height: 149px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+section.Ads-images .row {
+    gap: 21px;
+}
+
+.hamburger {
+    display: none;
+}
+
+section.Ads-images {
+    padding: 9% 20px 104px;
+    margin-top: -112px;
+    background: #fff;
+}
+
+.video {
+    padding-top: 67px;
+}
+
+.video {
+    padding-top: 67px;
+    flex: 0 0 49%;
+}
+
+.national-company-headings {
+    width: 57%;
+    padding-top: 75px;
+}
+
+.national-company-images {
+    width: 40%;
+}
+
+.national-company-headings p {
+    padding: 15px 0 37px;
+}
+
+.national-btn {
+    height: 52px;
+    max-width: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.review-card,
+.reviews-headings,
+body#who-we\ are h1,
+.fact-heading,
+body#internet-marketing .youtube-videos-headings,
+.underline,
+.sides-col,
+.stats-col,
+.client-says-content,
+.subscription-texts,
+.pipeline-team-col,
+.designed-col,
+.copyright,.adds-col {
+    text-align: center;
+}
+
+body#who-we\ are .service-texts p {
+    padding: 25px 0 90px;
+}
+
+.review-card h4 {
+    padding: 23px 0 10px;
+}
+
+body#review .hero-content h2 {
+    text-align: left;
+}
+
+section.google-reviews {
+    padding: 88px 20px 39px;
+}
+
+.reviews-headings {
+    padding-bottom: 82px;
+}
+
+section.clients .container {
+    max-width: 1350px;
+}
+
+.clients-col span {
+    display: block;
+    padding: 43px 0 16px;
+}
+
+.clients-col p {
+    padding-bottom: 44px;
+}
+
+.clients-col h3 {
+    padding-bottom: 23px;
+}
+
+section.clients {
+    background-color: #21A85D;
+    padding: 45px 20px;
+}
+
+.clients-col {
+    width: 50%;
+    border-right: 1px solid #FFFFFF66;
+    padding-right: 21px;
+}
+
+section.clients .engine-optimization-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0 0 4%;
+}
+
+section.services .row {
+    gap: 20px;
+}
+
+.engine-optimization-main {
+    width: 50%;
+    padding-left: 21px;
+}
+
+.engine-optimization-col:nth-child(1) {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+section.clients .row,
+section.contact-us .row {
+    align-items: flex-start;
+}
+
+p.first-param {
+    padding: 3px 0 36px;
+}
+
+p.second-param {
+    padding: 16px 0 12px;
+}
+
+section.clients h2 {
+    padding-top: 35px;
+}
+
+.Features-col p {
+    font-size: 14px;
+    color: #020D0AB2;
+}
+
+.Features-col h4 {
+    padding: 15px 0
+}
+
+.Features-col {
+    text-align: center;
+    width: 25%;
+}
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-shape-box {
+    width: 100%;
+}
+
+.image-shape-box {
+    width: 100%;
+}
+
+.image-shape-box img {
+    width: 100%;
+}
+
+.image-shape-box img {
+    width: 99%;
+}
+
+.contact-icon {
+    width: 50%;
+    padding-top: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+section.contact-us .row {
+    gap: 45px;
+}
+
+.contact-col {
+    width: 52%;
+    padding-top: 40px;
+}
+
+body#marketing-agencys .service-texts h2,
+body#Healthcare-marketing .service-texts h2 {
+    padding-bottom: 25px;
+}
+
+/* Estimate Form Styles */
+.estimate-container {
+    background: #272E2F0D;
+    padding: 40px 40px 59px;
+    border-radius: 20px;
+    width: 48%;
+}
+
+/* Input fields */
+.estimate-container input,
+.estimate-container select,
+.estimate-container textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #020D0A33;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    color: #020D0AB2;
+    font-family: 'Urbanist';
+}
+
+/* Textarea height */
+.estimate-container textarea {
+    height: 130px;
+    resize: none;
+}
+
+/* Custom select dropdown */
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: #fff url("Assets/images/form-dropdown.svg") no-repeat;
+
+    background-position: right 27px center;
+    background-size: 10px;
+}
+
+.estimate-container button {
+    font-family: "Urbanist", sans-serif;
+    width: 100%;
+    padding: 15px;
+    background: #D11F2A;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.estimate-container button:hover {
+    opacity: 0.9;
+}
+
+.estimate-container h3,
+body#marketing-agencys section.youtube-videos .underline p {
+    padding-bottom: 40px;
+}
+
+.get-start-heading h2 {
+    padding-bottom: 15px;
+}
+
+section.services .national-btn {
+    margin: 50px auto 0;
+}
+
+section.contact-us {
+    background: #F5F5F5;
+    padding: 38px 20px;
+}
+
+section.services {
+    padding: 6% 20px;
+}
+
+.contact-icon:nth-child(3) {
+    width: 73%;
+}
+
+.contact-icon p {
+    font-size: 22.23px;
+    line-height: 34.58px;
+    color: #7C7F7F;
+}
+
+footer {
+    background: #262E30;
+    padding: 2% 20px 1%;
+}
+
+.newsletter {
+    width: 35%;
+}
+
+.newsletter p {
+    color: #FFFFFF;
+    padding: 20px 0 30px;
+}
+
+footer .row {
+    align-items: flex-start;
+}
+
+.footer-links ul li,
+.footer-contact-us ul li,
+footer h5 {
+    padding-bottom: 20px;
+}
+
+footer h5 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-contact-us ul li,
+.plan-service li,
+a.btn-1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.announcement-inner p {
+    color: rgba(39, 46, 47, 1);
+}
+
+body#who-we\ are .serve,
+body#marketing-agencys .serve,
+body#internet-marketing .serve,
+body#Healthcare-marketing .serve,
+body#mr-pipeline .serve,
+body#review section.hero-section.serve,
+body#success-stories section.hero-section.serve,
+section.Business-designed,
+section.Business-designed::before,
+body#contact-us .hero-section,
+body#website-analysis section.hero-section.serve,
+body#website-design section.hero-section.serve,
+body#started .hero-section.serve,
+body#blogs .hero-section.serve,
+body.holiday_lighting section.hero-section.serve,
+body.seo-page section.hero-section.serve:before,
+body#social-post section.hero-section.serve ,
+#privacy .hero-section.serve{
+    background-image: url(Assets/images/hero-background.png);
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-color: #2A2A2A;
+}
+
+body#who-we\ are .serve {
+    height: 418px;
+}
+
+body#who-we\ are .hero-content,
+body#review .hero-content,
+body#started .hero-content,
+body#blogs .hero-content,
+body.holiday_lighting .hero-content,
+body.seo-page .hero-content,
+body#website-design .hero-content,
+body#social-post .hero-content {
+    max-width: 816px;
+}
+
+body#contact-us .hero-content {
+    max-width: 1067px;
+}
+
+body#who-we\ are .youtube-videos-headings h2,
+body#who-we\ are .underline p {
+    color: #1A1B1C !important;
+}
+
+body#who-we\ are .youtube-videos-headings {
+    width: 49%;
+}
+
+body#who-we\ are h1,
+body#marketing-agencys h1,
+body#internet-marketing h1,
+body#Healthcare-marketing h1,
+body#mr-pipeline h1,
+body#review h1,
+body#success-stories h1,
+.discovery-card:nth-child(6) h2,
+body#website-analysis h1,
+body#website-design h1,
+body#started h1,
+body#contact-us h1,
+body#blogs h1,
+body.holiday_lighting h1,
+body.seo-page h1,
+body#social-post h1 {
+    font-size: 48px;
+}
+
+body#who-we\ are .underline {
+    width: 50%;
+}
+
+body#who-we\ are .hero-section::before,
+body#marketing-agencys .hero-section::before,
+body#internet-marketing .hero-section::before,
+body#Healthcare-marketing .hero-section::before,
+body#mr-pipeline .hero-section::before,
+body#review section.hero-section.serve::before,
+body#success-stories section.hero-section.serve::before,
+body#contact-us .hero-section::before,
+body#website-analysis section.hero-section.serve:before,
+body#website-design section.hero-section.serve:before,
+body#started .hero-section.serve:before,
+body#blogs section.hero-section.serve:before,
+body.holiday_lighting section.hero-section.serve:before,
+body#social-post .hero-section::before {
+    display: none;
+}
+
+body.holiday_lighting section.hero-section.serve {
+    background-image: url(Assets/images/Frame\ 4.png) !important;
+}
+
+body#who-we\ are a.blog-button,
+.pipeline-team-col p a {
+    color: #43AFC9;
+}
+
+section.business-industry.firsts p {
+    line-height: 22px !important;
+}
+
+.service-texts {
+    padding: 73px 53px 70px;
+}
+
+section.industry-leader .row:nth-child(2),
+.business-industry .row,
+.healthcares .row,
+section.website-section .row {
+    box-shadow: 20px 14px 104px 0px #0000001A;
+    border-radius: 20px;
+    ;
+}
+
+.business-industry .row {
+    flex-direction: row-reverse;
+}
+
+section.healthcares {
+    padding: 20px 20px 55px;
+}
+
+body#marketing-agencys .hero-content,
+body#marketing-agencys .hero-content {
+    max-width: 50%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+body#internet-marketing .hero-content,
+body#Healthcare-marketing .hero-content,
+body#Healthcare-marketing .underline,
+body#who-we\ are .underline p {
+    text-align: left;
+}
+
+body#marketing-agencys .hero-section .header-btn,
+body#internet-marketing .hero-section .header-btn,
+body#Healthcare-marketing .hero-section .header-btn,
+body#website-analysis .estimate-container button {
+    margin: 74px 0 0 0;
+    max-width: 208px;
+}
+
+section.strategy .header-btn,
+body#review section.feedback .header-btn {
+    margin: 70px auto 0;
+    max-width: 208px;
+}
+
+body#review section.feedback .header-btn {
+    margin: 25px auto 38px;
+}
+
+body#marketing-agencys section.feedback .top-images {
+    right: 20.1%;
+}
+
+body#marketing-agencys .video,
+body#internet-marketing .video,
+body#Healthcare-marketing .video {
+    padding: 0;
+}
+
+body#marketing-agencys h1,
+body#internet-marketing h1,
+body#Healthcare-marketing h1 {
+    text-align: left;
+}
+
+body#marketing-agencys section.hero-section,
+body#internet-marketing section.hero-section,
+body#Healthcare-marketing .serve {
+    display: block;
+    align-items: normal;
+    height: 540px;
+    padding: 84px 0 92px;
+}
+
+body#marketing-agencys .hero-content h1 {
+    width: 91%;
+}
+
+body#marketing-agencys section.services-sections .row,
+section.services-sections .row {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+
+
+body#internet-marketing .service-box {
+    padding: 33px 25px !important;
+}
+
+
+
+body#marketing-agencys .service-box:nth-child(13) {
+    max-width: 23.7%;
+    width: 100%;
+}
+
+section.services-sections {
+    background: #FFFFFF;
+    padding: 143px 20px 70px;
+}
+
+body#internet-marketing .services-paragraph p,
+.services-paragraph p,
+body#marketing-agencys section.youtube-videos .underline p,
+body.holiday_lighting .hero-content img,
+section.business-industry.firsts p {
+    padding-top: 25px;
+}
+
+body#internet-marketing section.services-sections {
+    padding-top: 70px;
+}
+
+body#marketing-agencys .service-box,
+body#internet-marketing .service-box,
+body#Healthcare-marketing .service-box {
+    flex: 23.7%;
+    max-width: 23.7%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    padding: 33px 21px;
+    height: 243px;
+    box-shadow: 20px 14px 104px #0000001A;
+}
+
+.service-box h5,
+.acc-header h5,
+.fact-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1A1B1C;
+}
+
+section.Accordion {
+    background: #21A85D;
+    padding: 80px 20px;
+}
+
+.acc-item {
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.acc-header h5,
+.acc-item,
+.accordin-heading h2,
+.accordin-heading p,
+.checklist-points ul li,
+.checklist-heading h2,
+section.checklist p,
+body#started .stats-col span,
+section.clients .engine-optimization-col ul li {
+    color: #fff !important;
+}
+
+section.clients .engine-optimization-col ul li {
+    list-style: disc;
+}
+
+.acc-content {
+    padding: 0 0 20px 30px;
+}
+
+.acc-header {
+      padding: 15px 24px 15px;
+}
+
+span.acc-btn {
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.accordin-heading p {
+    padding: 25px 0 45px;
+    border-bottom: 1px solid #fff;
+}
+
+section.facts {
+    padding: 337px 0 90px;
+    margin-top: -285px;
+    background: #fff;
+}
+
+.fact-box {
+    width: 25%;
+    box-shadow: 0px 11px 72.1px 9px #0000000A;
+    background: #fff;
+    padding: 18px 0px 28px 25px;
+    border-radius: 10px;
+}
+
+body#review section.our-clients .owl-nav.disabled,
+body#contact-us section.our-clients .owl-nav.disabled {
+    padding-top: 86px;
+}
+
+section.facts .row {
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.fact-box .count-content {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-bottom: 25px;
+}
+
+.fact-box p {
+    font-weight: 700;
+    font-size: 62px;
+    text-transform: lowercase;
+    color: #43AFC9;
+    line-height: 100%;
+}
+
+.fact-heading p {
+    padding-top: 25px;
+    font-family: 'Satoshi';
+}
+
+section.feedback .row {
+    justify-content: flex-start;
+    gap: 25px;
+    padding-bottom: 25px;
+}
+
+section.feedback .row {
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.feedback-inner-main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+ section.feedback .top-images {
+    display: none;
+}
+.adss-col h2,
+.feedback .main_btn{
+    text-align:center;
+}
+.feedback-head {
+    padding: 37px 38px;
+    border-radius: 20px;
+    max-width: 997px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+body#review section.feedback .owl-carousel .owl-stage-outer {
+    background-color: #fff;
+}
+
+.feedback-paragraph p,
+.strategy-col ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1A1B1C;
+}
+
+.strategy-col ul li {
+    font-family: 'Urbanist';
+}
+
+.feedback-content h4 {
+    font-weight: 500;
+}
+
+.feedback-content p {
+    color: #21A85D;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    padding: 5px 0 10px;
+}
+
+.who-we-are-headings p {
+    font-family: 'Satoshi';
+    line-height: 30px;
+    color: #fff;
+    padding: 25px 0 75px;
+}
+
+.who-we-are-headings h2 {
+    font-family: 'Satoshi', sans-serif;
+    color: #fff;
+
+}
+
+body#mr-pipeline .google-content h2,
+body#contact-us .video h2 {
+    width: 100%;
+}
+
+body#internet-marketing section.industry-leader .service-texts {
+    padding: 78px 20px;
+}
+
+body#mr-pipeline section.google-management .google-content h2 {
+    width: 78%;
+}
+
+body#Healthcare-marketing .Transparency-col {
+    flex: 0 0 35.9%;
+}
+
+body#Healthcare-marketing section.services-sections {
+    padding: 70px 20px 70px;
+}
+
+section.who-we-are .container,
+body#success-stories .container,
+section.google-reviews .container,
+body#marketing-agencys section.industry-leader .container,
+section.industry-leader .container,
+section.business-industry .container,
+body#website-analysis section.contact-us .container,
+body#homepage section.blogs .container {
+    max-width: 1200px;
+}
+
+section.Transparency .container {
+    max-width: 1076px;
+}
+
+.fact-box img {
+    width: 50px;
+    height: 50px;
+}
+
+section.who-we-are {
+    background: #21A85D;
+    padding: 50px 20px;
+}
+
+section.youtube-videos .underline p {
+    padding-top: 3%;
+}
+
+section.feedback {
+    padding: 105px 20px 57px;
+    background: #F3F3F3;
+    position: relative;
+
+}
+
+/* section.industry-leader .row:nth-child(1) {
+    padding-bottom: 0;
+} */
+
+body#marketing-agencys .business-industry .row,
+body#internet-marketing .business-industry .row,
+body#Healthcare-marketing .business-industry .row,
+body#review section.business-industry .row,
+body#success-stories .business-industry .row {
+    box-shadow: none;
+}
+
+body#marketing-agencys section.industry-leader .row,
+body#marketing-agencys .business-industry .row {
+    align-items: flex-start;
+}
+
+body#marketing-agencys .service-texts p,
+.business-blogs p {
+    line-height: 30px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.Transparency-col {
+    flex: 0 0 48%;
+}
+
+section.Transparency .row {
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 41px;
+    justify-content: flex-start;
+}
+
+section.Transparency {
+    background: #21A85D;
+    padding: 80px 20px;
+}
+
+.Transparency-col li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+section.Transparency .services-paragraph h2,
+section.Transparency .services-paragraph p,
+section.Transparency .Transparency-col li span,
+.business-blogs p,
+.internet-marketings h2,
+.internet-marketings p {
+    color: #fff;
+}
+
+.business-blogs h5,
+.detailed h5 {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+body#Healthcare-marketing section.youtube-videos .container {
+    max-width: 1216px;
+}
+
+body#Healthcare-marketing .business-blogs {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+body#Healthcare-marketing section.youtube-videos .row {
+    gap: 40px;
+    padding: 55px 0 113px;
+    align-items: stretch;
+}
+
+section.Transparency .header-btn {
+    margin-top: 78px;
+}
+
+body#mr-pipeline .hero-content,
+body#success-stories .hero-content {
+    max-width: 910px;
+}
+
+section.work-with-us {
+    padding: 60px 0 65px;
+}
+
+.work-with-us-content,
+.google-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.get-col {
+    width: 50%;
+}
+
+.Information-col ul {
+    padding-top: 10px;
+}
+
+.get-col p {
+    padding: 30px 0 0;
+}
+
+.Information-col {
+    padding: 40px 0;
+}
+
+.react-list li {
+    list-style: disc;
+}
+
+.react-list {
+    padding-top: 40px;
+}
+
+.Information-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.work-with-us-content p,
+.sides-col p {
+    color: #1A1B1C !important;
+}
+
+.work-with-us-content h5,
+.service-card-text h5,
+.sides-col span,
+.discovery-card h5,
+.plan-box span,
+.website-Analysis-col.item h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #1A1B1C;
+}
+
+.service-card-text h5 {
+    font-size: 18px !important;
+
+}
+
+.work-with-us-content span,
+.sides-col span {
+    color: #21A85D;
+    font-weight: 600;
+}
+
+section.image-gallery {
+    padding: 71px 20px;
+    background: #F3F3F3;
+}
+
+.service-card {
+    width: 49.1%;
+    display: flex;
+    gap: 20px;
+    box-shadow: 20px 14px 104px 0px #0000001A;
+    border-radius: 20px;
+    background: #fff;
+}
+
+section.services-section .row {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card-text h5 {
+    padding-bottom: 17px;
+}
+
+body#mr-pipeline .container {
+    max-width: 1200px !important;
+}
+
+.service-card-text {
+    padding: 24px 20px 24px 0;
+}
+
+section.services-section {
+    padding: 90px 20px;
+}
+
+.work-with-us-content h2 {
+    width: 61%;
+}
+
+.sides-col h2 {
+    width: 51%;
+    margin: 0 auto;
+}
+body#mr-pipeline section.adds-management .row .main_btn:first-child a {
+    background: transparent;
+    border: 1px solid #272E2F;
+    color: #272E2F;
+}
+section.stats {
+    background-image: url(Assets/images/shape_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body#mr-pipeline section.adds-management .row .main_btn:first-child a:hover {
+    background-color: #e9ba44;
+    border: 1px solid #e9ba44;
+    color: #fff;
+}
+.sides-col p {
+    font-size: 18px;
+    width: 84%;
+    margin: 0 auto;
+}
+
+body#mr-pipeline section.adds-management {
+    background-color: #F3F3F3;
+    padding: 2% 20px 3%;
+}
+
+
+.sides-col span {
+    display: block;
+    padding: 28px 0 0px;
+}
+
+section.adds-management {
+    padding: 70px 20px 20px;
+}
+
+section.adds-management .row {
+    gap: 20px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+section.adds-management .header-btn {
+    background: transparent;
+    border: 1px solid #272E2F;
+}
+
+section.adds-management .header-btn button {
+    color: #272E2F;
+}
+
+section.google-partner {
+    padding: 100px 20px;
+}
+
+section.stats,
+section.Business-designed,
+section.Business-designeds {
+    padding: 64px 20px;
+    background: #43AFC9;
+}
+
+
+.google-content {
+    width: 59%;
+}
+
+.google-img {
+    width: 41%;
+}
+
+section.google-management .google-content {
+    width: 49%;
+}
+
+section.google-management {
+    padding: 22% 20px 80px;
+    margin-top: -420px;
+    background: #fff;
+}
+
+.google-content h2 {
+    width: 76%;
+}
+.plan:hover .plan-box {
+    background-color: #21A85D;
+}
+.plan .plan-box span, .plan .plan-box p.top-param, .plan .plan-box h2, .plan.plan-box p, .plan .plan-box a.btn-1{
+    transition: all 0.5s ease;
+}
+.plan:hover .plan-box span, .plan:hover .plan-box p.top-param, .plan:hover .plan-box h2, .plan:hover .plan-box p, .plan:hover .plan-box a.btn-1{
+    color: #fff;
+}
+.plan:hover .plan-box a.btn-1 img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(15%) saturate(478%) hue-rotate(263deg) brightness(114%) contrast(100%);
+}
+.plan .plan-box a.btn-1 img{
+    transition: all 0.5s ease;
+}
+
+.Analysis-col {
+    box-shadow: 20px 14px 104px 0px #0000001A;
+    background: #fff;
+    border-radius: 20px;
+    padding: 36px 133px 36px 50px;
+        width: 50%;
+}
+
+section.Analysis .row {
+    gap: 20px;
+    align-items: stretch;
+}
+
+section.Analysis {
+    background: #F3F3F3;
+    padding: 50px 0 67px;
+}
+
+.Analysis-col h3,
+.pipeline-team-col img {
+    padding: 25px 0;
+}
+
+.Analysis-col p,
+body#review .business-industry .service-texts p,
+body#review section.google-management .google-content p,
+.business-industry .service-texts p,
+.pipeline-team-col p {
+    font-size: 18px !important;
+    color: #1A1B1C;
+}
+
+body#internet-marketing .business-industry .service-texts p {
+    font-size: 16px !important;
+}
+
+body#internet-marketing section.business-industry .service-texts {
+    padding: 78px 18px;
+}
+
+.stats-col p {
+    padding: 25px 0 53px;
+    margin: 0 auto;
+}
+
+body#review .hero-content {
+    max-width: 856px;
+}
+
+section.our-clients .row {
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.videos-container {
+    flex: 0 0 49.2%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+body#review .stats-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* section.feedback .top-images {
+    position: absolute;
+    right: 26.1%;
+    z-index: 1;
+    top: 56px;
+} */
+
+body#review section.google-management .google-content {
+    width: 52%;
+}
+
+body#review .service-texts h2 {
+    width: 83%;
+}
+
+.client-says-content h2 {
+    margin: 0 auto 25px;
+    width: 59%;
+}
+
+section.client-says {
+    padding: 60px 0 75px;
+    color: #F3F3F3;
+}
+
+.video-text h5 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #1A1B1C;
+    padding-top: 30px;
+    width: 50%;
+}
+
+body#success-stories .sides-col h2 {
+    width: 67%;
+    padding-bottom: 25px;
+}
+
+body#success-stories .row {
+    padding: 0;
+}
+
+body#success-stories .sides-col p {
+    width: 71%;
+}
+
+body#success-stories .service-texts p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #1A1B1C;
+}
+
+span.green-color {
+    color: #21A85D !important;
+}
+
+body#success-stories section.industry-leader .row:nth-child(1) {
+    box-shadow: 20px 14px 104px 0px #0000001A;
+    border-radius: 20px;
+}
+
+body#success-stories .service-texts {
+    padding: 0 53px 20px;
+}
+
+body#success-stories .service-texts {
+    width: 63%;
+}
+
+body#success-stories .service-images {
+    width: 42%;
+}
+
+.service-texts ul li {
+    list-style: disc;
+}
+
+.service-texts ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 25px;
+}
+
+.borders .row {
+    box-shadow: none !important;
+}
+
+.borders .service-texts {
+    padding-top: 0 !important;
+}
+
+body#success-stories .borders .service-images {
+    width: 43% !important;
+}
+
+.strategy-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section.strategy .row {
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.strategy-col {
+    flex: 0 0 47.7%;
+}
+
+.strategy-col ul li {
+    list-style: disc;
+}
+
+.strategy-col ul li::marker,
+.service-texts ul li::marker {
+    color: #43AFC9;
+    font-size: 27px;
+}
+
+.strategy-col h2,
+.column-web h2 {
+    padding-bottom: 25px;
+}
+
+body#internet-marketing section.feedback .top-images,
+body#marketing-agencys section.feedback .top-images,
+body#Healthcare-marketing section.feedback .top-images {
+    right: 26.5%;
+}
+
+.strategy-col ul {
+    padding-left: 5%;
+}
+
+section.strategy {
+    padding: 70px 20px;
+}
+
+.internet-bg {
+    background: #21A85D;
+}
+
+.internet-marketings {
+    padding: 64px 14px 64px 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body#internet-marketing section.youtube-videos h2 {
+    text-align: left;
+}
+
+body#internet-marketing section.youtube-videos p {
+    text-align: left;
+}
+
+.internet-marketings p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.pipeline-image img {
+    margin-bottom: -4px;
+}
+
+section.Internet.Marketing {
+    padding: 50px 20px;
+}
+
+.discovery-card {
+    width: 32.1% !important;
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px 39px 9px 36px;
+    height: 676px !important;
+}
+
+section.discovery-blogs {
+    background: #43AFC9;
+}
+
+section.discovery-blogs .row {
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.discovery-card-inner p:nth-child(1) {
+    padding: 15px 0 64px;
+}
+
+.discovery-card-inner h5 {
+    height: 85px;
+}
+
+.discovery-card-inner p {
+    height: 219px;
+}
+
+.discovery-card-inner span {
+    height: 69px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #D11F2A;
+}
+
+.discovery-card:nth-child(6) em {
+    font-size: 96px;
+    color: #21A85D;
+    height: 120px;
+    font-weight: 700;
+    font-family: 'Satoshi', sans-serif;
+}
+
+p.spans-colors span {
+    font-size: 24px !important;
+}
+
+p.spans-colors {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    height: 0;
+}
+
+.discovery-card:nth-child(6) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plans-table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.plan {
+    background-color: #FFFFFF;
+    border: 1px solid #272E2F40;
+    border-radius: 10px;
+    width: 31.8%;
+}
+
+.fadeup {
+    display: inline-block;
+    animation: fadeUp 2s ease forwards;
+}
+
+.plan-box {
+    background: #2D61A50D;
+    width: 100%;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+ul.transparent-pricing {
+    padding-left: 31px;
+}
+
+.plan-service ul li,
+.plan-services ul li {
+    font-weight: 300;
+    font-size: 16px;
+    color: #545454;
+}
+
+section.subscription-plan .row {
+    padding: 30px 31px 21px 22px;
+}
+
+.plan-services ul li {
+    color: #43AFC9 !important;
+    font-weight: 700;
+    text-align: end;
+}
+
+.plan-service ul,
+.plan-services ul {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.plan-box.fadeup.ch-two {
+    background: #21A85D;
+}
+
+.cht-two ul li span {
+    color: #21A85D;
+}
+
+.ch-two p {
+    color: #fff;
+}
+
+.ch-two span {
+    color: #fff;
+}
+
+.ch-two h2 {
+    color: #fff;
+}
+
+.ch-two a.btn-1 {
+    color: #fff;
+}
+
+.ch-two p.top-param {
+    color: white;
+}
+
+.ch-two img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(70deg) brightness(104%) contrast(101%);
+
+}
+
+.plan-box h2 {
+    padding: 25px 0 26px;
+    font-size: 48px;
+}
+
+p.bottom-param {
+    padding-bottom: 69px;
+}
+
+p.top-param {
+    padding-top: 16px;
+}
+
+a.btn-1,
+p.top-param {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23.65px;
+    color: #272E2F;
+}
+
+section.subscription-plan {
+    padding: 70px 20px;
+}
+
+.subscription-texts {
+    padding-bottom: 50px;
+}
+
+
+.blog-section {
+    padding: 50px 20px 65px;
+}
+
+/* Top */
+.blog-top {
+    margin-bottom: 25px;
+}
+
+.blog-search input {
+    padding: 19px 20px;
+    width: 489px;
+    border-radius: 10px;
+    border: 1px solid rgba(2, 13, 10, 0.2);
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(2, 13, 10, 0.698);
+}
+
+.blog-tabs {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    margin: 50px 0;
+}
+
+.website-blog  {
+    border-radius: 20px !important;
+    width:100% !important;
+}
+.tab {
+    padding: 17.5px 18px;
+    background: rgba(39, 46, 47, 0.1);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.3s;
+    /* max-width: 166px; */
+    width: 100%;
+    border-radius: 10px;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(39, 46, 47, 1);
+    min-width: 166px;
+    text-align: center;
+}
+
+.tab.active {
+    background: rgba(67, 175, 201, 1);
+    color: #fff;
+}
+
+div#blogList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.blog-item {
+    display: flex;
+    gap: 50px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.4s;
+    box-shadow: 20px 34px 94px 0px rgba(0, 0, 0, 0.06);
+}
+
+.blog-content {
+    padding: 50px 92px 0 0;
+}
+
+.blog-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.blog-content .date {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cat {
+    display: inline-block;
+    color: rgba(67, 175, 201, 1);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 40px 0 30px;
+}
+
+p.blog-text {
+    padding: 25px 0 50px;
+}
+
+.blog-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+h3.blog-heading {
+    font-size: 24px;
+    color: rgba(39, 46, 47, 1);
+}
+
+.blog-btn:hover {
+    letter-spacing: 1px;
+}
+
+body#contact-us .video {
+    width: 100%;
+}
+
+body#contact-us .video h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+body#contact-us .video .header-btn {
+    margin-top: 124px;
+}
+
+.discovery-card:nth-child(6) {
+    background-image: url(Assets/images/discover.png) !important;
+}
+
+section.discovery-blogs {
+    background: #43AFC9;
+    padding: 63px 20px;
+}
+
+section.discovery-blogs .stats-col h2 {
+    width: 49%;
+    margin: 0 auto;
+}
+
+section.discovery-blogs .stats-col p {
+    padding: 25px 0 25px;
+}
+
+section.Business-designed .header-btn,
+section.Business-designeds .header-btn {
+    max-width: 251px;
+    margin: 0 auto;
+}
+
+.designed-col p {
+    padding: 25px 0 64px;
+}
+
+section.Business-designed,
+section.Business-designeds {
+    position: relative;
+    background-image: url(Assets/images/business-design.png );
+}
+
+.overly {
+    height: 100%;
+    width: 100%;
+    background: rgba(33, 168, 93, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.designed-col {
+    position: relative;
+}
+
+body#contact-us .designed-col h2 {
+    width: 78%;
+    margin: 0 auto;
+}
+
+section.Business-designeds {
+    position: relative;
+    background-image: url(Assets/images/Business-designeds.png );
+}
+
+section.Business-designeds .overly {
+    background: rgba(67, 175, 201, 0.7);
+}
+
+body#marketing-agencys section.feedback .top-images {
+    right: 26.5%;
+}
+body#marketing-agencys section.facts{
+    padding: 17.6% 0 90px;
+}
+section.feedback .owl-nav,
+section.our-clients .owl-nav {
+    display: flex !important;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 50px;
+}
+
+section.feedback .top-images {
+    position: absolute;
+    right: 11.1%;
+    z-index: 1;
+    top: 54px;
+}
+
+body#marketing-agencys .national-btn {
+    max-width: 240px;
+    margin-top: 30px;
+}
+
+section.our-clients {
+    padding: 4% 20px;
+}
+
+body#review section.feedback .owl-nav.disabled,
+body#contact-us section.feedback .owl-nav.disabled,
+body#website-analysis section.feedback .owl-nav.disabled {
+    padding-top: 45px;
+}
+
+body#contact-us section.quick-video .video {
+    width: 46%;
+}
+
+.site-score-image {
+    width: 49%;
+}
+
+section.feedback .owl-carousel .owl-stage-outer {
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+}
+
+body#website-analysis section.contact-us .estimate-container {
+    width: 49.3%;
+}
+
+body#website-analysis section.contact-us .row {
+    gap: 20px;
+    align-items: center;
+}
+
+section.website-analysis .owl-carousel .owl-item img {
+    width: fit-content;
+}
+
+.header-btn:hover,
+.national-btn:hover {
+    background: rgba(233, 186, 68, 1) !important;
+}
+
+.copyright {
+border-top: 0.8px solid #FFFFFF1A !important;
+    padding: 28px 20px 0;
+    margin-top: 35px;
+}
+
+.video h2 {
+    font-size: 32px;
+    width: 83%;
+    padding-bottom: 77px;
+}
+
+section.quick-video .header-btn {
+    margin-top: 112px;
+}
+
+section.quick-video {
+    padding: 38px 20px 110px;
+}
+
+section.website-analysis {
+    background: rgba(33, 168, 93, 1);
+    padding: 70px 0 59px;
+    padding-left: 11%;
+}
+
+.website-Analysis-col.item {
+    box-shadow: 20px 34px 94px 0px rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border-radius: 20px;
+    padding: 37px 0px 25px 17px
+}
+
+.website-Analysis-col.item img {
+    padding-bottom: 30px;
+}
+
+.website-Analysis-col.item p {
+    color: rgba(39, 46, 47, 1);
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+body#website-analysis .designed-col,
+body#website-analysis .contact-icons {
+    width: 50%;
+    text-align: left;
+}
+
+.designed-col h2 {
+    width: 100%;
+}
+
+body#website-analysis section.Business-designeds .header-btn {
+    margin: 81px 0 0
+}
+
+body#website-analysis .contact-icon {
+    flex: 0 0 42%;
+}
+
+body#website-analysis .contact-icons {
+    position: relative;
+
+}
+
+body#website-analysis section.website-analysis .container,
+body#marketing-agencys section.youtube-videos .container {
+    max-width: 1200px;
+}
+
+body#website-analysis section.website-analysis h5 {
+    padding-bottom: 15px;
+}
+
+body#website-analysis section.website-analysis .owl-nav {
+    display: none;
+}
+
+.content-box {
+    border-left: 17px solid rgba(33, 168, 93, 1);
+    background: rgba(243, 243, 243, 1);
+    padding: 16px 45px 16px 29px;
+}
+
+section.phone-ring {
+    background-image: url(Assets/images/ring.png) !important;
+}
+
+section.website-section .row {
+    padding: 51px 70px;
+}
+
+body#website-analysis section.youtube-videos {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: none;
+    background-color: #fff;
+
+}
+
+body#website-analysis .sides-col h2 {
+    padding-bottom: 5%;
+}
+
+body#website-analysis section.feedback .owl-carousel .owl-stage-outer {
+    background-color: #fff;
+}
+
+body#website-analysis section.youtube-videos .video {
+    padding: 0;
+
+}
+
+.column-web {
+    width: 60%;
+}
+
+.column-web-imgae {
+    width: 36%;
+}
+section.checklist .row {
+    align-items: flex-start;
+}
+
+.checklist-points ul li {
+    padding-bottom: 12px;
+}
+
+section.checklist {
+    background: rgba(67, 175, 201, 1);
+    padding: 55px 0 41px;
+}
+
+.checklist-heading h2 {
+    padding-bottom: 25px;
+}
+
+section.checklist p {
+    padding-top: 55px;
+}
+
+.plan-services ul {
+    text-align: right;
+}
+
+.includes h6 {
+    font-weight: 700;
+    line-height: 37px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.includes li {
+    font-family: 'Satoshi', sans-serif;
+    padding: 11px 0;
+}
+
+.detailed {
+    padding-left: 20px;
+}
+
+.includes {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+.machine-pricing {
+    width: 589px;
+    border-radius: 10px;
+    border: 1px solid rgba(39, 46, 47, 0.25);
+}
+
+/* LIST */
+.machine-pricing ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.machine-pricing li {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+    font-size: 15px;
+}
+
+.machine-pricing .left {
+    position: relative;
+    padding-left: 22px;
+}
+
+.machine-pricing .left::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 100%;
+    width: 13px;
+    color: #fff;
+    height: 13px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine-pricing .right {
+    color: #009e6b;
+    font-weight: 600;
+}
+
+.machine-pricing .green {
+    color: #009e2a;
+    font-weight: 700;
+}
+
+/* RED CENTER BUTTON */
+.machine-pricing .mid-btn {
+    background: #d62828;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 12px 0;
+    border-radius: 6px;
+    margin: 10px 0;
+    display: block;
+}
+
+.detailed h5 {
+    color: rgba(39, 46, 47, 1);
+    padding-bottom: 20px;
+}
+
+section.machine-pricings .row {
+    align-items: flex-start;
+    padding-top: 70px;
+}
+
+section.machine-pricings {
+    padding: 59px 20px 29px;
+}
+
+.visitors-column {
+    width: 63%;
+}
+
+body#social-post section.phone-ring {
+    background-image: url(Assets/images/ring-post.png) !important;
+}
+
+body#social-post .national-company-headings {
+    padding-top: 46px;
+}
+
+body#social-post section.website-section {
+    padding-top: 60px;
+}
+
+section.seconds .column-web-imgae {
+    width: 42%;
+}
+
+section.thirds .column-web-imgae {
+    width: 32%;
+}
+
+body#social-post .plan {
+    width: 51%;
+}
+
+body#social-post .plan-services ul li {
+    color: rgba(33, 168, 93, 1) !important;
+}
+
+section.subscription-plan .detailed {
+    padding-left: 20px;
+    width: 49%;
+}
+
+body#social-post .plans-table {
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+
+
+
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.firsts .service-texts {
+    padding-left: 0 !important;
+}
+
+
+
+
+/* Main Form Container */
+.form-container {
+    width: 100%;
+    max-width: 512px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(39, 46, 47, 0.05);
+}
+
+/* Progress Section */
+.progress-section {
+    margin-bottom: 36px;
+}
+
+.progress-label {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A1B1C;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 19px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, #D11F2A 0%, #e63946 100%);
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+/* Form Content */
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    gap: 12px;
+    border: none;
+    /* margin-bottom: 20px; */
+}
+
+/* Form Question / Legend */
+.form-question,.form-step h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A1B1C;
+    border: none;
+    padding: 0;
+    margin: 40px 0;
+    /* line-height: 1.4; */
+}
+
+/* Radio Group */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.radio-option input[type="radio"] {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    accent-color: #D11F2A;
+    flex-shrink: 0;
+}
+
+.radio-option label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1B1C;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Text Input Fields */
+.form-input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    color: #1A1B1C;
+    background: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.form-input::placeholder {
+    color: #aaa;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #D11F2A;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(201, 32, 39, 0.1);
+}
+
+/* Textarea Styling */
+.form-textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    color: #1A1B1C;
+    background: #fafafa;
+    transition: all 0.3s ease;
+    resize: vertical;
+    min-height: 80px;
+    line-height: 1.4;
+}
+
+.form-textarea::placeholder {
+    color: #aaa;
+}
+
+.form-textarea:focus {
+    outline: none;
+    border-color: #D11F2A;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(201, 32, 39, 0.1);
+}
+
+/* Next Button */
+.btn-next {
+    width: 100%;
+    padding: 16px 20px;
+    background: #D11F2A;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 8px;
+}
+
+.btn-next:hover {
+    background: #D11F2A;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(201, 32, 39, 0.3);
+}
+
+.btn-next:active {
+    transform: translateY(0);
+}
+
+
+
+
+/* ========================================
+   SEO PAGE STYLES
+   ======================================== */
+
+/* ========================================
+   CSS VARIABLES
+   ======================================== */
+:root {
+    /* Container settings */
+    --container-width: 1440px;
+    ---container-padding-right-left: 7.5rem;
+    ---container-padding-right-left-tablet: 3.75rem;
+    ---container-padding-right-left-mobile: 1.9rem;
+
+    /* Text Settings */
+    --large-heading: 40px;
+    --large-sub-heading: 24px;
+    --small-heading: 22px;
+    --small-sub-heading: 18px;
+    --paragraph-text: 16px;
+}
+body.seo-page {
+
+    section {
+        box-sizing: border-box;
+    }
+
+    /* Main container with padding */
+    .main-container {
+        margin: 0 auto;
+        max-width: var(--container-width);
+        box-sizing: border-box;
+    }
+
+    .sub-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-box {
+        flex-direction: column;
+    }
+    .button {
+        all: unset;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+        padding: 14px 18px;
+        background: #C92027;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: Urbanist, sans-serif;
+        font-weight: 600;
+        font-size: var(--paragraph-text);
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .large-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-size: var(--large-heading);
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .large-sub-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--large-sub-heading);
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+    .small-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--small-heading);
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .small-sub-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--small-sub-heading);
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0 0 25px 0;
+        text-align: center;
+    }
+
+    .paragraph-text,
+    p {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: var(--paragraph-text);
+        text-align: center;
+    }
+
+    /* Button text styling */
+    .button-text {
+        font-family: Urbanist;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: var(--paragraph-text);
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* Flexbox container for images */
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Image sizing in containers */
+    img.img-image {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    section.image-with-text-and-read-more {
+
+        .sub-container {
+            align-items: flex-start;
+        }
+
+        .image-container {
+            flex: 0 0 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+
+        .main-text-container {
+            flex: 0 0 55%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .heading-container {
+            .large-heading {
+                font-size: 36px;
+                line-height: 1.2;
+                text-align: left;
+                margin: 0;
+            }
+        }
+
+        .para-container {
+            p {
+                font-family: Satoshi;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.6;
+                color: #333333;
+                text-align: left;
+                margin: 0;
+            }
+        }
+
+        .read-more-container {
+            .rm-sub-container {
+                background-color: #F8F8F8;
+                border-left: 5px solid #21A85D;
+                padding: 24px;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                p {
+                    font-family: Satoshi;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #333333;
+                    text-align: left;
+                    margin: 0;
+                    font-style: italic;
+                }
+
+                .read-more-btn {
+                    color: #21A85D;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                    align-self: flex-start;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: #1a7f47;
+                    }
+                }
+            }
+        }
+    }
+
+    section.image-with-text .image-with-text-container,
+    section.image-with-text .image-with-text-container * {
+        box-sizing: border-box;
+    }
+
+    section.image-with-text .image-with-text-container {
+        display: flex;
+        gap: 2.5rem;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: #fff;
+        padding: 56px 64px;
+        border-radius: 28px;
+        box-shadow: 0 40px 90px rgba(6, 20, 23, 0.18), 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    section.image-with-text .image-with-text-container .text-container {
+        width: 58%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-right: 12px;
+    }
+
+    section.image-with-text .image-with-text-container .text-container .large-heading {
+        font-family: Urbanist, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 18px 0;
+        color: #222;
+        text-align: left;
+    }
+
+    section.image-with-text .image-with-text-container .paragraph-container p,
+    section.image-with-text .image-with-text-container .text-container p {
+        font-family: Satoshi, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.7;
+        color: #333;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+
+    section.image-with-text .image-with-text-container .button-container {
+        margin-top: 18px;
+    }
+
+    section.image-with-text .image-with-text-container .button-container .button {
+        display: inline-block;
+        width: auto;
+        padding: 14px 28px;
+        background: #C92027;
+        color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(201, 32, 39, 0.12);
+        font-family: Urbanist, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    section.image-with-text .image-with-text-container .image-container {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.image-with-text .image-with-text-container .image-container img {
+        width: 420px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    @media (max-width: 990px) {
+        section.image-with-text .image-with-text-container {
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 28px;
+            gap: 28px;
+        }
+
+        section.image-with-text .image-with-text-container .text-container,
+        section.image-with-text .image-with-text-container .image-container {
+            width: 100%;
+        }
+
+        section.image-with-text .image-with-text-container .image-container img {
+            width: 100%;
+            max-width: 420px;
+        }
+
+        section.image-with-text .image-with-text-container .text-container .large-heading {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        section.image-with-text .image-with-text-container {
+            padding: 28px 18px;
+            border-radius: 20px;
+        }
+
+        section.image-with-text .image-with-text-container .text-container .large-heading,
+        .large-heading {
+            font-size: 24px !important;
+            line-height: 32px;
+        }
+
+        section.image-with-text .image-with-text-container .paragraph-container p,
+        section.image-with-text .image-with-text-container .text-container p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        section.image-with-text .image-with-text-container .button-container .button {
+            padding: 12px 20px;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+    }
+
+}
+
+
+    body.seo-page {
+        .main-container {
+            padding: 0 var(---container-padding-right-left-tablet);
+            box-sizing: border-box;
+        }
+    }
+
+    body.seo-page section.image-with-text-and-read-more {
+        .heading-container .large-heading {
+            font-size: 32px;
+        }
+
+        .para-container p,
+        .read-more-container .rm-sub-container p {
+            font-size: 15px;
+        }
+    }
+
+.seo-packages {
+    background: #f5f5f5;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+.seo-packages .sub-container {
+    flex-direction: column;
+}
+
+.seo-packages .heading-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.seo-packages .heading-container .large-heading {
+    color: #222;
+}
+
+.seo-packages .packages-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+
+.seo-packages .owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 30px;
+}
+
+.seo-packages .package-card {
+    /* width: 520px; */
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.seo-packages .card-hero {
+    /* background: linear-gradient(135deg, #e8eff5 0%, #f0f7ff 100%); */
+    background-color: #2D61A50D;
+    padding: 48px 40px;
+}
+
+.seo-packages .pkg-title {
+    font-family: Urbanist, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #1a1a1a;
+    margin: 0 0 16px 0;
+}
+
+.seo-packages .pkg-price .price-amount {
+    font-family: Urbanist, sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    color: #1a1a1a;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.seo-packages .pkg-meta {
+    font-family: Satoshi, sans-serif;
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.seo-packages .cta-get-started {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Urbanist, sans-serif;
+}
+
+.seo-packages .cta-get-started .icon-arrow {
+    width: 20px;
+    height: 20px;
+}
+
+.seo-packages .card-body {
+    background: #fafafa;
+    padding: 24px 20px 28px;
+}
+
+.seo-packages .features-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.seo-packages .feature-row {
+    display: grid;
+    grid-template-columns: 24px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.seo-packages .feature-row:last-child {
+    border-bottom: none;
+}
+
+.seo-packages .feature-row .icon-dot {
+    width: 20px;
+    height: 20px;
+}
+
+.seo-packages .feature-row .icon-dot circle {
+    fill: #1a1a1a;
+}
+
+.seo-packages .feature-label {
+    color: #666;
+    font-size: 16px;
+    font-family: Satoshi, sans-serif;
+}
+
+.seo-packages .feature-value {
+    color: #00bfd9;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: right;
+}
+
+.seo-packages .feature-cta {
+    padding: 20px 12px;
+    border-bottom: none;
+    display: block;
+}
+
+.seo-packages .feature-button {
+    display: block;
+    width: 100%;
+    background: #C92027;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-family: Urbanist, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* CSS when Package is Active */
+
+.seo-packages .owl-item.active.center {
+    .card-hero {
+        background-color: #21A85D;
+    }
+
+    .pkg-title {
+        color: #fff;
+    }
+
+    .pkg-price .price-amount {
+        color: #fff;
+    }
+
+    .pkg-meta {
+        color: #fff;
+    }
+
+    .cta-get-started {
+        color: #fff;
+    }
+
+    .card-body {
+        background: #fafafa;
+        padding: 24px 20px 28px;
+    }
+
+    .features-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .feature-row:last-child {
+        border-bottom: none;
+    }
+
+    .feature-row .icon-dot {
+        width: 20px;
+        height: 20px;
+    }
+
+    .feature-row .icon-dot circle {
+        fill: #1a1a1a;
+    }
+
+    .feature-label {
+        color: #666;
+        font-size: 16px;
+        font-family: Satoshi, sans-serif;
+    }
+
+    .feature-value {
+        color: #21A85D;
+    }
+}
+
+.seo-packages .feature-button:hover {
+    background: #a31b21;
+}
+
+@media (max-width: 600px) {
+    .seo-packages {
+        padding: 40px 0;
+    }
+
+    .seo-packages .pkg-price .price-amount {
+        font-size: 56px;
+    }
+
+    .seo-packages .feature-row {
+        grid-template-columns: 20px 1fr auto;
+        gap: 12px;
+        padding: 14px 10px;
+    }
+}
+
+
+
+/* another css */
+
+/* ========================================
+   HOLIDAY LIGHTING THEME STYLES
+   ======================================== */
+
+/* ========================================
+   CSS VARIABLES
+   ======================================== */
+:root {
+    /* Container settings */
+    --container-width: 1440px;
+    ---container-padding-right-left: 7.5rem;
+    ---container-padding-right-left-tablet: 3.75rem;
+    ---container-padding-right-left-mobile: 1.9rem;
+
+    /* Text Settings */
+    --large-heading: 40px;
+    --large-sub-heading: 24px;
+    --small-heading: 22px;
+    --small-sub-heading: 18px;
+    --paragraph-text: 16px;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* ========================================
+   BASE GLOBAL STYLES
+   ======================================== */
+body.holiday_lighting {
+    margin: 0;
+    padding: 0;
+
+    /* Section base styling */
+    section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Main container with padding */
+    .main-container {
+        margin: 0 auto;
+        max-width: var(--container-width);
+        padding: 0 var(---container-padding-right-left);
+        box-sizing: border-box;
+    }
+
+    /* Flex container for centered layout */
+    .sub-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-box {
+        flex-direction: column;
+    }
+    .button {
+        all: unset;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+        padding: 14px 18px;
+        background: #C92027;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: Urbanist, sans-serif;
+        font-weight: 600;
+        font-size: var(--paragraph-text);
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .large-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--large-heading);
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .large-sub-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--large-sub-heading);
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .small-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--small-heading);
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .small-sub-heading {
+        font-family: Urbanist;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: var(--small-sub-heading);
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0 0 25px 0;
+        text-align: center;
+    }
+    .paragraph-text,
+    p {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: var(--paragraph-text);
+        line-height: 22px;
+    }
+    .button-text {
+        font-family: Urbanist;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: var(--paragraph-text);
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img.img-image {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    section.contact-form-container {
+        background-color: #F5F5F5;
+
+        .container.form-container {
+            padding: 40px;
+            border-radius: 16px;
+            background: rgba(39, 46, 47, 0.05);
+
+            .form-term-and-condition-field-text {
+                font-family: "Urbanist", sans-serif;
+                font-weight: 400;
+                font-size: var(--paragraph-text);
+                line-height: 100%;
+                letter-spacing: 0%;
+
+
+            }
+
+            .form-detail-text {
+                font-family: Urbanist;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: var(--paragraph-text);
+                line-height: 100%;
+                letter-spacing: 0%;
+            }
+
+            form {
+                display: block;
+                margin-top: 1rem;
+            }
+
+            label {
+                display: flex;
+                margin-bottom: 20px;
+                font-family: Urbanist, sans-serif;
+                font-size: var(--paragraph-text);
+                color: #1f1f1f;
+            }
+
+            label input[type="text"],
+            label input[type="email"],
+            label input[type="number"] {
+                width: 100%;
+                padding: 16.4px 21px;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+                border-radius: 8px;
+                background: #ffffff;
+                font-family: Urbanist, sans-serif;
+                font-size: var(--paragraph-text);
+                box-sizing: border-box;
+            }
+
+            label input[type="checkbox"] {
+                width: 22px;
+                height: 22px;
+                margin-right: 10px;
+                border-radius: 5px;
+            }
+
+            .form-term-and-condition-field-text {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 4px;
+                color: rgba(26, 27, 28, 1);
+                line-height: 22px;
+            }
+
+            .form-detail-text {
+                margin: 27px 0 45px;
+                color: rgba(26, 27, 28, 1);
+                font-size: var(--paragraph-text);
+            }
+
+            .form-submit-button:hover {
+                opacity: 0.95;
+            }
+        }
+    }
+
+    section.season-cards {
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .text-container.paragraph-text.full-container {
+            padding: 0px 25px;
+        }
+
+        .item-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 387px;
+        }
+
+        .color-blue {
+            background: #43AFC9;
+        }
+
+        .color-green {
+            background: #21A85D;
+        }
+
+        .color-red {
+            background: #D11F2A;
+        }
+
+        .icon-image {
+            margin-bottom: 1.85rem;
+        }
+
+        .small-heading {
+            margin-bottom: 1.15rem;
+        }
+
+        .card-details {
+            padding: 30px 5px;
+        }
+    }
+
+    section.site-details-with-image {
+        background-color: #272E2F;
+
+        .sub-container {
+            align-items: start;
+        }
+
+        * {
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .leftContainer ul.list-container li:first-child {
+            margin-bottom: 90px;
+        }
+
+        .leftContainer ul.list-container li:nth-child(2) {
+            margin-bottom: 70px;
+        }
+
+        .leftContainer ul.list-container li:nth-child(3) {
+            margin-bottom: 110px;
+        }
+
+        .rightContainer ul.list-container li:nth-child(2) {
+            margin-bottom: 50px;
+        }
+    }
+
+
+
+    .text-with-bg-image {
+        position: relative;
+        overflow: hidden;
+
+        .main-container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;        }
+
+            .text-with-bg-image::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 14vw;
+            max-height: 180px;
+            min-height: 40px;
+            background-image: url('Assets/images/lightingLeft.png');
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-size: auto;
+            z-index: 4;
+            pointer-events: none;
+        }
+
+        .text-with-bg-image::before {
+            content: "";
+            position: absolute;
+            left: 76%;
+            right: 0;
+            top: 0;
+            height: 14vw;
+            max-height: 180px;
+            min-height: 40px;
+            background-image: url('Assets/images/lightingRight.png');
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-size: auto;
+            z-index: 4;
+            pointer-events: none;
+        }
+
+        .sub-container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .heading-container {
+            width: 100%;
+        }
+
+        .heading-container .large-heading {
+            margin: 0 0 12px 0;
+            padding: 0 11rem;
+        }
+
+        .text-container.paragraph-text {
+            line-height: 1.5;
+            margin: 0 auto;
+        }
+
+        /* Accessibility fallback for very tall screens */
+        @media (min-height: 1200px) {
+            .main-container {
+                min-height: 680px;
+            }
+
+            &::after {
+                max-height: 520px;
+            }
+        }
+    }
+
+    .marketing-board {
+        background-color: #272E2F;
+
+        .main-container {
+            color: white;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: 40%;
+
+            .sub-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .markeing-numbers-container .large-heading {
+                color: #43AFC9;
+                margin: 0 0 15px;
+                text-align: left;
+            }
+
+            .paragraph-text {
+                font-size: 18px;
+            }
+
+            .markeing-numbers-container {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+
+                .number-item {
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    .google-reviews {
+        background-color: #F3F3F3;
+
+        .main-container {
+            .sub-container {
+                flex-direction: column;
+
+                .review-cards-container {
+                    .owl-nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 35px;
+                        padding-top: 30px;
+                    }
+
+                    .owl-carousel .owl-item {
+                        padding-bottom: 30px;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    overflow: hidden;
+                    width: 100%;
+
+                    .review-cards {
+                        overflow: hidden;
+
+                        .card {
+                            background-color: white;
+                            border-radius: 25px;
+                            padding: 35px;
+                            margin: 0 10px;
+                            /* box-shadow: 20px 14px 104px 0px #0000001A; */
+                            max-width: 1000px;
+                            overflow: hidden;
+
+                            .avatar-review {
+                                padding: 0 25px;
+
+                                p {
+                                    font-family: Satoshi;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    color: #1A1B1C;
+                                }
+                            }
+
+                            .avatar-details {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: flex-start;
+                                padding-bottom: 25px;
+
+
+                                .avatar {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 25px;
+
+                                    .avatar-poition {
+                                        font-family: Satoshi;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: 30px;
+                                        color: #21A85D;
+                                        padding: 5px 0 10px;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .text-with-bg {
+        background-image: url('Assets/images/green-bg.png'), url('Assets/images/section-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .main-container {
+            .sub-container {
+                flex-direction: column;
+
+                .text-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                    font-family: Urbanist;
+                    font-weight: 600;
+                    font-style: SemiBold;
+                    font-size: 24px;
+                    line-height: 39px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    text-transform: capitalize;                    color: white;
+
+                    a {
+                        width: auto;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+} 
+section.feedback .main_btn {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+.seo-page .adds-management .sides-col p {
+    margin: 23px auto auto !important;
+}
+
+.sides-col p {
+    margin: 23px auto auto !important;
+}
+body#marketing-agencys .feeds {
+    margin: 0 auto;
+}
+
+/* Responsive breakpoints: desktop -> tablet -> mobile */
+@media (max-width: 1440px) {
+    body.holiday_lighting .text-with-bg-image .main-container {
+        padding: 5.5rem var(---container-padding-right-left);
+        min-height: 480px;
+    }
+
+    body.holiday_lighting .text-with-bg-image .text-with-bg-image::before {
+        height: 12.5vw;
+        max-height: 160px;
+    }
+
+    body.holiday_lighting .text-with-bg-image::after {
+        height: 20vw;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+
+    section.google-management {
+        padding: 15% 20px 80px;
+        margin-top: -420px;
+        background: #fff;
+    }
+}
+
+/* ppc page end */
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    .service-card {
+        width: 48.1%;
+    }
+
+    section.services-section {
+        padding: 25px 20px 40px 20px;
+    }
+
+    .service-card {
+        flex-direction: column;
+        width: 31.1%;
+    }
+
+    .service-card .service-card-text {
+        padding: 10px 11px 23px 11px;
+    }
+
+    body#who-we\ are .service-texts p {
+        padding: 25px 0 40px !important;
+    }
+section.facts {
+    padding: 30% 0 90px;
+    margin-top: -252px;
+}
+body#marketing-agencys section.facts{
+    padding: 27.6% 0 90px;
+}
+
+
+    .blog-card img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    section {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    header .header-btn {
+        max-width: 190px;
+    }
+
+    header .header-btn button {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    .adlogo-image:nth-child(2) img {
+        width: 175px;
+    }
+
+    section.Ads-images {
+        padding: 14% 0 104px;
+    }
+
+    .clients-col h2 {
+        font-size: 30px;
+    }
+
+    .contact-icon p {
+        font-size: 18px;
+        line-height: 28.58px;
+    }
+
+    .cat {
+        padding: 20px 0 15px;
+    }
+
+    h3.blog-heading {
+        font-size: 20px;
+    }
+
+    body#success-stories .service-texts p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .service-images img {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .site-score-image img {
+        width: 100%;
+    }
+
+    .website-Analysis-col.item {
+        height: 374px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .copyright {
+    margin-top: 11px;
+    }
+    .video-bg iframe {
+    margin: 0;
+    height: 100%;
+    }
+    section.blogs .row {
+    padding-top: 20px;
+    }
+    footer {
+    padding: 4% 20px 3%;
+    }
+    .main-container {
+    padding: 0 0 !important;
+    }
+    .cards-container {
+    flex-wrap: wrap;
+    justify-content: start !IMPORTANT;
+    }
+    .cards-container .item-card {
+    flex: 0 0 48% !important;
+    width: 100%;
+    }
+    .card-details {
+    padding: 0 !important;
+    }
+    .item-card {
+    justify-content: start !IMPORTANT;
+    align-items: start !IMPORTANT;
+    padding: 22px 49px;
+    }
+    ul.list-container li {
+    margin-bottom: 44px !important;
+    }
+    .sub-container {
+    gap: 25px;
+}
+
+    section.feedback .owl-item {
+        padding-top: 0 !important;
+    }
+
+    .header-btn a.main_btn {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    section.healthcares {
+        padding-top: 0 !important;
+    }
+
+    section.our-clients .hero-content p {
+        color: #000000 !important;
+        font-size: 16px !important;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        text-align: justify;
+    }
+
+    .video-text h5 {
+        font-size: 22px;
+        width: 70%;
+    }
+
+    body#review section.our-clients .owl-nav.disabled,
+    body#contact-us section.our-clients .owl-nav.disabled {
+        padding-top: 26px;
+    }
+
+    section.feedback {
+        padding: 50px 20px 57px;
+    }
+
+    body#review .stats-img img {
+        width: 70%;
+    }
+
+    section.stats {
+        padding-bottom: 20%;
+    }
+
+    section.google-management {
+        padding: 25% 20px 60px;
+    }
+
+    section.our-clients .video {
+        padding-top: 15px;
+    }
+
+    section.our-clients {
+        padding: 8% 20px;
+    }
+
+    body#started section.quick-video .form-textarea {
+        font-size: 14px;
+    }
+
+    body#started section.quick-video .form-input {
+        font-size: 14px;
+    }
+
+    .discovery-card-inner p {
+        height: 319px;
+        font-size: 16px;
+    }
+
+    .discovery-card-inner span {
+        font-size: 18px;
+    }
+
+    .discovery-card {
+        width: 31.1% !important;
+        height: 746px !important;
+    }
+
+    .discovery-card:nth-child(6) em {
+        font-size: 50px;
+    }
+
+    .discovery-card-inner h2 {
+        font-size: 26px !important;
+        padding-bottom: 20px;
+    }
+
+    p.spans-colors span {
+        font-size: 18px !important;
+        padding-top: 18px;
+    }
+
+    section.feedback {
+        padding: 15px 20px 57px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 80%;
+    }
+
+    .video-text h5 {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .discovery-card-inner p {
+        height: 319px;
+        font-size: 16px;
+    }
+
+    .discovery-card-inner span {
+        font-size: 18px;
+    }
+
+    .discovery-card {
+        width: 31.1% !important;
+        height: 746px !important;
+    }
+
+    .discovery-card:nth-child(6) em {
+        font-size: 50px;
+    }
+
+    .discovery-card-inner h2 {
+        font-size: 26px !important;
+        padding-bottom: 20px;
+    }
+
+    p.spans-colors span {
+        font-size: 18px !important;
+        padding-top: 18px;
+    }
+
+    section.feedback {
+        padding: 15px 20px 57px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 80%;
+    }
+
+    .video-text h5 {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .stats-img img {
+        width: 65%;
+        margin: auto;
+        display: block;
+    }
+
+    .google-img {
+        width: 40%;
+    }
+
+    .google-img img {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    section.stats {
+        padding-bottom: 20%;
+        margin-bottom: 6%;
+    }
+
+    section.google-management .google-content {
+        width: 60%;
+    }
+
+    .Analysis-col img {
+        width: 160px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .Analysis-col {
+        padding: 36px 93px 36px 50px;
+    }
+
+    .plan {
+        width: 32%;
+    }
+
+    .plans-table {
+        gap: 10px;
+    }
+
+    .plan-service {
+        width: 160px;
+    }
+
+    .plan-service ul li,
+    .plan-services ul li {
+        font-size: 12px;
+    }
+
+    .plan-services ul li {
+        font-size: 12px;
+    }
+
+    .plan-box.fadeup span {
+        font-size: 20px;
+    }
+
+    p.top-param {
+        font-size: 14px;
+    }
+
+    .plan-box h2 {
+        padding: 25px 0 26px;
+        font-size: 38px;
+    }
+
+    body#review section.business-industry {
+        padding: 7% 4% 8% 4%;
+    }
+
+    body#review section.business-industry .service-texts {
+        width: 50%;
+        padding: 5px 86px 0px 0px;
+    }
+
+    .column-web-imgae img {
+        width: 100%;
+    }
+
+    .detailed {
+        width: 58%;
+    }
+
+    .column img {
+        width: 100%;
+    }
+
+    .visitors-column {
+        padding-left: 14px;
+    }
+
+    .content-box {
+        margin-top: 21px;
+    }
+
+    section.website-visitors {
+        padding: 2% 4% 5% !important;
+    }
+
+
+
+    .column-web-imgae img {
+        width: 100%;
+    }
+
+    .detailed {
+        width: 58%;
+    }
+
+    body#Healthcare-marketing .hero-content,
+    body#Healthcare-marketing .hero-content {
+        max-width: 45%;
+    }
+
+    .hero-content {
+        padding-right: 10px;
+    }
+
+    section.services-sections {
+        padding: 34px 20px 70px;
+    }
+
+    body#Healthcare-marketing .service-box {
+        flex: 0 0 31.8% !important;
+        max-width: 31.8% !important;
+        width: 100% !important;
+    }
+
+    body#Healthcare-marketing section.services-sections .row,
+    section.services-sections .row {
+        justify-content: start;
+    }
+
+    .fact-box p {
+        font-size: 50px;
+    }
+
+    .fact-box h5 {
+        font-size: 16px;
+    }
+
+    .service-images img {
+        width: 100%;
+    }
+
+    .service-images {
+        width: 50%;
+    }
+
+    .service-texts {
+        width: 50%;
+        padding: 5px 16px;
+    }
+
+    .service-texts p {
+        padding: 0 0 0 0 !important;
+    }
+
+    .service-texts h2 {
+        padding-bottom: 12px;
+    }
+
+    section.industry-leader {
+        padding: 6% 4% !important;
+    }
+
+    section.industry-leader .row {
+        padding: 0 !important;
+        align-items: center !important;
+    }
+
+    section.business-industry {
+        padding: 0 4% 6% 4%;
+    }
+
+    section.business-industry .row {
+        align-items: center !important;
+    }
+
+
+    body#marketing-agencys .hero-content,
+    body#marketing-agencys .hero-content {
+        max-width: 45%;
+    }
+
+    .hero-content {
+        padding-right: 10px;
+    }
+
+    section.services-sections {
+        padding: 34px 20px 70px;
+    }
+
+    body#marketing-agencys .service-box {
+        flex: 0 0 31.8% !important;
+        max-width: 31.8% !important;
+        width: 100% !important;
+    }
+
+    body#marketing-agencys section.services-sections .row,
+    section.services-sections .row {
+        justify-content: start;
+    }
+
+    .fact-box p {
+        font-size: 50px;
+    }
+
+    .fact-box h5 {
+        font-size: 16px;
+    }
+
+    .service-images img {
+        width: 100%;
+    }
+
+    .service-images {
+        width: 50%;
+    }
+
+    .service-texts {
+        width: 50%;
+        padding: 5px 16px;
+    }
+
+    .service-texts p {
+        padding: 0 0 0 0 !important;
+    }
+
+    .service-texts h2 {
+        padding-bottom: 12px;
+    }
+
+    section.industry-leader {
+        padding: 6% 4% !important;
+    }
+
+    section.industry-leader .row {
+        padding: 0 !important;
+        align-items: center !important;
+    }
+
+    section.business-industry {
+        padding: 0 4% 6% 4%;
+    }
+
+    section.business-industry .row {
+        align-items: center !important;
+    }
+
+
+    body#marketing-agencys .hero-content,
+    body#marketing-agencys .hero-content {
+        max-width: 45%;
+    }
+
+    .hero-content {
+        padding-right: 10px;
+    }
+
+    section.services-sections {
+        padding: 34px 20px 70px;
+    }
+
+    body#marketing-agencys .service-box {
+        flex: 0 0 31.8% !important;
+        max-width: 31.8% !important;
+        width: 100% !important;
+    }
+
+    body#marketing-agencys section.services-sections .row,
+    section.services-sections .row {
+        justify-content: start;
+    }
+
+    .fact-box p {
+        font-size: 50px;
+    }
+
+    .fact-box h5 {
+        font-size: 16px;
+    }
+
+    .service-images img {
+        width: 100%;
+    }
+
+    .service-images {
+        width: 50%;
+    }
+
+    .service-texts {
+        width: 50%;
+        padding: 5px 16px;
+    }
+
+    .service-texts p {
+        padding: 0 0 0 0 !important;
+    }
+
+    .service-texts h2 {
+        padding-bottom: 12px;
+    }
+
+    section.industry-leader {
+        padding: 6% 4% !important;
+    }
+
+    section.industry-leader .row {
+        padding: 0 !important;
+        align-items: center !important;
+    }
+
+    section.business-industry {
+        padding: 0 4% 6% 4%;
+    }
+
+    section.business-industry .row {
+        align-items: center !important;
+    }
+
+
+body#marketing-agencys .service-box, body#internet-marketing .service-box, body#Healthcare-marketing .service-box {
+    
+    height: auto !important;
+    
+
+}
+
+}
+
+
+
+@media screen and (max-width: 1023px) {
+
+.dropdown:hover .dropdown-content {
+    display: none;
+}
+.dropdown-content.active{
+ display: block !important;
+}
+button.dropbtn.img-rotate img {
+    transform: rotate(180deg);
+}
+.dropdown-content a{
+    font-size:17px !important;
+}
+.dropdown-content a:hover {
+    background-color: #43AFC9;
+}
+
+
+    header .row {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    header .header-btn section {
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        flex: 0 0 48.5%;
+    }
+
+    .Features-col {
+        width: 40%;
+        margin: 0 auto 50px;
+    }
+
+    .contact-col,
+    .clients-col,
+    .engine-optimization-main,
+    .estimate-container,
+    .get-col {
+        width: 100%;
+    }
+
+    .clients-col {
+        border-right: none
+    }
+
+    section.google-reviews .row,
+    section.Ads-images .row {
+        flex-wrap: nowrap;
+    }
+
+    section.Ads-images {
+        padding: 20% 0 104px;
+    }
+
+    section.blogs .row {
+        justify-content: left;
+    }
+
+    body#homepage section.clients .row {
+        flex-direction: column-reverse;
+    }
+
+    .contact-icon p {
+        font-size: 16.23px;
+    }
+
+    body#success-stories .service-texts {
+        padding: 30px 20px 20px;
+    }
+}
+
+/* responsive hamburger menu */
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+header {
+    padding: 10px 20px;
+}
+.announcement-col {
+    flex-direction: column;
+    gap: 0px;
+}
+.announcement-inner:nth-child(2) {
+    border: 0;
+}
+header .logo a img {
+    width: 39%;
+}
+    .announcement-inner {
+    padding: 9px 0 0 0 !important;
+}
+.announcement-inner a {
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    gap: 6px;
+}
+.announcement-inner a p {
+    padding: 0;
+    color: #000;
+    font-size: 13px;
+}
+.social-link {
+    display: none;
+}
+.announcement-bar .row {
+    padding-bottom: 0;
+}
+.announcement-bar {
+    padding: 0 0 8px !important;
+}
+
+    .nav-menu ul li a {
+    font-size: 20px;
+    color: #fff !important;
+    font-weight: 500;
+}
+.dropdown-content {
+    background: transparent;
+    position: relative;
+}
+.dropdown-content a {
+    background: transparent;
+    padding-left: 0;
+}
+button.dropbtn {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+    .custom-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.78);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999;
+        backdrop-filter: blur(4px);
+    }
+    .custom-modal-box {
+        width: 90%;
+        max-width: 520px;
+        background: #ffffff;
+        padding: 35px 40px;
+        border-radius: 14px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        position: relative;
+        animation: fadeInUp 0.28s ease-out;
+        color: #000;
+        font-family: "Inter", sans-serif;
+    }
+    .custom-modal-close {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        font-size: 26px;
+        cursor: pointer;
+        color: #000 !important;
+        transition: 0.2s ease;
+    }
+
+    .custom-modal-close:hover {
+        transform: rotate(90deg);
+        color: #444;
+    }
+
+    /* Text Styling */
+    .custom-modal-box h2,
+    .custom-modal-box h3,
+    .custom-modal-box p,
+    .custom-modal-box span,
+    .custom-modal-box label {
+        color: #000 !important;
+    }
+
+    /* Buttons (Optional Enhancement) */
+    .custom-modal-box .button,
+    .custom-modal-box button,
+    .custom-modal-box a.button {
+        background: #000;
+        color: #fff !important;
+        padding: 10px 18px;
+        border-radius: 6px;
+        display: inline-block;
+        margin-top: 15px;
+        transition: 0.25s ease-in-out;
+    }
+
+    .custom-modal-box .button:hover {
+        background: #333;
+    }
+
+    /* Smooth Animation */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .Thank_you_title {
+    padding: 60px 0px 0px 0px;
+}
+
+.Thank_you_logo a {
+    width: 325px;
+    height: 130px;
+}
+
+.Thank_you_title h2 {
+    font-size: 30px;
+}
+
+.Thank_you_title h4 {
+    font-size: 18px;
+}
+}
+
+@media screen  and (max-width: 768px) {
+
+    .who_image img {
+    width: 100%;
+}
+.dropdown-content {
+    top: 0px !important;
+}
+    .nav-menu {
+    position: fixed;
+    background-color: #43afc9;
+    width: 100%;
+    left: -1000px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 99999;
+    padding: 0 4% !important;
+    transition: all 0.5s ease;
+}
+.nav-menu.active {
+    left: 0;
+}
+.nav-menu ul {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start;
+    padding-top: 8%;
+}
+
+.menu_logo {
+    display: block !important;
+}
+.menu_logo a img {
+    width: 50%;
+}
+.hamburger {
+    display: block;
+}
+.menu_logo {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+.cross_icon img {
+    width: 27px;
+}
+.logo {
+    width: 50%;
+}
+a.main_btn {
+    font-size: 10px;
+    height: 100%;
+    padding: 10px 0;
+}
+header .header-btn {
+    max-width: 100%;
+    display: flex;
+    width: 130px;
+    order: 2;
+}
+.hamburger a {
+    display: flex;
+}
+header .logo a img {
+    width: 72% !important;
+}
+header {
+    padding: 10px !important;
+}
+
+
+
+
+
+    body#website-design section.adds-management .adds-col h2 {
+    width: 100%;
+}
+body#website-design section.adds-management .adds-col span {
+    font-size: 16px;
+    padding: 19px 0;
+}
+section.client-says {
+    padding: 29px 0 4px;
+}
+
+
+.main-container {
+    padding: 0 !important;
+}
+.sub-container {
+    flex-direction: column;
+    display: block !important;
+}
+section.custom-developed-page.contact-form-container .container.form-container {
+    padding: 20px !important;
+}
+section.custom-developed-page.season-cards .cards-container {
+    flex-direction: column;
+    padding-top: 6%;
+}
+.season-cards {
+    padding: 6% 20px 12%;
+}
+.container.leftContainer {
+    padding-bottom: 41px;
+}
+ul.list-container li {
+    margin-bottom: 33px !important;
+}
+.site-details-with-image {
+    padding: 9% 20px 11% !important;
+    box-sizing: border-box !important;
+}
+.image-container img {
+    width: 100%;
+}section.custom-developed-page.text-with-bg-image .heading-container h2.large-heading {
+    padding: 0;
+    line-height: 38px;
+}
+.image_sliders {
+    margin-top: -164px;
+    padding: 0 20px 9%;
+}
+body.holiday_lighting section.stats {
+    padding: 10% 0 48% !important;
+}
+.main_stats_slider .owl-nav {
+    top: 54px;
+}
+.main_stats_slider .item img {
+    width: 70% !important;
+}
+section.custom-developed-page.marketing-board .markeing-numbers-container {
+    flex-direction: column;
+    display: flex !important;
+    justify-content: start !important;
+    gap: 29px !important;
+}
+section.custom-developed-page.marketing-board .markeing-numbers-container .number-item {
+    justify-content: start !important;
+    display: block !important;
+}
+section.custom-developed-page.marketing-board {
+    padding: 9% 0 84% !important;
+}
+section.custom-developed-page.marketing-board .heading-container {
+    text-align: center;
+}
+section.custom-developed-page.marketing-board .heading-container h2.large-heading {
+    padding-bottom: 9px;
+    text-align: center !important;
+}
+.number-item {
+    text-align: center !important;
+    margin: 0 auto;
+}
+.number-item p.paragraph-text {
+    text-align: center !important;
+}
+.number-item h3.large-heading {
+    text-align: center !important; 
+}
+section.google-reviews {
+    padding: 31px 20px 30px;
+}
+.main_logo_text .text-container p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 4% 0 0% 0;
+}
+.main_logo_text .text-container a.button {
+    margin-top: 16px !important;
+    font-size: 16px;
+    width: 360px !important;
+}
+.acc-content p {
+    color: #000 !important;
+}
+.main_logo_text {
+    padding: 3% 20px 10% !important;
+}
+.main_logo_text .image-container img {
+    width: 80%;
+}
+    .main-container {
+    padding: 0 !important;
+}
+
+    .custom-select select {
+        padding: 13px;
+        margin-bottom: 18px;
+    }
+        .feeds.item {
+        box-shadow: unset !important;
+    }
+            .get-col ul li a {
+        color: #000 !important;
+    }
+    .feeds.item {
+        box-shadow: unset !important;
+    }
+    .video-bg iframe {
+    height: 100%;
+    margin-top: 0;
+}
+
+.stats-img img {
+    width: 100% !important;
+}
+body#mr-pipeline section.stats {
+    padding: 50px 14px 16% !important;
+}
+.Analysis-col {
+    width: 100%;
+}
+body#homepage .hero-content h1 {
+    font-size: 25px !important;
+}
+body#homepage .hero-content p {
+    padding: 7px 0 0 0;
+}
+body#homepage .hero-content .header-btn {
+    margin-top: 8px;
+    width: 56%;
+}
+body#homepage .hero-content .header-btn a.main_btn {
+    font-size: 14px;
+    height: 40px;
+}
+
+
+        .inner_flex {
+        flex-direction: column;
+        gap: 34px;
+        }
+.footer_colume {
+    width: 100%;
+}
+.inner_flex .footer_colume:nth-child(2), .inner_flex .footer_colume:nth-child(3), .inner_flex .footer_colume:nth-child(4) {
+    width: 100%;
+    padding-left: 0;
+}
+.copyright {
+    padding: 15px 0 15px 0;
+    margin-top: 15px;
+}
+.copyright p {
+    font-size: 18px;
+    line-height: 24px;
+}
+footer {
+    padding: 9% 20px 0;
+}
+
+
+
+
+    .inner_box,
+    body#success-stories .ads-col {
+        height: 100%;
+    }
+
+    body#who-we\ are .service-images img {
+        padding-bottom: 0;
+        border-radius: 20px;
+    }
+
+    section.healthcares {
+        padding-top: 0;
+    }
+
+    body#who-we\ are section.industry-leader .service-texts p,
+    body#who-we\ are section.business-industry .service-texts p,
+    body#who-we\ are section.healthcares .service-texts p {
+        padding: 10px 0 23px 0;
+    }
+
+    body#who-we\ are .service-texts p {
+        padding: 25px 0 45px;
+    }
+
+    body#who-we\ are .service-texts {
+        padding: 15px 20px 32px;
+    }
+
+    a.main_btn,
+    body#success-stories .ads-col {
+        width: 100%;
+    }
+
+    body#success-stories .borders .service-images {
+        width: 100% !important;
+    }
+
+    
+    section.feedback {
+        padding: 21% 4% 10% 4% !important;
+    }
+
+   section.feedback .row {
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+    }
+
+   .feedback-inner-main {
+        width: 90%;
+    }
+
+     .feedback-inner-second {
+        width: 10%;
+    }
+
+    .stats-img IMG {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    section.google-management {
+        padding: 42% 20px 80px;
+        margin-top: -300px;
+    }
+
+    .google-img img {
+        width: 60%;
+    }
+
+    .client-says-content h2 {
+        width: 100%;
+        font-size: 26px;
+        LINE-HEIGHT: 34PX;
+    }
+
+    body#review .service-texts h2 {
+        width: 100%;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    section.hero-section.serve H1 {
+        FONT-SIZE: 34PX !important;
+    }
+
+    .service-texts {
+        padding: 78px 33px 0px 0px;
+        width: 100%;
+    }
+
+    .Analysis-col p,
+    body#review .business-industry .service-texts p,
+    body#review section.google-management .google-content p,
+    .business-industry .service-texts p,
+    .pipeline-team-col p {
+        font-size: 16px !important;
+    }
+
+    .google-content h2 {
+        font-size: 26px;
+    }
+
+    .service-images {
+        width: 100%;
+    }
+
+    .service-images IMG {
+        width: 100%;
+    }
+
+    .video-text h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    section.our-clients .video {
+        padding-top: 10px;
+    }
+
+    section.our-clients {
+        padding: 10% 20px 0;
+    }
+
+    section.feedback {
+        padding: 55px 20px 57px;
+    }
+
+    body#review section.feedback .header-btn {
+        margin: 25px auto 70px;
+        width: 160px;
+    }
+
+    body#review .hero-content h2 {
+        text-align: left;
+        font-size: 26px;
+        LINE-HEIGHT: 34PX;
+    }
+
+    .sides-col h2 {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .header-btn button,
+    .national-btn a {
+        font-size: 16px;
+        padding: 14px 0px;
+    }
+
+    section.feedback .owl-item {
+        padding-top: 10px !important;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 80%;
+    }
+
+    .feedback-content h4 {
+        font-size: 18px;
+    }
+
+    .feedback-content p {
+        font-size: 12px;
+    }
+
+    .feedback-inner-main {
+        gap: 15px;
+    }
+
+    .feedback-paragraph p,
+    .strategy-col ul li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    section.stats h2 {
+        font-size: 26px;
+    }
+
+    section.stats {
+        padding: 50px 14px 0PX !important;
+    }
+
+    body#review section.client-says {
+        padding: 60px 20px 75px;
+        color: #F3F3F3;
+    }
+
+    body#review section.google-management .google-content {
+        width: 100%;
+    }
+
+    .google-img {
+        width: 100%;
+        PADDING-TOP: 60PX;
+    }
+
+    section.our-clients .hero-content p {
+        color: #000000 !important;
+        font-size: 16px !important;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    section.hero-section.serve p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    body#started section.quick-video .video {
+        width: 100%;
+    }
+
+    body#started section.Business-designed .header-btn {
+
+        width: 70%;
+    }
+
+    .form-wrapper {
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    section.hero-section.serve h1 {
+        font-size: 28px !important;
+    }
+
+    body#contact-us section.quick-video .video {
+        width: 100%;
+    }
+
+    section.feedback {
+        padding: 15px 20px 40px;
+    }
+
+    .video-text h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .estimate-container {
+        padding: 40px 20px 59px;
+        width: 100%;
+    }
+
+    .pipeline-team-col p {
+        font-size: 16px !important;
+    }
+
+    .pipeline-image img,
+    .get-col {
+        width: 100%;
+    }
+
+    .pipeline-team-col img {
+        width: 100%;
+    }
+
+    .discovery-card {
+        width: 100% !important;
+    }
+
+    section.discovery-blogs .stats-col h2 {
+        width: 100%;
+    }
+
+    section.discovery-blogs .stats-col h2 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    section.discovery-blogs .stats-col p {
+        padding: 25px 0 25px;
+        width: 100%;
+    }
+
+    .discovery-card-inner p {
+        height: 259px;
+    }
+
+    .discovery-card:nth-child(6) em {
+        font-size: 56px;
+    }
+
+    .discovery-card-inner h2 {
+        font-size: 30px !important;
+    }
+
+    p.spans-colors {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .sides-col h2 {
+        width: 100%;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    body#contact-us .designed-col h2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    section.Business-designed .header-btn,
+    section.Business-designeds .header-btn {
+        max-width: 231px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 70%;
+    }
+
+    .feedback-paragraph p,
+    .strategy-col ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .feedback-head {
+        padding: 37px 18px;
+        margin-bottom: 40px;
+    }
+
+    section.feedback .row {
+        gap: 0px;
+    }
+
+    .feedback-content h4 {
+        font-size: 18px;
+    }
+
+    .feedback-content p {
+        padding: 1px 0 10px;
+        font-size: 10px;
+    }
+
+    .internet-marketings {
+        padding: 64px 14px 64px 20px;
+    }
+
+    .internet-marketings h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .internet-marketings p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    section.quick-video {
+        padding: 0px 0 20px;
+    }
+
+    .form-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    body#contact-us .video .header-btn {
+        margin-top: 64px;
+        margin-bottom: 90px;
+    }
+
+    .btn-next {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .header-btn button {
+        font-size: 16px;
+    }
+
+    body#contact-us .video h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .video h2 {
+        font-size: 24px;
+        width: 100%;
+        padding-bottom: 57px;
+        line-height: 32px;
+    }
+
+    section.quick-video .header-btn {
+        margin-top: 62px;
+    }
+
+    .designed-col h2 {
+        width: 100%;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .form-textarea {
+        padding: 14px 8px;
+        font-size: 14px;
+    }
+
+    .form-input {
+        padding: 14px 8px;
+        font-size: 14px;
+    }
+
+    section.hero-section.serve h1 {
+        font-size: 28px !important;
+    }
+
+    body#contact-us section.quick-video .video {
+        width: 100%;
+    }
+
+    section.feedback {
+        padding: 15px 20px 40px;
+    }
+
+    .video-text h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .estimate-container {
+        padding: 40px 20px 59px;
+        width: 100%;
+    }
+
+    .pipeline-team-col p {
+        font-size: 16px !important;
+    }
+
+    .pipeline-image img {
+        width: 100%;
+    }
+
+    .pipeline-team-col img {
+        width: 100%;
+    }
+
+    .discovery-card {
+        width: 100% !important;
+    }
+
+    section.discovery-blogs .stats-col h2 {
+        width: 100%;
+    }
+
+    section.discovery-blogs .stats-col h2 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    section.discovery-blogs .stats-col p {
+        padding: 25px 0 25px;
+        width: 100%;
+    }
+
+    .discovery-card-inner p {
+        height: 259px;
+    }
+
+    .discovery-card:nth-child(6) em {
+        font-size: 56px;
+    }
+
+    .discovery-card-inner h2 {
+        font-size: 30px !important;
+    }
+
+    p.spans-colors {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .sides-col h2 {
+        width: 100%;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    body#contact-us .designed-col h2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    section.Business-designed .header-btn,
+    section.Business-designeds .header-btn {
+        max-width: 231px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 70%;
+    }
+
+    .feedback-paragraph p,
+    .strategy-col ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .feedback-head {
+        padding: 37px 18px;
+    }
+
+    section.feedback .row {
+        gap: 0px;
+    }
+
+    .feedback-content h4 {
+        font-size: 18px;
+    }
+
+    .feedback-content p {
+        padding: 1px 0 10px;
+        font-size: 10px;
+    }
+
+    .internet-marketings {
+        padding: 64px 14px 64px 20px;
+    }
+
+    .internet-marketings h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .internet-marketings p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    section.quick-video {
+        padding: 0px 20px 30px;
+    }
+
+    body#contact-us .video .header-btn {
+        margin-top: 64px;
+        margin-bottom: 90px;
+    }
+
+    .image-shape-box img {
+        width: 89%;
+        margin: auto;
+        display: block;
+    }
+
+    .header-btn button {
+        font-size: 16px;
+    }
+
+    body#contact-us .video h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .google-img img {
+        width: 70%;
+        margin: auto;
+        display: block;
+        padding-bottom: 60px;
+    }
+
+    body#mr-pipeline .plan-service ul li {
+        display: FLEX;
+    }
+
+    body#mr-pipeline section.subscription-plan {
+        padding: 12% 4% 6% !important;
+    }
+
+    section.Analysis {
+        padding: 50px 20PX 67px;
+    }
+
+    .google-img {
+        width: 100%;
+    }
+
+    section.google-management {
+        margin-top: 0;
+        overflow-x: hidden !important;
+        padding: 13% 20px 20px;
+    }
+
+    section.google-management .google-content {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .Analysis-col img {
+        width: 120px;
+    }
+
+    .Analysis-col h3,
+    .pipeline-team-col img {
+        padding: 25px 0;
+        font-size: 20px;
+    }
+
+    .Analysis-col {
+        padding: 40px 26px 46px 25px;
+    }
+
+    .Analysis-col p {
+        font-size: 16px !important;
+    }
+
+    .google-content h2 {
+        line-height: 34px;
+        width: 100% !important;
+        font-size: 24px;
+    }
+
+    .plan {
+        width: 100%;
+    }
+
+    .plan-service ul li,
+    .plan-services ul li {
+        font-size: 14px;
+    }
+
+    .plan-box h2 {
+        font-size: 34px;
+    }
+
+    .plan-box.fadeup span {
+        font-size: 18px;
+    }
+
+    p.top-param {
+        font-size: 16px;
+    }
+
+    p.bottom-param {
+        padding-bottom: 30px;
+    }
+
+    section.hero-section.serve .hero-content h1 {
+        font-size: 28px !important;
+    }
+
+    section.hero-section.serve .hero-content p {
+        font-size: 16px !important;
+    }
+
+    .sides-col h2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .sides-col p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .header-btn button,
+    .national-btn a {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+
+    body#marketing-agencys .national-btn {
+        width: 65%;
+    }
+
+    section.adds-management .row {
+        gap: 20px;
+        justify-content: space-evenly;
+
+    }
+
+    #marketing-agencys .google-business .video{
+        margin-bottom: -40px;
+    }
+
+    section.google-partner {
+        padding: 31px 20px 80px;
+    }
+
+    .google-content {
+        width: 100%;
+    }
+
+    .stats-col p {
+        width: 100%;
+    }
+
+    section.stats h2 {
+        font-size: 24px;
+    }
+
+
+    section.checklist {
+        padding: 9% 4%;
+    }
+
+    .machine-pricing {
+        max-width: 100%;
+        margin-bottom: 23px;
+    }
+
+    .column img {
+        width: 100%;
+    }
+
+    .sides-col h2 {
+        width: 100%;
+    }
+
+    .sides-col span {
+        padding: 17px 0 17px;
+    }
+
+    .sides-col p {
+        width: 100%;
+    }
+
+    section.adds-management .row {
+        padding-top: 25px;
+    }
+
+    section.adds-management {
+        padding: 9% 4% 9% !important;
+    }
+
+    section.google-partner {
+        padding: 5% 4% 9% !important;
+    }
+
+    section.google-partner .row {
+        flex-direction: column-reverse;
+    }
+
+    .google-img {
+        width: 100%;
+    }
+
+    .google-content {
+        width: 100%;
+        padding-bottom: 21px;
+    }
+
+    section.phone-ring {
+        height: 100% !important;
+        padding: 8% 4% 8% !important;
+        background-position: 56% 38% !important;
+    }
+
+    .national-company-headings {
+        width: 100%;
+    }
+
+    body#social-post .national-company-headings {
+        padding-top: 0;
+    }
+
+    body#social-post .national-company-headings p {
+        font-weight: bold;
+    }
+
+    body#social-post section.website-section {
+        padding: 10% 4% 10% !important;
+    }
+
+    section.website-section .row {
+        padding: 7% 6% 7%;
+        flex-direction: column-reverse;
+    }
+
+    .column-web,
+    section.seconds .column-web-imgae,
+    section.thirds .column-web-imgae {
+        width: 100%;
+    }
+
+    .column-web-imgae {
+        width: 100%;
+        text-align: center;
+    }
+
+    .detailed {
+        padding: 0;
+    }
+
+    section.website-section.seconds .row {
+        flex-direction: column;
+    }
+
+    .seconds .column-web-imgae img,
+    .thirds .column-web-imgae img {
+        width: 100%;
+        padding-bottom: 23px;
+    }
+
+    .includes {
+        padding: 0;
+    }
+
+    section.subscription-plan {
+        padding: 6% 4% 6% !important;
+    }
+
+    body#social-post .plans-table {
+        flex-direction: column;
+    }
+
+    body#social-post .plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section.subscription-plan .detailed {
+        padding: 0;
+        width: 100%;
+    }
+
+    .subscription-texts {
+        padding-bottom: 24px;
+    }
+
+    p.bottom-param {
+        padding-bottom: 30px;
+    }
+
+    .plan-box {
+        padding: 4%;
+    }
+
+    section.subscription-plan .row {
+        padding: 4%;
+    }
+
+    .plan-service ul li {
+        display: block;
+    }
+
+    .google-content h2 {
+        width: 100%;
+    }
+
+    .visitors-column {
+        width: 100%;
+    }
+
+    .visitors-column p {
+        padding: 22px 0;
+    }
+
+    section.website-visitors {
+        padding: 4% 4% 12% !important;
+    }
+
+    section.website-section {
+        padding: 7% 4% 13% !important;
+    }
+
+
+
+    section.subscription-plan .row {
+        flex-direction: unset;
+    }
+
+
+    .sides-col h2 {
+        width: 100%;
+    }
+
+    .sides-col span {
+        padding: 17px 0 17px;
+    }
+
+    .sides-col p {
+        width: 100%;
+    }
+
+    section.adds-management .row {
+        padding-top: 25px;
+    }
+
+    section.adds-management {
+        padding: 9% 4% 9% !important;
+    }
+
+    section.google-partner {
+        padding: 5% 4% 9% !important;
+    }
+
+    section.google-partner .row {
+        flex-direction: column-reverse;
+    }
+
+    .google-img {
+        width: 100%;
+    }
+
+    .google-content {
+        width: 100%;
+        padding-bottom: 21px;
+    }
+
+    section.phone-ring {
+        height: 100% !important;
+        padding: 8% 4% 8% !important;
+        background-position: 56% 38% !important;
+    }
+
+    .national-company-headings {
+        width: 100%;
+    }
+
+    body#social-post .national-company-headings {
+        padding-top: 0;
+    }
+
+    body#social-post .national-company-headings p {
+        font-weight: bold;
+    }
+
+    body#social-post section.website-section {
+        padding: 10% 4% 10% !important;
+    }
+
+    section.website-section .row {
+        padding: 7% 6% 7%;
+        flex-direction: column-reverse;
+    }
+
+    .column-web,
+    section.seconds .column-web-imgae,
+    section.thirds .column-web-imgae {
+        width: 100%;
+    }
+
+    .column-web-imgae {
+        width: 100%;
+        text-align: center;
+    }
+
+    .detailed {
+        padding: 0;
+    }
+
+    section.website-section.seconds .row {
+        flex-direction: column;
+    }
+
+    .seconds .column-web-imgae img,
+    .thirds .column-web-imgae img {
+        width: 100%;
+        padding-bottom: 23px;
+    }
+
+    .includes {
+        padding: 0;
+    }
+
+    section.subscription-plan {
+        padding: 6% 4% 6% !important;
+    }
+
+    body#social-post .plans-table {
+        flex-direction: column;
+    }
+
+    body#social-post .plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section.subscription-plan .detailed {
+        padding: 0;
+        width: 100%;
+    }
+
+    .subscription-texts {
+        padding-bottom: 24px;
+    }
+
+    p.bottom-param {
+        padding-bottom: 30px;
+    }
+
+    .plan-box {
+        padding: 4%;
+    }
+
+    section.subscription-plan .row {
+        padding: 4%;
+    }
+
+    .plan-service ul li {
+        display: block;
+    }
+
+    .google-content h2 {
+        width: 100%;
+    }
+
+
+    section.hero-section.serve {
+        padding: 0 4% 0 4% !important;
+    }
+
+    body#website-analysis section.contact-us .estimate-container {
+        width: 100%;
+        padding: 23px 16px 23px;
+    }
+
+    body#website-analysis .estimate-container button {
+        margin-top: 0;
+    }
+
+    .estimate-container input {
+        padding: 13px;
+        margin-bottom: 18px;
+    }
+
+    .estimate-container h3 {
+        padding-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .site-score-image {
+        width: 100%;
+    }
+
+    .site-score-image img {
+        width: 100%;
+    }
+
+    section.website-analysis {
+        padding: 70px 4% 59px !important;
+    }
+
+    body#website-analysis section.website-analysis .header-btn {
+        margin-top: 17px;
+    }
+
+    section.feedback .top-images {
+        top: unset;
+    }
+
+    section.feedback .row {
+        align-items: center;
+        gap: 10px;
+    }
+
+    .feedback-head {
+        padding: 12px 21px;
+    }
+
+    .feedback-content img {
+        width: 65px !important;
+    }
+
+    .feedback-content h4 {
+        font-size: 18px;
+    }
+
+    .feedback-content p {
+        font-size: 16px;
+    }
+
+    section.feedback .top-images img {
+        width: 43px;
+    }
+
+    section.feedback .owl-item {
+        padding-top: 29px !important;
+    }
+
+    section.feedback {
+        padding: 9% 4% 9% !important;
+    }
+
+    section.Business-designeds .row {
+        flex-direction: column;
+    }
+
+    .designed-col {
+        width: 100% !important;
+    }
+
+    .contact-icons {
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    body#website-analysis section.Business-designeds .header-btn {
+        margin-top: 22px;
+    }
+
+    .contact-icon {
+        padding-top: 19px;
+    }
+
+    section.Business-designeds {
+        padding: 10% 4% 10% !important;
+    }
+
+    .contact-icon {
+        gap: 6px;
+    }
+
+    .contact-icon img {
+        width: 35px;
+    }
+
+
+    section.work-with-us {
+        padding: 8% 4% 8% !important;
+    }
+
+    .work-with-us-content h2 {
+        width: 100%;
+    }
+
+    .service-card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-card-text {
+        padding: 3% 7% 9%;
+    }
+
+    section.hero-section.serve {
+        padding: 8% 4% 8% !important;
+    }
+
+    body#Healthcare-marketing section.youtube-videos .row {
+        flex-direction: column;
+        gap: 20px;
+        padding: 16px 0 39px;
+    }
+
+    body#Healthcare-marketing .business-blogs {
+        width: 100%;
+        gap: 0px;
+    }
+
+    section.Transparency {
+        padding: 9% 4% 9% !important;
+    }
+
+    section.Transparency .row {
+        padding-top: 0;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start;
+        margin-top: 21px;
+        gap: 20px;
+    }
+
+    body#Healthcare-marketing .Transparency-col {
+        flex: 0 0 100% !important;
+    }
+
+    section.Transparency .header-btn {
+        margin-top: 33px;
+    }
+
+    .Transparency-col li {
+        gap: 9px;
+    }
+
+    .video .video-wrapper img {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .acc-content {
+        padding: 0px 14px 13px;
+    }
+
+    body#Healthcare-marketing .hero-content,
+    body#Healthcare-marketing .hero-content {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+
+    body#Healthcare-marketing section.hero-section {
+        padding: 10% 4% 10% 4% !important;
+        height: 100%;
+    }
+
+    body#Healthcare-marketing .hero-content h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    body#Healthcare-marketing .hero-section .header-btn {
+        margin: 30px 0 0 0;
+    }
+
+    .video-wrapper {
+        height: 100%;
+    }
+
+    iframe#ytPlayer {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.hero-section.serve .row {
+        display: inline;
+        flex-direction: column;
+    }
+
+    body,
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .video .video-wrapper {
+        width: 100% !important;
+    }
+
+    .video .video-wrapper iframe#ytPlayer {
+        width: 100% !important;
+    }
+
+    section.services-sections {
+        padding: 28px 20px 70px;
+    }
+
+    body#Healthcare-marketing section.services-sections .row,
+    section.services-sections .row {
+        flex-direction: column;
+    }
+
+    body#Healthcare-marketing .service-box {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+
+    #marketing-agencys section.facts {
+        padding: 25% 4% 11% 4% !important;
+    }
+
+    .service-box img {
+        width: 26%;
+    }
+
+    section.Accordion {
+        padding: 38px 4% !important;
+    }
+
+    .acc-header {
+        padding: 13px 14px 13px;
+    }
+
+    section.facts {
+        margin-top: 0;
+    }
+
+    section.youtube-videos {
+        padding: 11% 4% 13% 4% !important;
+    }
+
+    section.facts {
+        padding: 11% 4% 11% 4% !important;
+    }
+
+    section.facts .row {
+        flex-direction: column;
+    }
+
+    .fact-box {
+        width: 100%;
+    }
+
+    .fact-box p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    section.feedback {
+        padding: 21% 4% 21% 4% !important;
+    }
+
+    section.feedback .top-images {
+        width: 0;
+    }
+
+    section.feedback .top-images img {
+        width: 55px;
+    }
+
+    section.who-we-are {
+        padding: 8% 4% !important;
+    }
+
+    .who-we-are-headings p {
+        padding: 25px 0 30px;
+    }
+
+    section.industry-leader {
+        padding: 12% 4% 0% 4% !important;
+    }
+
+    section.industry-leader .row:nth-child(1) {
+        padding: 0 0 0 0 !important;
+    }
+
+    .service-texts {
+        padding: 0;
+    }
+
+    section.business-industry {
+        padding: 11% 4% 11% 4% !important;
+        box-sizing: border-box !important;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .service-texts p {
+        padding: 0 0 0 0;
+    }
+
+    .service-images {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .service-images img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    section.services-sections {
+        padding: 10% 4% 10% 4% !important;
+    }
+
+    .services-paragraph p {
+        padding-top: 0;
+    }
+
+    .feedback-content img {
+        width: 67px;
+    }
+
+    .feedback-content h4 {
+        font-size: 20px;
+    }
+
+    .feedback-content p {
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+
+    .feedback-paragraph p {
+        font-size: 16px;
+    }
+
+    .feedback-head {
+        padding: 37px 24px;
+    }
+
+    body#Healthcare-marketing section.industry-leader .service-texts,
+    body#Healthcare-marketing section.business-industry .service-texts {
+        padding: 0;
+    }
+
+    .service-texts h2 {
+        padding-bottom: 10px;
+    }
+
+
+    .video .video-wrapper img {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .acc-content {
+        padding: 0px 14px 13px;
+    }
+
+    body#marketing-agencys .hero-content,
+    body#marketing-agencys .hero-content {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+
+    body#marketing-agencys section.hero-section {
+        padding: 2% 4% 10% 4% !important;
+        height: 100%;
+    }
+
+    body#marketing-agencys .hero-content h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    body#marketing-agencys .hero-section .header-btn {
+        margin: 30px 0 0 0;
+    }
+
+    .video-wrapper {
+        height: 100%;
+    }
+
+    iframe#ytPlayer {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.hero-section.serve .row {
+        display: inline;
+        flex-direction: column;
+    }
+
+    body,
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .video .video-wrapper {
+        width: 100% !important;
+    }
+
+    .video .video-wrapper iframe#ytPlayer {
+        width: 100% !important;
+    }
+
+    section.services-sections {
+        padding: 28px 20px 70px;
+    }
+
+    body#marketing-agencys section.services-sections .row,
+    section.services-sections .row {
+        flex-direction: column;
+    }
+
+    body#marketing-agencys .service-box {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+
+    .service-box img {
+        width: 26%;
+    }
+
+    section.Accordion {
+        padding: 38px 4% !important;
+    }
+
+    .acc-header {
+        padding: 13px 14px 13px;
+    }
+
+    section.facts {
+        margin-top: 0;
+    }
+
+    section.youtube-videos {
+        padding: 11% 4% 13% 4% !important;
+    }
+
+    section.facts {
+        padding: 11% 4% 11% 4% !important;
+    }
+
+    section.facts .row {
+        flex-direction: column;
+    }
+
+    .fact-box {
+        width: 100%;
+    }
+
+    .fact-box p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    section.feedback {
+        padding: 21% 4% 21% 4% !important;
+    }
+
+    section.feedback .top-images {
+        width: 0;
+    }
+
+    section.feedback .top-images img {
+        width: 70px;
+    }
+
+    section.who-we-are {
+        padding: 8% 4% !important;
+    }
+
+    .who-we-are-headings p {
+        padding: 25px 0 30px;
+    }
+
+    section.industry-leader {
+        padding: 6% 4% 6% 4% !important;
+    }
+
+    section.industry-leader .row:nth-child(1) {
+        padding: 0 0 0 0 !important;
+    }
+
+    .service-texts {
+        padding: 0;
+    }
+
+    section.business-industry {
+        padding: 11% 4% 11% 4% !important;
+        box-sizing: border-box !important;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .service-texts p {
+        padding: 0 0 0 0;
+    }
+
+    .service-images {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .service-images img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    section.services-sections {
+        padding: 10% 4% 10% 4% !important;
+    }
+
+    .services-paragraph p {
+        padding-top: 0;
+    }
+
+    .feedback-content img {
+        width: 67px;
+    }
+
+    .feedback-content h4 {
+        font-size: 20px;
+    }
+
+    .feedback-content p {
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+
+    .feedback-paragraph p {
+        font-size: 16px;
+    }
+
+    .feedback-head {
+        padding: 37px 24px;
+    }
+
+
+
+    .video .video-wrapper img {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .acc-content {
+        padding: 0px 14px 13px;
+    }
+
+    body#internet-marketing .hero-content,
+    body#internet-marketing .hero-content {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+
+    body#internet-marketing section.hero-section {
+        padding: 10% 4% 10% 4% !important;
+        height: 100%;
+    }
+
+    body#internet-marketing .hero-content h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    body#internet-marketing .hero-section .header-btn {
+        margin: 30px 0 0 0;
+    }
+
+    .video-wrapper {
+        height: 100%;
+    }
+
+    iframe#ytPlayer {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.hero-section.serve .row {
+        display: inline;
+        flex-direction: column;
+    }
+
+    body,
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .video .video-wrapper {
+        width: 100% !important;
+    }
+
+    .video .video-wrapper iframe#ytPlayer {
+        width: 100% !important;
+    }
+
+    section.services-sections {
+        padding: 28px 20px 70px;
+    }
+
+    body#internet-marketing section.services-sections .row,
+    section.services-sections .row {
+        flex-direction: column;
+    }
+
+    body#internet-marketing .service-box {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+
+    .service-box img {
+        width: 26%;
+    }
+
+    section.Accordion {
+        padding: 38px 4% !important;
+    }
+
+    .acc-header {
+        padding: 13px 14px 13px;
+    }
+
+    section.facts {
+        margin-top: 0;
+    }
+
+    section.youtube-videos {
+        padding: 11% 4% 13% 4% !important;
+    }
+
+    section.facts {
+        padding: 11% 4% 11% 4% !important;
+    }
+
+    section.facts .row {
+        flex-direction: column;
+    }
+
+    .fact-box {
+        width: 100%;
+    }
+
+    .fact-box p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    section.feedback {
+        padding: 15% 4% 6% 4% !important;
+    }
+
+    section.feedback .top-images {
+        width: 0;
+    }
+
+    section.feedback .top-images img {
+        width: 55px;
+    }
+
+    section.who-we-are {
+        padding: 8% 4% !important;
+    }
+
+    .who-we-are-headings p {
+        padding: 25px 0 30px;
+    }
+
+    section.industry-leader {
+        padding: 12% 4% 0% 4% !important;
+    }
+
+    section.industry-leader .row:nth-child(1) {
+        padding: 0 0 0 0 !important;
+    }
+
+    .service-texts {
+        padding: 0;
+    }
+
+    section.business-industry {
+        padding: 11% 4% 11% 4% !important;
+        box-sizing: border-box !important;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .service-texts p {
+        padding: 0 0 0 0;
+    }
+
+    .service-images {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .service-images img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    section.services-sections {
+        padding: 10% 4% 10% 4% !important;
+    }
+
+    .services-paragraph p {
+        padding-top: 0;
+    }
+
+    .feedback-content img {
+        width: 67px;
+    }
+
+    .feedback-content h4 {
+        font-size: 20px;
+    }
+
+    .feedback-content p {
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+
+    .feedback-paragraph p {
+        font-size: 16px;
+    }
+
+    .feedback-head {
+        padding: 37px 24px;
+    }
+
+    body#internet-marketing section.industry-leader .service-texts,
+    body#internet-marketing section.business-industry .service-texts {
+        padding: 0;
+    }
+
+    .service-texts h2 {
+        padding-bottom: 10px;
+    }
+
+    .row,
+    .blog-item {
+        flex-wrap: wrap;
+    }
+
+    .blog-item {
+        gap: 0;
+    }
+
+    .blog-content {
+        padding: 50px 92px 20px 20px;
+    }
+
+    section.blogs .row {
+        justify-content: left;
+    }
+
+    .strategy-col {
+        padding-left: 3%;
+    }
+
+    body#success-stories .service-texts {
+        padding: 35px 20px 20px;
+    }
+
+    body#success-stories .service-texts p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .blog-card img,
+    .review-card img,
+    .national-company-images,
+    .national-company-headings,
+    .engine-optimization-main,
+    .clients-col,
+    .blog-item img,
+    .blog-search,
+    .blog-search input,
+    body#success-stories .service-texts,
+    body#success-stories .service-images,
+    body#success-stories .sides-col p,
+    body#success-stories .sides-col h2 {
+        width: 100%;
+    }
+
+    .clients-col {
+        border-right: none
+    }
+
+    body#homepage section.clients .row {
+        flex-direction: column-reverse;
+    }
+
+    h2.blog-title {
+        padding-bottom: 30px;
+    }
+
+    .blog-card {
+        flex: 0 0 48.3%;
+        width: 100%;
+    }
+
+    section.Ads-images {
+        padding: 22% 0 104px;
+    }
+
+    body#homepage h1 {
+        width: 69%;
+        margin: 0 auto;
+    }
+
+    body#homepage section.hero-section {
+               height: 234px;
+    }
+
+    h1 {
+        font-size: 35px !important;
+    }
+
+    h2 {
+        font-size: 26px !important;
+        line-height: 38px;
+    }
+
+    .newsletter,
+    .contact-col,
+    .estimate-container {
+        width: 100%;
+    }
+
+    .footer-links {
+        width: 32.3%;
+    }
+    .footer-links ul li:last-child {
+    padding-bottom: 0;
+}
+
+    .adlogo-image {
+        width: 48%;
+    }
+
+    .review-card:nth-child(3) {
+        padding-top: 8%;
+    }
+
+    .review-card {
+        flex: 0 0 50%;
+    }
+
+    .engine-optimization-main {
+        padding: 0;
+    }
+
+    .Features-col {
+        width: 50%;
+    }
+
+    .Features-col:nth-child(3),
+    .Features-col:nth-child(4) {
+        padding-top: 7%;
+    }
+
+    .footer-contact-us {
+        width: 100%;
+    }
+
+    body#homepage h1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .hero-content p,
+    .strategy-col ul li {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    body#marketing-agencys .service-box:nth-child(13) {
+    max-width: 31.33%;
+    width: 100%;
+}
+
+.who_image {
+    width: 50%;
+}
+.who_image img {
+    width: 100%;
+}
+
+    .sides-col h2 {
+    width: 90%;
+}
+body#mr-pipeline section.adds-management {
+    padding: 4% 20px 5%;
+}
+section.google-partner {
+    padding: 39px 20px;
+}
+.google-img img {
+    width: 100%;
+}
+section.google-management {
+    margin-top: -172px;
+    padding: 22% 20px 27px;
+}
+.Analysis-col {
+    width: 48%;
+    padding: 36px 14px 36px 14px;
+}
+.plan {
+    width: 48%;
+}
+.plan .row {
+    flex-wrap: nowrap;
+}
+section.Analysis {
+    padding: 50px 20px 67px;
+}
+
+.seo-page .custom-developed-page .sub-container {
+    flex-direction: column;
+}
+body.seo-page section.custom-developed-page.image-with-text-and-read-more {
+    padding: 40px;
+}
+body.seo-page .hero-content  h1 {
+    padding-bottom: 0;
+}
+body.seo-page section.custom-developed-page.image-with-text-and-read-more .main-text-container .read-more-container {
+    margin-top: 22px;
+}
+.main-text-container {
+    padding-top: 20px;
+}
+.main-container {
+    padding: 0 !important;
+}
+body.holiday_lighting .cards-container {
+    flex-wrap: wrap;
+    justify-content: start !important;
+}
+body.holiday_lighting .cards-container .item-card {
+    flex: 0 0 47%;
+}
+.season-cards {
+    padding: 4% 20px;
+}
+.image-container img {
+    width: 100%;
+}
+section.custom-developed-page.text-with-bg-image .heading-container h2.large-heading {
+    padding: 0;
+}
+section.custom-developed-page.text-with-bg-image {
+    padding: 1% 20px 6%;
+}
+.image_sliders {
+    margin-top: -210px;
+}
+body.holiday_lighting section.stats {
+    padding: 3% 0 34% 0;
+}
+.main_stats_slider .owl-nav {
+    top: 112px;
+}
+section.custom-developed-page.marketing-board {
+    padding: 5% 20px 35% !important;
+}
+section.custom-developed-page.marketing-board .heading-container h2.large-heading {
+    padding-bottom: 33px;
+}
+.number-item h3.large-heading {
+    font-size: 36px;
+    line-height: 40px;
+}
+.main_logo_text .text-container p {
+    width: 88%;
+}
+.avatar-review p {
+    padding: 0 !important;
+}
+.avatar-review {
+    padding: 0 !important;
+}
+.avatar-image-container {
+    width: 26%;
+}
+section.custom-developed-page.site-details-with-image {
+    padding: 7% 20px 7% !important;
+}
+.container.image-container {
+    padding-right: 22px;
+}
+.column-web-imgae img {
+    width: 100%;
+}
+body#website-design section.adds-management .adds-col h2 {
+    width: 90%;
+}
+section.website-visitors .row {
+    flex-wrap: nowrap;
+    align-items: start;
+    gap: 18px;
+}
+body#website-design section.phone-ring {
+    padding: 1% 20px 6% !important;
+}
+section.client-says {
+    padding: 30px 20px 41px;
+}
+section.website-section {
+    padding: 0 20px 4%;
+}
+section.website-section .row {
+    padding: 24px 24px;
+}
+section.checklist {
+    padding: 55px 20px 41px;
+}
+section.checklist p {
+    padding-top: 20px;
+}
+section.machine-pricings {
+    padding: 50px 20px 29px;
+}
+section.machine-pricings .row {
+    padding-top: 30px;
+}
+.machine-pricing {
+    width: 100%;
+}
+.google-content h2 {
+    width: 100%;
+    font-size: 35px;
+    line-height: 47px;
+}
+body#social-post section.phone-ring {
+    height: 100%;
+    padding: 4% 20px;
+    margin-bottom: 5%;
+}
+body#social-post .national-company-headings {
+    padding-top: 0;
+}
+body#social-post section.website-section {
+    padding-top: 0;
+}
+section.subscription-plan {
+    padding: 21px 20px;
+}
+body#website-analysis section.contact-us {
+    padding: 40px 20px;
+}
+body#website-analysis section.contact-us .row {
+    flex-wrap: nowrap;
+    align-items: start;
+}
+body#website-analysis section.contact-us .row .site-score-image img {
+    width: 100%;
+}
+div#upperform button {
+    margin-top: 0 !important;
+}
+div#upperform {
+    padding: 4px 25px 16px !important;
+}
+div#upperform {
+    padding: 0 !important;
+}
+#website-analysis section.website-analysis {
+    padding: 38px 20px;
+}
+#website-analysis section.website-analysis h2 {
+    padding-bottom: 6px;
+}
+#website-analysis section.website-analysis p.analysis-para {
+    padding-bottom: 0;
+}
+#website-analysis section.feedback h2 {
+    padding-bottom: 24px !important;
+}
+body#website-analysis .contact-icons {
+    width: 100%;
+    display: flex;
+}
+body#website-analysis .contact-icon {
+    flex: 0 0 31%;
+}
+body#website-analysis .contact-icon:nth-child(1) {
+    flex: 0 0 37%;
+}
+section.Business-designeds {
+    padding: 30px 20px 24px;
+}
+
+
+
+    footer .inner_flex .footer_colume:first-child {
+    width: 100%;
+    padding-bottom: 22px;
+}
+footer .inner_flex .footer_colume .social_media_link {
+    width: 42%;
+}
+.inner_flex .footer_colume:nth-child(2) {
+    padding-left: 0;
+}
+.inner_flex .footer_colume:nth-child(3) {
+    padding-left: 0;
+}
+.inner_flex .footer_colume:nth-child(4) {
+    width: 36%;
+}
+.footer-links ul li:last-child {
+    padding-bottom: 0;
+}
+.copyright {
+    margin-top: 14px;
+    padding: 17px 0;
+}
+footer {
+    padding: 2% 20px 0%;
+}
+
+    body#homepage section.hero-section {
+    height: 100%;
+    padding: 16% 0;
+    }
+    body#homepage .video-bg iframe {
+    margin-top: 0;
+    height: 100%;
+    max-width: 100%;
+    }
+    body#homepage section.blogs .row {
+    padding-top: 20px;
+    }
+    body#homepage section.clients .engine-optimization-main {
+    padding-left: 0;
+    }
+    .nav-menu {
+    position: fixed;
+    background-color: #43afc9;
+    width: 100%;
+    left: -1000px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 99999;
+    padding: 0 4% !important;
+    transition: all 0.5s ease;
+}
+.nav-menu.active {
+    left: 0;
+}
+.nav-menu ul {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start;
+    padding-top: 8%;
+}
+.announcement-bar {
+    z-index: -2;
+    display: table-column;
+}
+.menu_logo {
+    display: block !important;
+}
+.menu_logo a img {
+    width: 50%;
+}
+.hamburger {
+    display: block;
+}
+.menu_logo {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+.cross_icon img {
+    width: 27px;
+}
+.logo {
+    width: 76%;
+}
+a.main_btn {
+    font-size: 10px;
+    height: 100%;
+    padding: 10px 0;
+}
+header .header-btn {
+    max-width: 100%;
+    display: flex;
+    width: 130px;
+    order: 2;
+}
+.hamburger a {
+    display: flex;
+}
+header .logo a img {
+    width: 211px !important;
+}
+header {
+    padding: 10px !important;
+}
+body#homepage section.google-reviews .row {
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.adlogo-image{
+    width: 48%;
+}
+.Ads-images .row{
+    flex-wrap: wrap !important;
+}
+.national-company-headings {
+    padding-top: 30px;
+}
+ .industry-leader .row{
+    flex-wrap:nowrap ;
+}
+.industry-leader .row.inner_box {
+    flex-wrap: wrap !important;
+}
+ .service-images, .service-texts, .service-images img{
+    width: 100%;
+}
+.inner_box{
+    height: auto;
+}
+ .service-texts {
+    padding: 35px 20px 50px;
+}
+ .facts .fact-box{
+    width:48%;
+}
+h1{
+    font-size: 36px !important;
+}
+ .hero-section.serve{
+    padding:40px 30px !important;
+    height: auto !important;
+}
+ #marketing-agencys .hero-section.serve .hero-content,
+ #internet-marketing .hero-section.serve .hero-content,
+ #Healthcare-marketing .hero-section.serve .hero-content,
+ .hero-section.serve .video{
+    flex:0 0 48%;
+    width:48%;
+}
+ .hero-section.serve .video img,
+ .hero-section.serve .video .video-wrapper{
+    width:100% !important;
+    height:auto !important;
+}
+body#marketing-agencys .service-box, body#internet-marketing .service-box, body#Healthcare-marketing .service-box {
+    flex: 31%;
+    max-width: 31%;
+    height: auto !important;
+    
+}
+#mr-pipeline .service-card{
+    width: 100%;
+}
+#mr-pipeline .work-with-us-content h2 {
+    width: 100%;
+}
+#mr-pipeline section.work-with-us {
+    padding: 60px 20px 65px;
+}
+#review section.google-management {
+        margin-top: -200px !important;
+}
+ .google-management .google-img img{
+    width: 80%;
+ } 
+#blogs .blog-item {
+        flex-wrap: wrap;
+        gap:20px !important;
+    }
+ #blogs .blog-content {
+        flex: 0 0 48%;
+    }  
+#blogs .blog-img{
+    flex: 0 0 48% !important;
+} 
+#blogs .blog-img img {
+    width: 100%;
+}
+
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+    section.google-management {
+    margin-top: -340px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .blog-card {
+        flex: 0 0 100%;
+        padding-bottom: 12%;
+    }
+.Thank_you_title h2 {
+    font-size: 20px !important;
+    line-height: normal;
+}
+
+.Thank_you_title h4 {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.Thank_you_logo a {
+    width: 234px;
+    height: 80px;
+}
+
+.Thank_you_title {
+    padding: 40px 0px 40px 0px;
+    gap: 12px;
+}
+    .footer-links,
+    .footer-contact-us {
+        width: 40.3%;
+    }
+
+    .footer-contact-us ul li a,
+    .copyright p {
+        font-size: 13px;
+    }
+
+    .footer-contact-us,
+    .contact-icon,
+    .contact-icon:nth-child(3),
+    .Features-col,
+    .adlogo-image,
+    .footer-links,
+    .footer-contact-us,
+    body#who-we\ are .youtube-videos-headings,
+    body#who-we\ are .underline,
+    .service-images img,
+    body#success-stories .service-images,
+    .service-images img {
+        width: 100%;
+    }
+
+    .social-link.footer-social img {
+        width: 40px;
+    }
+
+    .newsletter img {
+        width: 140px;
+    }
+
+    .estimate-container {
+        padding: 40px 15px 59px;
+    }
+
+    .custom-select select {
+        background-position: right 15px center;
+    }
+
+    .estimate-container h3 {
+        font-size: 23px;
+    }
+
+    .row,
+    .contact-icons {
+        flex-direction: column;
+    }
+
+    .contact-icon p {
+        font-size: 16.23px;
+        line-height: 23.58px;
+    }
+
+    section.Ads-images {
+        padding: 36% 0 70px;
+    }
+
+    section.youtube-videos .underline p {
+        padding-top: 7%;
+    }
+
+    .underline a {
+        text-align: left;
+    }
+
+ 
+
+    .national-company {
+        height: auto;
+    }
+    section.national-company{
+    padding:0;
+    position:relative;
+}
+section.national-company:before {
+    content:'';
+    background:#000000a8;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+section.national-company .row{
+    padding:30px 20px 40px;
+}
+.national-company-headings {
+    z-index:1;
+    padding-top: 45px;
+}
+.national-company-headings h2,
+.national-company-headings p{
+    color:#fff;
+}
+.national-company-headings a{
+    padding:13px 20px;
+}
+
+    h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .Features-col:nth-child(3),
+    .Features-col:nth-child(4),
+    .Features-col {
+        padding-top: 15%;
+    }
+
+    .clients-col h3 {
+        font-size: 20px;
+    }
+
+    body#who-we\ are .underline {
+        padding-top: 3%;
+    }
+
+    .business-industry .service-texts p {
+        font-size: 16px !important;
+    }
+
+    section.industry-leader .row:nth-child(1) {
+        padding: 60px 0;
+    }
+
+    .blog-content {
+        padding: 50px 20px 20px 20px;
+    }
+
+    h3.blog-heading {
+        font-size: 22px;
+    }
+
+
+    .announcement-bar {
+    display: none;
+}
+
+.logo a {
+    width: 100%;
+}
+
+header .logo a img {
+    width: 100% !important;
+}
+
+
+
+.logo {
+    width: 40%;
+}
+
+a.main_btn {
+    font-size: 12px;
+    height: 100%;
+    padding: 14px 0;
+}
+
+header .header-btn {
+    width: 150px;
+    border-radius: 5px;
+}
+
+body#homepage .hero-content .header-btn a.main_btn {
+    font-size: 12px;
+    height: 100% !important;
+    padding: 14px 0px !important;
+    border-radius: 5px !important;
+}
+
+body#homepage .hero-content .header-btn {
+    border-radius: 5px !important;
+}
+    .hero-content p, .strategy-col ul li {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+    /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+    /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+
+
+.marquee-track img {
+    height: 35px;
+}
+
+.marquee-track {
+    gap: 35px;
+}
+
+section.marquee-container {
+    padding: 18px 0;
+}
+.review-card img {
+    width: 60%;
+}
+section.blogs .row {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+   section.blogs {
+        padding: 40px 4%;
+    }
+h2 {
+    font-size: 24px !important;
+    text-align: center;
+    line-height: 34px;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.blog-card img {
+    height: 230px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px !important;
+}
+
+.blog-card p {
+    text-align: center;
+}
+
+p {
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+a.blog-button span img {
+    width: 15px;
+    height: 15px;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+
+
+.blog-card h4, body#homepage .reviews-headings p {
+    padding-top: 15px;
+}
+
+section.youtube-videos {
+    padding: 10% 4% 10% 4% !important;
+}
+
+section.Ads-images {
+    padding: 32% 4% 50px;
+}
+
+section.youtube-videos .underline p {
+    padding: 3% 0px;
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+.underline a {
+    font-size: 12px;
+}
+
+.video-section {
+    margin-top: 30px;
+}
+
+div#videoFrame {
+    height: 28vh;
+}
+
+
+
+.adlogo-image {
+    width: 100% !important;
+    border-radius: 10px;
+}
+
+section.Ads-images .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+}
+
+
+.national-company-headings {
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.national-company-headings p {
+    text-align: center !important;
+    padding: 15px 0px !important;
+}
+
+.national-company-headings a {
+    padding: 14px 24px;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+
+section.google-reviews {
+    padding: 40px 4% 40px;
+}
+
+.reviews-headings {
+    padding-bottom: 30px;
+}
+
+.review-card h4 {
+    padding: 10px 0 10px;
+}
+
+.review-card:nth-child(3) {
+    padding-top: 0px;
+}
+
+section.google-reviews .row {
+    gap: 25px;
+}
+
+section.clients {
+    padding: 40px 4%;
+}
+
+section.clients .engine-optimization-col ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+section.clients .engine-optimization-col ul {
+    padding: 10px 0 0 0px;
+}
+
+section.clients h2 {
+    padding-top: 0px;
+}
+
+.engine-optimization-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+p.first-param {
+    padding: 0px;
+}
+
+.clients-col {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+    border-top: 1px solid #fff;
+}
+
+.clients-col span {
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.clients-col p {
+    padding-bottom: 20px;
+}
+
+.main_btn a {
+    font-size: 12px;
+    padding: 14px 40px;
+    border-radius: 5px;
+}
+
+.engine-optimization-col {
+    padding-bottom: 20px;
+}
+
+section.services {
+    padding: 40px 4%;
+}
+
+.Features-col {
+    padding: 0px;
+}
+
+.Features-col h4 {
+    padding: 10px 0;
+}
+
+.Features-col:nth-child(3), .Features-col:nth-child(4), .Features-col {
+    padding-top: 0px;
+}
+
+section.services .row {
+    gap: 25px;
+}
+
+section.services .main_btn {
+    padding-top: 40px;
+}
+
+.contact-col {
+    padding-top: 0px;
+}
+
+.get-start-heading h2 {
+    padding-bottom: 15px;
+}
+
+.contact-icon a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.contact-icon {
+    padding: 0px !important;
+    width: 85% !important;
+}
+
+.contact-icons {
+    align-items: center;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.contact-icon a p {
+    text-align: left !important;
+    width: 80%;
+}
+
+section.contact-us .row {
+    gap: 40px;
+}
+
+.estimate-container {
+    border-radius: 10px;
+    padding: 40px 15px;
+}
+
+.estimate-container h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.estimate-container input {
+    margin-bottom: 15px;
+}
+
+form#contactForm select {
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+form#contactForm input {
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+form#contactForm textarea {
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+section.contact-us {
+    padding: 40px 20px;
+}
+
+.estimate-container button {
+    font-size: 12px;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.footer_colume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_colume p {
+    text-align: center !important;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer h5 {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-links ul li a {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-links ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+.footer-contact-us ul li {
+    align-items: center;
+    justify-content: center;
+}
+
+
+body#who-we\ are .serve {
+    height: 300px;
+}
+
+section.hero-section.serve .hero-content p {
+    font-size: 14px !important;
+    padding-top: 14px;
+}
+
+section.industry-leader {
+    padding: 40px 4%;
+}
+
+.google-ads-headings h2 {
+    width: 100% !important;
+}
+
+.underline {
+    padding: 10px 0px 30px 0px !important;
+}
+
+.underline p {
+    padding: 0px !important;
+}
+
+.service-images {
+    height: 200px;
+}
+
+.service-images img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: 12px;
+}
+
+
+
+.service-texts {
+    padding: 20px !important;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-texts p {
+    padding: 14px 0px !important;
+}
+
+section.business-industry {
+    padding: 30px 4% !important;
+}
+
+section.healthcares {
+    padding: 0px 4% 40px;
+}
+
+
+
+
+
+
+.hero-content h1 {
+    text-align: center !important;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner_btn a {
+    padding: 14px 20px !important;
+    width: 100% !important;
+    font-size: 12px;
+    line-height: normal !important;
+    height: 100% !important;
+    border-radius: 5px;
+}
+
+section.services-sections {
+    padding: 40px 4% !important;
+}
+
+.services-paragraph p {
+    padding-top: 15px;
+}
+
+section.services-sections .row {
+    width: 100%;
+    padding: 30px 0px  0px  0px  !important;
+}
+
+.service-box {
+    border-radius: 15px !important;
+    gap: 10px !important;
+}
+
+.service-box h5 {
+    font-size: 18px;
+}
+
+.service-box img {
+    width: 20%;
+}
+
+section.Accordion {
+    padding: 40px 4% !important;
+}
+
+.accordin-heading p {
+    padding: 15px 0 30px;
+}
+
+.acc-header {
+    padding: 14px 10px;
+}
+
+span.acc-btn {
+    font-size: 20px;
+}
+
+.acc-header h5 {
+    font-size: 16px;
+}
+
+.acc-content p {
+    color: #fff !important;
+    text-align: left !important;
+}
+
+section.google-business {
+    padding: 40px 4% 0px;
+}
+
+#marketing-agencys section.facts {
+    padding: 25% 4% 40px 4% !important;
+}
+
+.fact-heading p {
+    padding-top: 25px;
+}
+    /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+    /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+    /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+}

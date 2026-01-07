@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Mr Adpilot Internet Marketing</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="Assets/images/fav.png">
+</head>
+<style>
+.career-wrapper {
+    margin: -60px auto 80px;
+    padding: 55px 40px !important;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 2px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 2px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 2px 6px rgba(0, 0, 0, 0.23);
+    position:relative;
+    z-index:1;
+}
+.career-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.career-subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+#careerForm .form-row {
+    margin-bottom: 25px;
+}
+
+#careerForm .form-row label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+#careerForm .req { 
+    color: red; 
+}
+#careerForm .full { 
+    width: 100%; 
+}
+#careerForm .half {
+    float: left;
+    width: 50%;
+}
+#careerForm .half:nth-child(2n) {
+    margin-right: 0px;
+}
+#careerForm input, select {
+    width: 100%;
+    padding: 18px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #020D0A33;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    color: #020D0AB2;
+    font-family: 'Urbanist';
+}
+#careerForm small {
+    display: block;
+    margin-top: 6px;
+    color: #666;
+}
+#careerForm .career-btn {
+    font-family: "Urbanist", sans-serif;
+    padding: 15px;
+    width:18%;
+    background: #D11F2A;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+#careerForm .form-row.half:nth-child(2) input,
+#careerForm .form-row.half:nth-child(4) input{
+    width:97%;
+}
+section.career-bg {
+    height:400px;
+    background-image:url('Assets/images/group-career.jpg');
+    background-position:100% 10%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+}
+section.career-bg:before{
+    content:'';
+    background:#000000e0;
+    position:absolute;
+    width:100%;
+    height:400px;
+}
+section.career-bg p{
+    color:#fff;
+    z-index:99999;
+    position: relative;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom:10px;
+}
+.pilot-career img{
+    width:40%;
+    display:flex;
+    margin:30px auto 0;
+}
+.pilot-career h4 {
+    text-align:center;
+}
+.career-list {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+.career-list li{
+    list-style: disc;
+    font-size:22px;
+    line-height:32px;
+    padding-bottom:10px;
+    width:100%;
+}
+.career-list img{
+    width:50%;
+}
+@media(max-width:1200px) {
+    section.career-bg{
+        padding: 0 !important;
+    }
+    section.career-bg p {
+    padding: 0 30px;
+}
+}
+@media(max-width:1023px){
+    .career-wrapper {
+    margin: 0px auto 80px;
+}
+section.career-bg p {
+    padding: 0 30px;
+}
+.career-list {
+    padding: 60px 20px 20px 40px;
+}
+section.career-bg p{
+    font-size: 20px;
+}
+.career-list li {
+    font-size: 19px;
+    padding-right: 20px;
+}
+}
+@media(max-width:767px){
+    .career-wrapper {
+    padding: 55px 20px !important;
+}
+#careerForm .career-btn {
+    width: 100%;   
+}
+section.career-bg,
+section.career-bg:before {
+    height: 600px;
+}
+section.career-bg p {
+    font-size: 18px;
+}
+.career-list {
+    flex-direction: column;
+    padding: 40px 20px 40px 20px;
+}
+.career-list li {
+    font-size: 18px;
+}
+.career-list img{
+    width: 100%;
+}
+.career-wrapper {
+     margin: 0px auto 0px;
+}
+#careerForm .form-row.half:nth-child(2) input, #careerForm .form-row.half:nth-child(4) input {
+    width: 100%;
+}
+#careerForm input, select {
+    padding: 14px 10px;
+}
+#careerForm .half {
+    width: 100%;
+}
+#careerForm .form-row {
+    margin-bottom: 10px;
+}
+}
+</style>
+<body id="privacy">
+
+     <div class="announcement-bar">
+        <div class="container">
+            <div class="row">
+                <div class="announcement-col">
+                     <div class="announcement-inner">
+                        <a href="https://maps.app.goo.gl/z2rWUbfy4xBqNDEn7"
+                            target="_blank">
+                            <img src="Assets/images/map.svg" />
+                            <p>8222 Colonial Oaks Ln, Spring, TX, United States.</p>
+                        </a>
+                    </div>
+ 
+                    <div class="announcement-inner">
+                        <a href="tel:945-229-7999">
+                            <img src="Assets/images/call.svg" />
+                            <p>945-229-7999</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61583201891867">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/mradpilot">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/@MrAdPilot-agency">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo"> <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /> </a>
+                </div>
+               <div class="nav-menu">  
+                   
+                <div class="menu_logo">
+                    <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /></a>
+                    <div class="cross_icon">
+                        <img src="Assets/images/cross_img.png " alt="">
+                    </div>
+                </div>
+                 
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="who-we-serve.html">Who We Serve </a><img src="Assets/images/Vector (3).svg"></button> 
+                            <div class="dropdown-content"> 
+                                <a href="home-services.html">Home Services Marketing Agency</a> 
+                                <a href="small-business.html">Small Business</a> 
+                                <a href="healthcare.html">Healthcare</a> 
+                                </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn"><a href="Ad-pilot.html"> Why Mr Adpilot</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content">
+                                <a href="review.html">Review</a>
+                                <a href="success-stories.html">Case Studies</a> 
+                                <a href="blogs.html">Blogs</a>
+                                <!-- <a href="case-study-holiday-lighting.html">Pivot to Holiday Lighting</a> -->
+                                <a href="./Mr-adpilot-landing-page.html">Get Started</a> </div>
+                        </li>
+                        <li class="dropdown"> 
+                            <button class="dropbtn"> <a href="#">Services</a> <img src="Assets/images/Vector (3).svg"></button>
+                            <div class="dropdown-content"> <a href="local-ppc-management.html">Local PPC Management</a> 
+                                <a href="local-seo.html">Search Engine Optimization</a>
+                                <a href="website-design.html">Lead Machine Websites</a>
+                                <a href="organic-social-posts.html">Social Media Posts</a> </div>
+                        </li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+
+                <div class="inner_social_link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MrPipelineMktg/">
+                            <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/">
+                            <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.linkedin.com/company/mrpipeline/">
+                            <img src="Assets/images/linkdin.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.youtube.com/">
+                            <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+
+
+
+                </div>
+
+                <div class="header-btn"> <a href="website-analysis.html" class="main_btn">Free Website Analysis</a> </div>
+
+                <div class="hamburger"> <a href="#"> <img src="Assets/images/hamburger.png" /> </a> </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero-section serve">
+    <div class="container">
+    <div class="hero-content">
+        <h1>Careers at Mr. Adpilot</h1>
+    </div>
+    </div>
+    </section>
+
+    <div class="apply-form">
+        <div class="container">
+            <div class="career-wrapper">
+
+    <h2 class="career-title">Apply Today!</h2>
+    <p class="career-subtitle">
+        Please fill out the following online employment application form, or email your resume directly
+        to <a href="mailto:info@mradpilot.com">info@mradpilot.com</a>
+    </p>
+
+    <form id="careerForm" method="POST" action="career-form.php" enctype="multipart/form-data">
+
+        <div class="form-row full">
+            <label>Applying for: <span class="req">*</span></label>
+            <select name="applying_for" required>
+                <option value="Client Success (Account Manager)">Client Success (Account Manager)</option>
+                <option value="Sales Specialist">Sales Specialist</option>
+                <option value="Internet Marketing Specialist">Internet Marketing Specialist</option>
+                <option value="Search Engine Optimization Specialist">Search Engine Optimization Specialist</option>
+                <option value="Paid Search Specialist">Paid Search Specialist</option>
+                <option value="Social Media Marketing Specialist">Social Media Marketing Specialist</option>
+                <option value="Administrative Assistant">Administrative Assistant</option>
+                <option value="Web Designer">Web Designer</option>
+                <option value="Internship - Account Manager">Internship - Account Manager</option>
+                <option value="Internship - Internet Marketing Specialist">Internship - Internet Marketing Specialist</option>
+                <option value="Internship - Web Designer">Internship - Web Designer</option>
+            </select>
+        </div>
+
+        <!-- Name + Email -->
+        <div class="form-row half">
+            <label>My name is: <span class="req">*</span></label>
+            <input type="text" name="name" placeholder="Ex: John Smith" required>
+        </div>
+
+        <div class="form-row half">
+            <label>My email is: <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="Ex: john@johnsmith.com" required>
+        </div>
+
+        <!-- Phone + Address -->
+        <div class="form-row half">
+            <label>My phone is: <span class="req">*</span></label>
+            <input type="text" name="phone" placeholder="Ex: 555-555-5555" required>
+        </div>
+
+        <div class="form-row half">
+            <label>My address is: <span class="req">*</span></label>
+            <input type="text" name="address" placeholder="Ex: 123 Acme Rd, Lake Worth, FL 33467" required>
+        </div>
+
+        <!-- Job Lead Source -->
+        <div class="form-row full">
+            <label>Job Lead Source: <span class="req">*</span></label>
+            <select name="lead_source" required>
+                <option value="Indeed">Indeed</option>
+                <option value="Monster">Monster</option>
+                <option value="Glassdoor">Glassdoor</option>
+                <option value="Craigslist">Craigslist</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Career Fair">Career Fair</option>
+                <option value="Simplyhired">Simplyhired</option>
+                <option value="Snagajob">Snagajob</option>
+                <option value="Referral">Referral</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <!-- Resume Upload -->
+        <div class="form-row full">
+            <label>Resume Upload</label>
+            <input type="file" name="resume">
+            <small>Max. file size: 3 GB.</small>
+        </div>
+
+
+        <button type="submit" class="career-btn">APPLY</button>
+
+        <p id="formMessage"></p>
+    </form>
+
+</div>
+
+        </div>
+    </div>
+
+    <section class="career-bg">
+        <div class="container">
+            <p>A Business That Makes Nothing But Money is a Poor Business. -Henry Ford</p>
+            <p>Many studies say the secret to true happiness is having a well balanced life. The fact of the matter is that you spend a lot of time in life at 
+                the place you work at. So it’s important to truly love what you do to and the people you surround yourself with on a daily basis. With that said; 
+                a positive, creative and motivating culture fills our workplace. We’ve created an open floor for new ideas and an open door for anything that crosses someones mind.</p>
+        </div>
+    </section>
+
+
+    <section class="pilot-career">
+        <div class="container">
+            <img src="Assets/images/MrAdPilot-final-07.png" alt="">
+            <h4>What To Expect From Mr. Adpilot</h4>
+            <div class="career-list">
+                <ul>
+                    <li>Training & Education Are Always Offered</li>
+                    <li>High Industry Compensation Is In Place</li>
+                    <li>A Fun & Fast Growing Company</li>
+                    <li>PTO, Health Insurance & 401(k)</li>
+                    <li>Great Work-Life Balance Culture</li>
+                </ul>
+                <img src="Assets/images/quote-img.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+
+<footer>
+        <div class="container">
+
+            <div class="inner_flex">
+
+            <div class="footer_colume">
+             <a href="index.html"> <img class="footer-image" src="Assets/images/MrAdPilot-final-08.png"></a>
+             <p>MrAdpilot help small businesses grow online with expert Google Ads and SEO strategies designed to increase leads, traffic, and revenue. </p> 
+
+            <div class="social_media_link">
+                    <div class="footer_links">
+                    <a href="https://www.facebook.com/profile.php?id=61583201891867"><img src="Assets/images/facebook_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.instagram.com/mradpilot"><img src="Assets/images/insta_img.png" /></a>
+                    </div>
+                    <div class="footer_links">
+                    <a href="https://www.youtube.com/@MrAdPilot-agency"><img src="Assets/images/youtube_img.png" /></a>
+                    </div>
+            </div>
+            </div>
+
+            <div class="footer_colume"> 
+                    <div class="footer-links">
+                    <h5>Navigation</h5>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-serve.html">Who We Serve</a></li>
+                    <li><a href="Ad-pilot.html">Why Mr. Adpilot</a></li>
+                    <li><a href="blogs.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                    </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-links">
+                <h5>Other Links</h5>
+                <ul>
+                <li><a href="terms-and-condition.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="footer_colume">
+                <div class="footer-contact-us">
+                <h5>Contact us</h5>
+                <ul>
+                <li><img src="Assets/images/call.svg.svg" alt=""><a href="tel:+1945-229-7999">945-229-7999</a></li>
+                <li><img src="Assets/images/email.svg.svg" alt=""><a href="mailto:info@mradpilot.com">info@mradpilot.com</a></li>
+                <li><img src="Assets/images/map.svg.svg" alt=""><a href="https://www.google.com/maps/place/8222+Colonial+Oaks+Ln,+Spring,+TX+77379/@30.0258517,-95.5496665,1969m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8640cd4496cabaeb:0x585105fafba818a8!8m2!3d30.0258517!4d-95.5496665!16s%2Fg%2F11cp8g_w9l?coh=277533&entry=tts&g_ep=EgoyMDI1MTIwNy4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=d73911c2-33ac-4b6c-b3ff-25c48d211611" target="_blank">
+                8222 Colonial Oaks Ln,<br> Spring, TX, United States</a></li>
+                </ul>
+                </div>
+            </div>
+
+             </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright 2025, All Rights Reserved by Mr. Adpilot Ventures Inc.</p>
+        </div>
+    </footer>
+
+
+    <script>
+jQuery("#careerForm").on("submit", function(e) {
+    e.preventDefault();
+
+    let formData = new FormData(this);
+
+    jQuery.ajax({
+        url: jQuery(this).attr("action"),
+        type: "POST",
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function(response) {
+            jQuery("#formMessage").html("✔️ Your application has been submitted successfully!");
+            jQuery("#careerForm")[0].reset();
+        },
+        error: function() {
+            jQuery("#formMessage").html("❌ Something went wrong. Try again.");
+        }
+    });
+});
+
+
+
+jQuery(".hamburger").click(function () {
+    jQuery(".nav-menu").addClass("active");
+});
+
+jQuery(".cross_icon img").click(function () {
+    jQuery(".nav-menu").removeClass("active");
+});
+jQuery('.dropbtn').on('click', function() {
+    jQuery(this).toggleClass('img-rotate');
+    jQuery(this).siblings('.dropdown-content').toggleClass('active');
+});
+</script>
+
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html> 
