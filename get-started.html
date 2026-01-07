@@ -630,6 +630,8 @@ button {
                                 <input type="text" name="business_name" placeholder="Business Name" required>
                                 <input type="url" name="website" placeholder="Website Address">
                                 <input type="text" name="location" placeholder="Primary City">
+                                <input type="hidden" name="page_url" value="">
+
 
                                 <button type="button" class="next-btn">Next</button>
                             </div>
@@ -1429,6 +1431,8 @@ button {
 
 
     <script>
+        document.querySelector('input[name="page_url"]').value = window.location.href;
+
         jQuery(document).ready(function ($) {
 
     let step = 0;
@@ -1519,10 +1523,11 @@ button {
             },
             success: function (res) {
                 if (res.trim() === 'success') {
-                    $('#formResponse').html('<span style="color:green">Form submitted successfully!</span>');
+                $('#formResponse').html('<span style="color:green">Form submitted successfully!</span>');
                     $('#multiStepForm')[0].reset();
                     step = 0;
                     showStep(step);
+                    window.location.replace('thankyou.html');
                 } else {
                     $('#formResponse').html('<span style="color:red">Submission failed</span>');
                 }

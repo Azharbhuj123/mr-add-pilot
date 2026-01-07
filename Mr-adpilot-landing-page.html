@@ -929,6 +929,7 @@
               <label>Best email address? *</label>
               <input type="email" name="email" required />
             </div>
+            <input type="hidden" name="page_url" value="">
 
             <button type="submit">Submit</button>
 
@@ -1301,6 +1302,8 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+      document.querySelector('input[name="page_url"]').value = window.location.href;
+
       jQuery(document).ready(function ($) {
         $("#landingPageForm").on("submit", function (e) {
           e.preventDefault(); // Page reload rok do
@@ -1315,6 +1318,7 @@
               if (response.trim() == "success") {
                 $(".thank-you").show(); // Thank you message
                 $("#landingPageForm")[0].reset(); // Form reset
+                window.location.replace('thankyou.html');
               } else {
                 alert("Something went wrong. Please try again.");
               }

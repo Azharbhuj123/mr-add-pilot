@@ -323,6 +323,7 @@ body#website-analysis .contact-icon {
     <input type="text" name="website_url" placeholder="Website URL" required>
     <input type="email" name="email" placeholder="Email" required>
     <input type="text" name="name" placeholder="Name" required>
+    <input type="hidden" name="page_url" value="">
 
     <button type="submit">Get My Results</button>
 </form>
@@ -751,6 +752,7 @@ $('body#website-analysis section.website-analysis .row.owl-carousel').owlCarouse
     </script>
 
 <script>
+    document.querySelector('input[name="page_url"]').value = window.location.href;
 document.getElementById('resultsForm').addEventListener('submit', function(e){
     e.preventDefault();
 
@@ -766,6 +768,7 @@ document.getElementById('resultsForm').addEventListener('submit', function(e){
         if (response.trim() === 'success') {
             document.getElementById('resultsMsg').style.display = 'block';
             form.reset();
+            window.location.replace('thankyou.html');
         } else {
             alert('Form submit failed. Please try again.');
         }

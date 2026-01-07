@@ -249,7 +249,7 @@
         <option>Google Ads</option>
         <option>Branding</option>
     </select>
-
+    <input type="hidden" name="page_url" value="">
     <textarea name="summary" placeholder="Summary of project"></textarea>
 
     <button type="submit">Submit</button>
@@ -728,6 +728,7 @@
 
 <!-- Ajex Load Scription -->
 <script>
+    document.querySelector('input[name="page_url"]').value = window.location.href;
 document.getElementById('contactForm').addEventListener('submit', function(e){
     e.preventDefault();
 
@@ -740,6 +741,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
         if(response.trim() === 'success'){
             document.getElementById('formMessage').style.display = 'block';
             document.getElementById('contactForm').reset();
+            window.location.replace('thankyou.html');
         } else {
             alert('Form submit failed');
         }
