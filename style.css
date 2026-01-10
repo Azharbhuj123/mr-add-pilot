@@ -622,7 +622,9 @@ html {
     gap: 10px;
     align-items: center;
 }
-
+.whatappbox {
+    display: none;
+}
 .logo img,
 img.footer-image {
     width: 178px;
@@ -8922,11 +8924,733 @@ section.google-business {
 }
 
 #marketing-agencys section.facts {
-    padding: 25% 4% 40px 4% !important;
+    padding: 22% 4% 40px 4% !important;
 }
 
 .fact-heading p {
     padding-top: 25px;
+}
+
+
+
+section.services-sections .row {
+    padding-top: 40px !important;
+}
+
+.fact-box .count-content {
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding-bottom: 20px;
+}
+
+.fact-box {
+    padding: 25px;
+}
+
+.fact-box p {
+    line-height: normal;
+}
+
+section.facts .row {}
+
+.count-content h5 {
+    font-size: 18px;
+}
+
+section.feedback {
+    padding: 40px 4% 40px 4% !important;
+}
+
+section.feedback .main_btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.feedback-head {
+    padding: 30px 20px;
+    border-radius: 10px !important;
+    margin: 0px !important;
+}
+
+section.feedback .owl-item {
+    padding-top: 20px !important;
+}
+
+.owl-carousel .owl-item img {
+}
+
+.feedback-content {
+}
+
+section.feedback .owl-nav {
+    padding-top: 15px;
+}
+
+section.feedback .row {
+    padding-bottom: 0px !important;
+}
+
+.feedback-inner-main {
+    padding-bottom: 15px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-stage {}
+
+.who-we-are-headings p {
+    padding: 20px 0px 20px;
+}
+
+.national-btn {
+    max-width: 100% !important;
+    width: 100% !important;
+    font-size: 12px;
+    padding: 14px 40px;
+    border-radius: 5px;
+    height: 100% !important;
+    margin-top: 20px !important;
+}
+
+.national-btn a {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+
+.service-texts h2 {
+    padding-bottom: 5px !important;
+}
+
+.service-texts p {
+    padding: 0px  !important;
+    line-height: 22px !important;
+}
+
+.service-texts {
+    padding: 10px 20px !important;
+}
+
+section.industry-leader {
+    padding: 40px 4%  0px 4% !important;
+}
+
+.adss-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.underline {
+    padding: 10px 0px 20px 0px !important;
+}
+
+.business-blogs h5, .detailed h5 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.row {}
+
+body#Healthcare-marketing section.youtube-videos .row {
+    gap: 15px;
+}
+
+section.Transparency .Transparency-col li span {
+    text-align: center;
+    font-size: 16px;
+}
+
+.Transparency-col li img {
+    display: none;
+}
+
+section.Transparency .main_btn {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+
+.work-with-us-content, .google-content {
+    gap: 15px !important;
+}
+
+.work-with-us-content h5 {
+    font-size: 18px;
+    text-align: center;
+}
+
+section.work-with-us {
+    padding: 40px 4% 0px 4% !important;
+}
+
+.video {
+    padding-top: 40px;
+}
+
+section.services-section {
+    padding: 40px 20px;
+}
+
+.service-card img {
+    height: 287px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.service-card {
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.service-card-text {
+    padding: 20px;
+}
+
+.service-card-text h5 {
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+
+.hero-content p {}
+
+body#review .hero-content {
+    width: 100% !important;
+}
+
+section.our-clients .hero-content p {
+    padding-top: 24px;
+}
+
+#review .video {
+    padding-top: 40px !important;
+    height: 100%;
+}
+
+#review .video-text h5 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.video-text {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.videos-container {
+    gap: 0px;
+}
+
+body#review section.feedback {
+    margin: 0px !important;
+}
+
+body#review .service-texts h2 {
+    padding-bottom: 14px !important;
+}
+
+body#review section.client-says {
+    padding: 40px 20px;
+}
+
+section.adds-management {
+    padding: 40px 4% 0% !important;
+}
+
+
+
+section.blog-section {
+    padding: 40px 4%;
+}
+
+h2.blog-title {
+    padding-bottom: 20px;
+}
+
+#blogs .blog-tabs {
+    margin: 20px 0px 40px 0px;
+    padding: 0px !important;
+}
+
+.tab {
+    padding: 10px !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+}
+
+#blogs .blog-img img {
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#blogs .blog-item {
+    gap: 20px;
+}
+
+h3.blog-heading {
+    font-size: 18px;
+    text-align: center;
+}
+
+#blogs .cat {
+    text-align: center;
+    width: 100%;
+    padding: 14px 0px !important;
+}
+
+#blogs p.blog-text {
+    padding: 15px 0px;
+}
+
+#blogs a.blog-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#blogs .blog-content {
+    padding: 0px 20px 25px 20px;
+}
+
+
+body#mr-pipeline section.adds-management {
+    padding: 40px 4% !important;
+}
+
+.sides-col span {
+    padding: 15px 0px 0px 0px;
+}
+
+.sides-col p {
+    margin: 0px !important;
+    padding-top: 20px;
+}
+
+section.adds-management .row {
+    gap: 15px !important;
+    padding-top: 25px !important;
+}
+
+.google-img {
+    padding-top: 30px !important;
+}
+
+.google-img img {
+    padding: 0px !important;
+}
+
+section.google-partner {
+    padding: 40px 4% !IMPORTANT;
+}
+
+.Analysis-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px !important;
+    padding: 30px !important;
+}
+
+.Analysis-col h3 {
+    padding: 18px 0;
+    font-size: 18px;
+}
+
+section.Analysis {
+    padding: 40px 4%;
+}
+
+body#mr-pipeline section.subscription-plan {
+    padding: 40px  4% !important;
+}
+
+.plan-box.fadeup span {
+    text-align: center;
+}
+
+.plan-box h2 {
+    padding: 15px 0px !important;
+}
+
+p.bottom-param {
+    padding-bottom: 20px !important;
+}
+
+a.btn-1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
+    
+}
+
+
+.seo-page section.adds-management {
+    padding: 40px 4% !important;
+}
+
+.seo-page .adds-management p {
+    margin: 15px auto !important;
+}
+
+.seo-page .heading-and-detail .sub-container p {
+    margin: 0px !important;
+}
+
+.seo-page .heading-and-detail .sub-container {
+    padding: 0px 15px !important;
+}
+
+section.custom-developed-page.heading-and-detail {
+    padding: 40px 0 !important;
+}
+
+.seo-page .image-with-text .image-with-text-container {
+    padding: 25px !important;
+    border-radius: 10px !important;
+}
+
+section.image-with-text .image-with-text-container .text-container .large-heading, .large-heading {
+    text-align: center !important;
+    width: 100%;
+}
+
+p.small-sub-heading {
+    font-size: 14px !important;
+}
+
+section.image-with-text .image-with-text-container .button-container {
+    margin-top: 0px !important;
+}
+
+.text-container {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.button-container a {
+    padding: 14px 40px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+}
+
+.image-container {
+    height: 305px !important;
+}
+
+img {}
+
+.image-container img {
+    width: 100%;
+    max-width: 100% !important;
+    height: 100% !important;
+}
+
+.rm-sub-container {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.rm-sub-container a {
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.seo-packages .pkg-title {
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.seo-packages .pkg-price .price-amount {
+    font-size: 40px;
+    text-align: center;
+}
+
+.seo-packages .pkg-meta {
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+
+.card-hero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.seo-packages .feature-button {
+    padding: 14px !important;
+    font-size: 12px !important;
+    border-radius: 5px;
+}
+
+
+
+
+
+body#website-design section.adds-management {
+    padding: 40px 4% !important;
+}
+
+section.website-visitors {
+    padding: 40px 4% !important;
+}
+
+section.website-visitors .visitors-column .content-box a {
+    text-align: center;
+    width: 100%;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px !important;
+}
+
+body#website-design section.phone-ring {
+    padding: 40px 4% !important;
+    background: #21a85d !important;
+}
+
+.checklist-points ul li {
+    font-size: 14px !important;
+}
+
+section.machine-pricings .row {
+    padding-top: 40px;
+}
+
+section.machine-pricings {
+    padding: 40px 4% !important;
+}
+
+.includes h6 {
+    text-align: center;
+}
+
+.includes li {
+    text-align: center;
+}
+
+section.adds-management.social_section {
+    padding: 40px 4% !important;
+}
+
+.social_section .adds-col span {
+    font-size: 20px;
+}
+
+body#social-post section.phone-ring {
+    background: rgba(33, 168, 93, 1) !important;
+}
+
+body#social-post section.website-section {
+    padding: 40px 4% 0px !important;
+}
+
+
+#contact-us .quick-video {
+    padding: 40px 4% !important;
+}
+
+.get-col p {
+    padding: 20px 0 0;
+}
+
+.Information-col {
+    padding: 30px 0;
+}
+
+.Information-col ul {
+    gap: 10px;
+}
+
+.Information-col ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#website-analysis section.contact-us {
+    padding: 40px 4% !important;
+}
+
+body#website-analysis .estimate-container button {
+    margin: 10px 0 0 0;
+}
+
+div#upperform {}
+
+div#upperform form#resultsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body#website-analysis section.contact-us .estimate-container {
+    padding: 30px !important;
+}
+
+section.website-analysis {
+    padding: 40px 4% !important;
+}
+
+#website-analysis .website-analysis h2, #website-analysis p.analysis-para {
+    padding-bottom: 10px;
+}
+
+.website-Analysis-col.item p br {
+    display: none;
+}
+
+section.website-analysis .owl-carousel .owl-item img {
+    padding: 0px !important;
+}
+
+body#website-analysis section.website-analysis h5 {
+    padding: 0px !important;
+}
+
+.website-Analysis-col.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.website-Analysis-col.item {}
+
+.website-analysis .main_btn {
+    margin-top: 10px !important;
+}
+
+#website-analysis .main_btn a {
+    padding: 14px 16px !important;
+    font-size: 14px !important;
+}
+
+#website-analysis section.feedback {
+    padding: 40px 4% !important;
+}
+
+#website-analysis section.feedback h2 {
+    padding-bottom: 20px !important;
+}
+
+section.feedback .row {
+    padding-bottom: 0px !important;
+}
+
+#website-analysis section.feedback .owl-nav {
+    padding-top: 35px;
+}
+
+.feedback-paragraph p {
+    padding-top: 20px;
+}
+
+#website-analysis section.Business-designeds .main_btn {
+    padding: 20px 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#website-analysis section.Business-designeds .main_btn a {
+    font-size: 12px !important;
+    padding: 14px 30px !important;
+}
+
+body#website-analysis .contact-icon {
+    align-items: center;
+}
+
+
+.banner_left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_left_side h1 {
+    font-size: 35px !important;
+    text-align: center;
+}
+
+.main_landing_button a {
+    font-size: 12px !important;
+    padding: 14px !important;
+    border-radius: 5px !important;
+    height: 100% !important;
+    line-height: normal;
+}
+
+.form_field label {text-align: center;}
+
+section.section_three {}
+
+.landing_banner {
+    padding: 40px 4% !important;
+}
+
+section.reviews {
+    padding: 40px 4% !important;
+}
+
+.inner_list ul li {
+    padding-bottom: 10px !important;
+}
+
+.main_landing_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_list ul {
+    padding: 20px 0px;
+}
+
+.content_box span {
+    text-align: center;
+}
+
+.row1 ul li {
+    justify-content: center;
+    width: 100% !important;
+}
+.whatappbox {
+  display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #FFF;
+    border-radius: 50%;
+    padding: 5px;
 }
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
