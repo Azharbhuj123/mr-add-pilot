@@ -8674,18 +8674,28 @@ div#videoFrame {
 
 
 .adlogo-image {
-    width: 100% !important;
+    width: 48% !important;
     border-radius: 10px;
 }
 
 section.Ads-images .row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px 0px;
+          display: flex;
+        align-items: center;
+        gap: 20px 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
 }
 
+.adlogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.adlogo img {
+    width: 70%;
+}
 .national-company-headings {
     padding: 0px !important;
     display: flex;
