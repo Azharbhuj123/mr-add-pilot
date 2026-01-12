@@ -177,6 +177,7 @@ line-height: 30.039px; /* 150.196% */
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: #25b15f;
 }
 
 
@@ -622,9 +623,7 @@ html {
     gap: 10px;
     align-items: center;
 }
-.whatappbox {
-    display: none;
-}
+
 .logo img,
 img.footer-image {
     width: 178px;
@@ -3059,7 +3058,21 @@ body#website-analysis .contact-icons {
 .designed-col h2 {
     width: 100%;
 }
-
+.whatappbox {
+  display: block;
+         position: fixed;
+        top: 260px;
+        right: -0px;
+        background: #43afc98a;
+        border-radius: 5px 0px 0px 5px;
+        padding: 10px;
+        height: 90px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+}
 body#website-analysis section.Business-designeds .header-btn {
     margin: 81px 0 0
 }
@@ -4664,6 +4677,134 @@ body#marketing-agencys .feeds {
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.client_img {
+    width: 65px;
+    height: 65px;
+}
+
+.client_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.video img{
+    object-fit: cover;
+}
+.video{
+    flex: 0 0 32% !important;
+}
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 */
+    overflow: hidden;
+}
+
+.video-thumb,
+.video-wrapper iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper iframe {
+    display: none;
+    border: 0;
+}
+
+.video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 50px;
+    background: #FF0000; /* YouTube red */
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+    pointer-events: none;
+}
+
+.play-btn::before {
+    content: "";
+    margin-left: 4px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+
+section.carousel_sec {
+    padding: 50px 0px;
+}.carousel_sec {
+  overflow: hidden;
+}
+
+.main_carousel_box {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  animation: autoScroll 30s linear infinite;
+}
+
+.carousel_cards {
+  min-width: 300px;
+  padding: 0px !important;
+  height: 300px;
+}
+
+
+
+
+/* infinite movement */
+@keyframes autoScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+.main_carousel_box:hover {
+  animation-play-state: paused;
+}
+
+
+.carousel_cards .video-wrapper {
+    padding: 0px !important;
+    height: 100%;
+}
 /* Responsive breakpoints: desktop -> tablet -> mobile */
 @media (max-width: 1440px) {
     body.holiday_lighting .text-with-bg-image .main-container {
@@ -9590,7 +9731,7 @@ body#website-analysis .contact-icon {
     align-items: center;
 }
 
-.banner-logo {
+.banner-logo  a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9640,18 +9781,89 @@ section.reviews {
 }
 
 .row1 ul li {
-    justify-content: center;
-    width: 100% !important;
+          justify-content: center;
+        width: 100% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
 }
-.whatappbox {
-  display: block;
+
+.banner-logo.fixed-logo {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #FFF;
-    border-radius: 50%;
-    padding: 5px;
+    top: 0px;
+    right: 0px;
+    background: #43afc9;
 }
+
+.social_media_link {
+    margin-left: 0px;
+}
+
+
+.carousel_cards {
+    height: 200px;
+    min-width: 270px;
+}
+
+.play-btn {
+    width: 50px;
+    height: 40px;
+}
+.main_landing_button {
+    height: 100% !important;
+}
+
+.main_landing_button a {
+    height: 100% !important;
+    line-height: normal;
+}
+
+.banner_left_side p {
+    font-size: 18px !important;
+}
+
+.banner_left_side h1 {
+    text-align: center !important;
+}
+
+p {}
+
+.client_img_content {
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
+.main_flex_review {
+    flex-direction: row !important;
+    overflow-x: auto;
+    gap: 0px;
+}
+
+.reviews_box {
+    width: 360px !important;
+    max-width: 360px;
+    min-width: 360px;
+    height: 400px !important;
+    margin: 10px 15px;
+}
+
+.inner_list ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.inner_list ul li img {
+    display: none;
+}
+
+li.footer_logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
