@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/6579d98e07843602b801b4e4/1hhhvjlgm";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <meta charset="UTF-8">
+<!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1208767614724509');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1208767614724509&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get-started</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+       <link rel="icon" type="image/x-icon" href="Assets/images/fav.png">
+    <!-- JQuery Installation (remove async to preserve load order) -->
+
+
+
+
+    <!-- OWL SLIDER INSTALLATION (load after jQuery, no async) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ===== PROGRESS BAR ===== */
+.progress-track {
+    width: 100%;
+    height: 25px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.form-step h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A1B1C;
+    border: none;
+    padding: 0;
+    margin: 40px 0;
+}
+.radio-option label {
+   font-family: 'Urbanist', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.radio-option label input{
+    margin-right: 10px;
+}
+.progress-inner {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #D11F2A 0%, #e63946 100%);
+    
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.4s ease;
+}
+
+/* ===== STEPS ===== */
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 6px 0;
+}
+
+.next-btn,
+.prev-btn,
+.submit-btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    padding: 14px 48px;
+    background-color: #d11f2a;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* ===== BUTTONS ===== */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+}
+
+/* ===== VALIDATION ===== */
+.error {
+    border: 1px solid red !important;
+}
+
+.error-msg {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+#formResponse {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+        #started .hero-content {
+            max-width: 770px !important;
+        }
+
+        #started .video h2 {
+            line-height: 40px;
+        }
+
+        #started textarea#business-location {
+            resize: none;
+            height: 75px !important;
+            padding-bottom: 12px;
+        }
+
+        .get-started-btn a {
+            padding: 18px 54px;
+        }
+
+        #started input::placeholder {
+            color: #020D0AB2;
+        }
+
+        #started input[type="text"],
+        #started input[type="url"],
+        #started input[type="tel"],
+        #started input[type="email"],
+        #started select{
+            
+            font-family: 'Urbanist', sans-serif;
+            background: #fff;
+            font-weight: 400;
+            width: 100%;
+        padding: 14px 16px;
+        border: 1px solid #d5d5d5;
+        border-radius: 8px;
+        font-family: 'Satoshi', sans-serif;
+        font-size: 16px;
+        color: #1A1B1C;
+        margin-top: 20px;
+        transition: all 0.3s ease;
+        }
+
+        #started .btn-next {
+            font-weight: 500;
+        }
+
+        #started section.quick-video {
+            background: #F5F5F5;
+        }
+
+        #started .internet-bg {
+            box-shadow: 10px 14px 84px 0px #0000000F;
+            border-radius: 19px;
+        }
+
+        #started .pipeline-image img {
+            border-radius: 0 18px 18px 0px
+        }
+
+        #started .para-bold {
+            font-weight: 700;
+        }
+
+        #started .discovery-card-inner {
+            font-weight: 700;
+        }
+
+        #started .started-value {
+            color: #21A85D;
+            font-size: 96px;
+            line-height: 100px;
+            padding: 20px 0;
+            font-weight: 700;
+            height: auto;
+        }
+
+        #started .ads-col h2 {
+            text-align: center;
+            padding-bottom: 30px;
+
+        }
+
+        #started .Business-designed .designed-col {
+            max-width: 930px;
+            margin: auto;
+        }
+
+        #started .Business-designed .designed-col a {
+            padding: 17px 22px
+        }
+
+        #started section.feedback .top-images {
+            top: -50px;
+        }
+
+        #started .Business-designeds {
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        #started section.Business-designeds .main_btn {
+            padding-top: 0;
+        }
+
+        #started section.Business-designeds .main_btn a {
+            padding: 18px 24px
+        }
+
+        #started .internet-marketings {
+            padding-right: 40px;
+        }
+
+        #started section.pipeline-team {
+            padding: 60px 0;
+        }
+
+#started .quick-video .video{
+    flex: 0 0 49% !important;
+}
+        #started .video img{
+    object-fit: cover;
+}
+#started .video{
+    flex: 0 0 32% !important;
+}
+#started .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 */
+    overflow: hidden;
+}
+
+#started .video-thumb,
+#started .video-wrapper iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#started .video-wrapper iframe {
+    display: none;
+    border: 0;
+}
+
+#started .video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#started .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+#started .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 50px;
+    background: #FF0000; /* YouTube red */
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+    pointer-events: none;
+}
+
+#started .play-btn::before {
+    content: "";
+    margin-left: 4px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+        @media(max-width:1200px) {
+            #started .internet-marketings {
+                padding-right: 0px;
+            }
+
+            #started .pipeline-image img {
+                height: 290px;
+            }
+
+            #started .discovery-card-inner p {
+                height: 280px;
+            }
+
+            #started .discovery-card {
+                height: 670px !important;
+            }
+        }
+
+        @media(max-width:1024px) {
+            #started .internet-marketings {
+                padding: 64px 14px 64px 25px;
+            }
+
+            #started .discovery-card:nth-child(6) p {
+                height: auto !important;
+            }
+
+            #started section.feedback {
+                padding: 90px 20px 23px;
+            }
+
+            #started .discovery-card {
+                padding: 28px 30px 9px 30px;
+            }
+
+            #started section.feedback .top-images {
+                right: 10px !important;
+            }
+
+            #started .videos-container {
+                gap: 15px;
+            }
+
+            #started section.discovery-blogs .stats-col h2 {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+
+        @media(min-width:768px) and (max-width:1023px) {
+            #started .hero-content {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+
+            #started .quick-video .video {
+                flex: 0 0 100% !important;
+            }
+
+            #started .form-wrapper {
+                padding: 20px 0;
+            }
+
+            #started .internet-bg {
+                padding: 0px 0px;
+            }
+
+            #started .internet-marketings {
+                padding: 50px 14px 50px 25px;
+            }
+
+            #started .pipeline-image img {
+                height: 256px;
+                width: 100%;
+            }
+
+            #started .stats-col p {
+                width: 100%;
+            }
+
+            #started .discovery-card-inner p {
+                height: 245px;
+            }
+
+            .video {
+                flex: 0 0 48.5%;
+            }
+
+            section.our-clients {
+                padding: 10% 20px 30px;
+            }
+
+            .designed-col p {
+                padding: 25px 0 40px;
+            }
+            .pipeline-team-col img{
+                width: 100% !important;
+            }
+            .discovery-card {
+                width: 48.1% !important;
+        }
+    }
+
+        @media(max-width:767px) {
+            #started .pipeline-image img {
+                height: auto;
+            }
+
+            #started section.pipeline-team {
+                padding: 30px 0
+            }
+
+            #started section.discovery-blogs .stats-col h2 {
+                width: 100%;
+            }
+
+            #started .discovery-card-inner p {
+                height: auto;
+                padding-bottom: 20px;
+            }
+
+            #started .discovery-card {
+                height: auto !important;
+            }
+
+            #started .started-value {
+                font-size: 70px;
+                line-height: 70px;
+                padding: 10px 0;
+                height: auto;
+            }
+
+            #started .discovery-card-inner span {
+                height: auto;
+            }
+
+            #started .pipeline-team-col p {
+                font-size: 16px !important;
+                padding: 0 15px;
+            }
+
+            #started section.feedback .top-images {
+                right: 75px !important;
+                top: 0;
+            }
+
+            #started section.feedback {
+                padding: 21% 4% 5% 4% !important;
+            }
+
+            #started section.our-clients .video {
+                flex: 0 0 100%;
+            }
+
+            #started section.our-clients {
+                padding: 10% 20px 50px;
+            }
+
+            #started .ads-col h2 {
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body id="started">
+
+    <div class="whatappbox">
+ <a 
+  href="tel:945-229-7999"
+>
+<img src="Assets/images/call.svg.svg" alt="">
+</a>
+
+</div>
+
+    <!-- <div class="announcement-bar">
+        <div class="container">
+            <div class="row">
+                <div class="announcement-col">
+                    <div class="announcement-inner">
+                        <a href="https://www.google.com/maps/place/8222+Colonial+Oaks+Ln,+Spring,+TX+77379,+USA"
+                            target="_blank">
+                            <img src="Assets/images/map.svg" />
+                            <p>1501 Corporate Dr. Ste 110
+                                Boynton Beach, FL 33426</p>
+                        </a>
+                    </div>
+                    <div class="announcement-inner">
+                           <a >
+                        <img src="Assets/images/call.svg" />
+                        <p>561-899-3043</p></a>
+                    </div>
+                </div>
+                <div class="social-link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MrPipelineMktg/">
+                        <img src="Assets/images/facebook.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.instagram.com/">
+                        <img src="Assets/images/instagram.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                          <a href="https://www.linkedin.com/company/mrpipeline/">
+                        <img src="Assets/images/linkdin.svg" /></a>
+                    </div>
+                    <div class="facebook">
+                                 <a href="https://www.youtube.com/">
+                        <img src="Assets/images/youtube.svg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <header>
+        <div class="container">
+            <div class="row" style="justify-content: center;">
+                <div class="logo"> <a href="index.html"> <img src="Assets/images/MrAdPilot-final-08.png" /> </a>
+                </div>
+                <!-- <div class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown"> <button class="dropbtn"> Who We Serve <img
+                                    src="Assets/images/Vector (3).svg"> </button>
+                            <div class="dropdown-content"> <a href="who-we-serve.html">Who we serve</a> <a
+                                    href="success-stories.html">Success Stories</a> <a
+                                    href="marketing-agency.html">Marketing Agency</a> <a
+                                    href="internet-marketing.html">Internet Marketing</a> <a
+                                    href="healthcare-marketing.html">Healthcare Marketing</a> </div>
+                        </li>
+                        <li class="dropdown"> <button class="dropbtn"> Why Mr. Pipeline<img
+                                    src="Assets/images/Vector (3).svg"> </button>
+                            <div class="dropdown-content"> <a href="mr-pipeline.html">Mr.Pipeline</a> <a
+                                    href="review.html">Review</a> <a href="get-started.html">Get Started</a> </div>
+                        </li>
+                        <li class="dropdown"> <button class="dropbtn"> Services <img src="Assets/images/Vector (3).svg">
+                            </button>
+                            <div class="dropdown-content"> <a href="ppc.html">PPC</a> <a href="blogs.html">Blogs</a> <a
+                                    href="website-analysis.html">Website Analysis</a> <a
+                                    href="holiday-lighting.html">Holiday Lighting</a> <a href="seo.html">Seo</a> <a
+                                    href="website-design.html">Website design</a> <a
+                                    href="organic-social-post.html">Organic-Social-Post</a> </div>
+                        </li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="header-btn"> <a href="#" class="main_btn">Free Website Analysis</a>  </div>
+
+                <div class="hamburger"> <a href="#"> <img src="Assets/images/hamburger.png" /> </a> </div> -->
+            </div>
+        </div>
+    </header>
+    <section class="hero-section serve">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ready to elevate your Home Service business to new heights?</h1>
+                <p>Discover the strategies, tools, and support you need to grow faster and operate smarter</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quick-video">
+        <div class="container">
+            <div class="row">
+                <div class="video">
+                    <!-- <h2>This short video shows you how to boost your online lead flow👇</h2> -->
+                    <!-- <div class="video-wrapper"
+                        style="position: relative; width: 100%; height: 363px; padding-bottom: 56.25%;">
+
+                        <img src="Assets/images/Group 1000003037.png"
+                            style="position: absolute; top: 0; left: 0; width:100%; height: 363px; cursor: pointer; object-fit: cover;"
+                            onclick="loadVideo(this)" />
+
+                        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 363px; display: none;"
+                            src="" id="ytPlayer" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div> -->
+                    <div class="video-frame" id="videoFrame">
+
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/umRfubPU1NM?si=P2JGQS_KVqRACauX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                    <div class="main_btn get-started-btn">
+                        <a href="contact-us.html">Apply Now</a>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <div class="form-container">
+                         <div class="step-form">
+
+                                <!-- PROGRESS BAR -->
+                                <div class="progress-track">
+                                    <div class="progress-inner">0%</div>
+                                </div>
+
+                            <form id="multiStepForm" action="step-form.php" method="POST" novalidate>
+
+                            <!-- STEP 1 -->
+                            <div class="form-step active">
+                                <h3>Do you run a Home Service business?</h3>
+                                <div class="radio-option">
+                                    <label><input type="radio" name="home_service" value="Yes" required> Yes</label>
+                                </div>
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="home_service" value="No"> No</label>
+                                </div>
+
+                                <input type="text" name="business_name" placeholder="Business Name" required>
+                                <input type="url" name="website" placeholder="Website Address">
+                                <input type="text" name="location" placeholder="Primary City">
+                                <input type="hidden" name="page_url" value="">
+
+
+                                <button type="button" class="next-btn">Next</button>
+                            </div>
+
+                            <!-- STEP 2 -->
+                            <div class="form-step">
+                                <h3>How many service vehicles do you have?</h3>
+
+                                <div class="radio-option">
+                                    <label><input type="radio" name="vehicles" value="Only 1" required> Only 1</label>
+                                </div>
+                                 <div class="radio-option">  
+                                    <label><input type="radio" name="vehicles" value="2-5"> 2–5</label>
+                                </div>
+                                 <div class="radio-option">  
+                                    <label><input type="radio" name="vehicles" value="5-15"> 5–15</label>
+                                 </div>
+                                  <div class="radio-option">  
+                                    <label><input type="radio" name="vehicles" value="15+"> 15+</label>
+                                </div>
+
+                                <div class="buttons">
+                                    <button type="button" class="prev-btn">Previous</button>
+                                    <button type="button" class="next-btn">Next</button>
+                                </div>
+                            </div>
+
+                            <!-- STEP 3 -->
+                            <div class="form-step">
+                                <h3>Monthly Marketing Budget</h3>
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="budget" value="<1000" required> Less than $1,000</label>
+                                 </div>
+                                  <div class="radio-option">  
+                                    <label><input type="radio" name="budget" value="1000-2500"> $1,000 – $2,500</label>
+                                </div>
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="budget" value="2500-5000"> $2,500 – $5,000</label>
+                                </div>
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="budget" value="5000+"> $5,000+</label>
+                                </div>
+
+                                <h3>Annual Revenue</h3>
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="revenue" value="<250k" required> Less than $250k</label>
+                                </div>
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="revenue" value="250k-500k"> $250k – $500k</label>
+                                </div>  
+                                 <div class="radio-option">
+                                    <label><input type="radio" name="revenue" value="500k-1.5M"> $500k – $1.5M</label>
+                                </div>
+                                 <div class="radio-option">
+                                <label><input type="radio" name="revenue" value="1.5M+"> $1.5M+</label>
+                                </div>
+
+
+                                <div class="buttons">
+                                    <button type="button" class="prev-btn">Previous</button>
+                                    <button type="button" class="next-btn">Next</button>
+                                </div>
+                            </div>
+
+                            <!-- STEP 4 -->
+                            <div class="form-step">
+                                <h3>Your Details</h3>
+                                <input type="text" name="full_name" placeholder="Your Name" required>
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                                <input type="email" name="email" placeholder="Email Address" required>
+
+                                <select name="source" required>
+                                    <option value="">Where did you hear about us?</option>
+                                    <option>Facebook</option>
+                                    <option>Instagram</option>
+                                    <option>Google</option>
+                                    <option>TikTok</option>
+                                </select>
+
+                                <div class="buttons">
+                                    <button type="button" class="prev-btn">Previous</button>
+                                    <button type="submit" class="submit-btn">Submit</button>
+                                </div>
+                            </div>
+
+                            </form>
+
+                            <div id="formResponse"></div>
+                            </div>
+                       
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="Internet Marketing">
+        <div class="container">
+            <div class="internet-bg">
+                <div class="row">
+                    <div class="internet-marketings">
+                        <h2>Online Marketing</h2>
+                        <p>is a trusted leader in the home services industry, ready to make your phone ring nonstop!
+                        </p>
+                    </div>
+                    <div class="pipeline-image">
+                        <img src="Assets/images/started-img.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discovery-blogs">
+        <div class="container">
+            <div class="stats-col">
+                <h2>We’ll make sure your Lead Flow Discovery Call is time well spent</h2>
+                <p class="para-bold">Our goal is to turn over every stone to make sure you get off the call with a clear
+                    path to dominate
+                    your local market.</p>
+                <span>This is a customized blueprint designed to help you generate more leads and grow your business.
+                    The following will be included in your gameplan.</span>
+            </div>
+            <div class="row">
+                <div class="discovery-card">
+                    <div class="discovery-card-inner">
+                        <h5>Build a Customized<br>
+                            Keyword List</h5>
+                        <p>We'll put together a custom list just for you, taking into consideration your services,
+                            service area, and the latest search trends. Our team will utilize our advanced tools to
+                            uncover the most popular keywords relevant to your business. Not only that, but we'll also
+                            provide insights on which keywords will generate the highest amount of traffic to your
+                            website.</p>
+                        <span>Valued at $195</span>
+                    </div>
+                    <div class="image-shape-box">
+                        <img src="Assets/images/keyword.png">
+                    </div>
+                </div>
+
+                <div class="discovery-card">
+                    <div class="discovery-card-inner">
+                        <h5>Run a Ranking Report</h5>
+                        <p>Discover your company's exact online ranking for powerful keywords that attract hot
+                            prospects. This valuable information will help you gauge performance, seize opportunities,
+                            and reach potential customers. Get ready for insightful insights that fuel business success!
+                        </p>
+                        <span>Valued at $95</span>
+                    </div>
+                    <div class="image-shape-box">
+                        <img src="Assets/images/seo.png">
+                    </div>
+                </div>
+
+                <div class="discovery-card">
+                    <div class="discovery-card-inner">
+                        <h5>Review Your Website Optimization</h5>
+                        <p>We're excited to offer you a comprehensive analysis and a friendly explanation of what's
+                            working well and what can be improved upon. We'll also provide you with expert guidance on
+                            how to catapult it to the very top.</p>
+                        <span>Valued at $195</span>
+                    </div>
+                    <div class="image-shape-box">
+                        <img src="Assets/images/optimize.png">
+                    </div>
+                </div>
+
+                <div class="discovery-card">
+                    <div class="discovery-card-inner">
+                        <h5>Review Your Website Conversion</h5>
+                        <p>We're excited to help you uncover any factors that might be discouraging website visitors.
+                            We'll also provide you with effective strategies on how to transform those visitors into
+                            paying customers.
+                            Get ready to make a lasting impression and watch those service calls roll in with
+                            confidence!</p>
+                        <span>Valued at $95</span>
+                    </div>
+                    <div class="image-shape-box">
+                        <img src="Assets/images/conversions.png">
+                    </div>
+                </div>
+
+                <div class="discovery-card">
+                    <div class="discovery-card-inner">
+                        <h5>The Smoke Your Competition Blueprint</h5>
+                        <p>Get ready to unlock the power of the internet! Our team is thrilled to guide you through a
+                            step-by-step
+                            process that will help you leverage the online world for more leads and sales.
+                            This blueprint is tailored to your unique needs and goals, ensuring a personalized strategy
+                            that sets you apart from the competition.</p>
+                    </div>
+                    <div class="image-shape-box">
+                        <img src="Assets/images/blueprints.png">
+                    </div>
+                </div>
+                <div class="discovery-card">
+                    <div class="discovery-card-inner">
+                        <h2>Total Value</h2>
+                        <p class="started-value">$480</p>
+                        <p class="spans-colors">We are offering this to you <span>FREE of charge</span> </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="pipeline-team">
+        <div class="container">
+            <div class="ads-col">
+                <h2>Meet The Team</h2>
+            </div>
+
+            <div class="pipeline-team-col">
+                <img src="Assets/images/649c1d7374a7306ba964c3a7 2.png" alt="">
+                <p>Hey there! We're an enthusiastic team that's all about helping Home Service companies boost their
+                    sales and supercharge their revenues through effective online marketing strategies. We've got you
+                    covered with top-notch services like Google Ads, Facebook Ads, SEO, Web Design and more!<br>
+                    <br>
+                    Our main goal as a company is to see our clients succeed so they can smoke the competition! We
+                    genuinely care about you and your results. Whenever our clients expand their fleet, achieve growth,
+                    or reach their goals, our entire team jumps with joy and celebrates together.<br>
+                    <br>
+                    We can't wait to be part of your journey and take your Home Service business to the next level.<a
+                        style="font-weight: 600; " href="#">
+                        Let's make amazing things happen together!</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Business-designed" style='background-image:url(Assets/images/businesss.jpg)'>
+        <div class="overly"></div>
+        <div class="container">
+            <div class="designed-col">
+                <h2>A Specific Blueprint For YOUR Business Designed To Help You Dominate YOUR Local Market!</h2>
+                <p>“The Blueprint” is valued at $480 and worth every penny.</p>
+                <div class="main_btn center padd_none">
+                    <a href="#">Click Here To Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <section class="feedback">
+        <div class="container">
+            <div class="adss-col">
+                <h2> Reviews</h2>
+                <div class="main_btn">
+                    <a href="#">Review us</a>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme">
+                <div class="feeds item">
+
+
+                    <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div>
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/alex-carter.jpg" class="headshot-img" />
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>Alex Carter</h4>
+                                    <!-- <p>Home Services Owner</p> -->
+                                    <img src="Assets/images/Group 1000002891.png" alt="" >
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "So, honestly, I've referred five or six people to Mr. AdPilot because they've been that good for us. 
+                                They told us we'd grow 12 to 15%, but honestly, it's been even better. 
+                                The partnership is solid, the communication is great, and the results just speak for themselves."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/john.jpg" class="headshot-img" />
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>John Harrison</h4>
+                                    <!-- <p>Healthcare Clinic Director</p> -->
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "Working with Mr. AdPilot has been one of the best decisions we've made for our
+                                business. From day one, they understood our goals and came in with a clear plan.
+                                And within a few months, we saw steady growth, more qualified leads, and most
+                                importantly, actual revenue coming in. Highly recommended." </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/marrie.jpg" class="headshot-img" />
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>Marrie Roselle</h4>
+                                    <!-- <p> Retail Business Owner</p> -->
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "I've recommended Mr. AdPilot to other businesses because the experience has
+                                been excellent. We expected good results, but what we got was even better. They communicate well, they
+                                deliver constantly, and our growth has been steady month after month. If you
+                                want a team that actually gets results and is easy to work with, Mr. AdPilot
+                                is the right choice. Highly recommended." </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/micheal.jpg"  class="headshot-img"/>
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>Michael Torres</h4>
+                                   
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "If you want to take your business to the next level, Mr. AdPilot is the perfect
+                                choice. They've consistently helped us grow, broke in high quality leads, and
+                                 acted as a true marketing partner. Every experience with them has been positive.
+                                They're truly the team you want to help you scale. Highly recommended." </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feeds item">
+
+
+                    <!-- <div class="top-images">
+                        <img src="Assets/images/Group 41247 (1).png" />
+                    </div> -->
+                    <div class="feedback-head">
+                        <div class="row">
+                            <div class="feedback-inner-main">
+                                <div class="feedback-content">
+                                    <img src="Assets/images/george.jpg"  class="headshot-img"/>
+                                </div>
+                                <div class="feedback-content">
+                                    <h4>George Kreitem</h4>
+                                    
+                                    <img src="Assets/images/Group 1000002891.png" alt="">
+                                </div>
+                            </div>
+                            <div class="feedback-inner-second">
+                                <!-- <img src="Assets/images/image 25.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="feedback-paragraph">
+                            <p> "I've been working with Mr. AdPilot for almost a year and the results have been
+                                    incredible. You know, we've doubled our monthly sales and the ROI has been
+                                    unreal. Easily between 9 and 10x. They promised growth and uh they
+                                    delivered. If you want a marketing partner who actually moves the needle,
+                                    Mr. AdPilot is the one." </p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <section class="our-clients">
+        <div class="container">
+            <div class="row started-vids owl-carousel">
+
+                                  <div class="videos-container">
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="iSytELMRpOY">
+                                    <img src="Assets/images/alex-carter.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Alex Carter Reviews </h5>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="i4duvQ-zXLI">
+                                    <img src="Assets/images/john.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>John Harrison Reviews </h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="g6LcmRmK3FY">
+                                    <img src="Assets/images/marrie.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Marrie Roselle Reviews </h5>
+                            </div>
+                        </div>
+
+</div>
+
+
+                  <div class="videos-container">
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="WalGQDSGTF0">
+                                    <img src="Assets/images/micheal.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>Micheal Torres Reviews </h5>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video-wrapper">
+                                <div class="video-thumb" data-video-id="FO91vuPeZII">
+                                    <img src="Assets/images/george.jpg">
+                                    <span class="play-btn"></span>
+                                </div>
+                                <iframe allowfullscreen></iframe>
+                            </div>
+                            <div class="video-text">
+                                <h5>George Kreitem Reviews </h5>
+                            </div>
+                        </div>
+
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Business-designeds">
+        <div class="overly"></div>
+        <div class="container">
+            <div class="designed-col">
+                <h2>Would You like Results like These?</h2>
+                <p>Click the button below to schedule your Lead Flow Discovery now.</p>
+                <div class="main_btn center padd_none">
+                    <a href="#">Click Here To Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="newsletter">
+                    <a href="index.html"> <img class="footer-image" src="Assets/images/MrAdPilot-final-08.png"></a>
+                    <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                        ac aliquet odio mattis.</p>
+                    <div class="social-link footer-social">
+                        <a href="https://www.facebook.com/">
+                            <div class="facebook">
+                                <img src="Assets/images/Item (2).svg" />
+                        </a>
+                    </div>
+                    <a href="https://www.instagram.com/">
+                        <div class="facebook">
+                            <img src="Assets/images/Item (3).svg" />
+                    </a>
+                </div>
+                <a href="https://www.linkdin.com/">
+                    <div class="facebook">
+                        <img src="Assets/images/Item (4).svg" />
+                </a>
+            </div>
+            <a href="https://www.youtube.com/">
+                <div class="facebook">
+                    <img src="Assets/images/Item → Link.svg" />
+            </a>
+        </div>
+        </div>
+        </div>
+        <div class="footer-links">
+            <h5>Navigation</h5>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Who We Serve Us</a></li>
+                <li><a href="#">Why Mr. Pipeline</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h5>Other Links</h5>
+            <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact-us">
+            <h5>Contact us</h5>
+            <ul>
+                <li>
+                    <img src="Assets/images/call.svg.svg" alt="">
+                    <a href="tel:5618993043">561-899-3043</a>
+                </li>
+
+                <li>
+                    <img src="Assets/images/email.svg.svg" alt="">
+                    <a href="mailto:info@mrpipeline.com">info@mrpipeline.com</a>
+                </li>
+
+                <li>
+                    <img src="Assets/images/map.svg.svg" alt="">
+                    <a href="https://maps.google.com/?q=1501 Corporate Dr. Ste 110 Boynton Beach, FL 33426"
+                        target="_blank">
+                        1501 Corporate Dr. Ste 110<br>
+                        Boynton Beach, FL 33426
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2025, All Rights Reserved by Mr. Pipeline Ventures Inc.</p>
+        </div>
+    </footer> -->
+
+
+        <footer class="get_start">
+        <div class="copyright">
+            <p>© Copyright 2026, All Rights Reserved by Mr. Adpilot Internet Marketing</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('.form-content');
+            const progressFill = document.querySelector('.progress-fill');
+            const progressLabel = document.querySelector('.progress-label');
+
+            const rawControls = Array.from(
+                form.querySelectorAll(
+                    'input:not([type="hidden"]):not([type="submit"]):not([type="button"]), textarea, select'
+                )
+            );
+
+            const radioMap = new Map();
+            const singleControls = [];
+
+            rawControls.forEach(ctrl => {
+                if (ctrl.type === 'radio') {
+                    const name = ctrl.name || ('radio-' + (ctrl.id || Math.random()));
+                    if (!radioMap.has(name)) radioMap.set(name, []);
+                    radioMap.get(name).push(ctrl);
+                } else {
+                    singleControls.push(ctrl);
+                }
+            });
+
+            const fields = [];
+
+            radioMap.forEach(nodes => {
+                const el = nodes[0];
+                const container =
+                    el.closest('fieldset') ||
+                    el.closest('.form-group') ||
+                    el.parentElement;
+
+                fields.push({
+                    elements: nodes,
+                    container,
+                    isFilled: () => nodes.some(n => n.checked)
+                });
+            });
+
+            singleControls.forEach(ctrl => {
+                const container =
+                    ctrl.closest('.form-group') ||
+                    ctrl.closest('fieldset') ||
+                    ctrl.parentElement;
+
+                fields.push({
+                    elements: [ctrl],
+                    container,
+                    isFilled: () => {
+                        if (ctrl.type === 'checkbox') return ctrl.checked;
+                        return (ctrl.value || '').toString().trim() !== '';
+                    }
+                });
+            });
+
+            const totalFields = fields.length;
+            const fieldsPerStep = 4;
+            const totalSteps = Math.max(1, Math.ceil(totalFields / fieldsPerStep));
+            let currentStep = 1;
+
+            const actionButton = form.querySelector('.button-next');
+            const backButton = form.querySelector('.btn-back');
+
+            function updateProgress() {
+                if (totalFields === 0) {
+                    progressFill.style.width = '0%';
+                    progressLabel.textContent = '0% Completed';
+                    return;
+                }
+
+                const filledCount = fields.reduce(
+                    (acc, f) => acc + (f.isFilled() ? 1 : 0),
+                    0
+                );
+
+                const progress = Math.round((filledCount / totalFields) * 100);
+                progressFill.style.width = progress + '%';
+                progressLabel.textContent = progress + '% Completed';
+            }
+
+            function renderStep(step) {
+                currentStep = Math.min(Math.max(1, step), totalSteps);
+
+                const start = (currentStep - 1) * fieldsPerStep;
+                const end = start + fieldsPerStep;
+
+                fields.forEach((f, idx) => {
+                    try {
+                        if (!f.container) return;
+
+                        if (idx >= start && idx < end) {
+                            f.container.style.display = '';
+                        } else {
+                            f.container.style.display = 'none';
+                        }
+                    } catch (err) { }
+                });
+
+                if (backButton) {
+                    backButton.style.display = currentStep > 1 ? 'inline-block' : 'none';
+                }
+
+                updateProgress();
+            }
+
+            function goToNextStep() {
+                if (currentStep < totalSteps) {
+                    renderStep(currentStep + 1);
+                    const start = (currentStep - 1) * fieldsPerStep;
+                    const f = fields[start];
+                    if (f && f.elements && f.elements[0]) {
+                        f.elements[0].focus();
+                    }
+                }
+            }
+
+            function goToPrevStep() {
+                if (currentStep > 1) {
+                    renderStep(currentStep - 1);
+                    const start = (currentStep - 1) * fieldsPerStep;
+                    const f = fields[start];
+                    if (f && f.elements && f.elements[0]) {
+                        f.elements[0].focus();
+                    }
+                }
+            }
+
+            fields.forEach(f => {
+                f.elements.forEach(el => {
+                    el.addEventListener('change', updateProgress);
+                    el.addEventListener('input', updateProgress);
+                });
+            });
+
+            if (actionButton) {
+                actionButton.addEventListener('click', function (e) {
+                    if (currentStep < totalSteps) {
+                        e.preventDefault();
+                        goToNextStep();
+                    }
+                });
+            }
+
+            if (backButton) {
+                backButton.addEventListener('click', function () {
+                    goToPrevStep();
+                });
+            }
+
+            renderStep(1);
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(form);
+                const businessName = formData.get('business-name');
+                const location = formData.get('business-location');
+
+                if (!businessName.trim()) {
+                    alert('Please enter your business name');
+                    return;
+                }
+
+                if (!location.trim()) {
+                    alert('Please enter your business location');
+                    return;
+                }
+
+                fetch('step-form.php.php', {
+                    method: 'POST',
+                    body: new FormData(this)
+                })
+                    .then(res => res.text())
+                    .then(response => {
+                        if (response.trim() === 'success') {
+                            document.getElementById('formMessage').style.display = 'block';
+                            console.log('Form submitted successfully');
+                        } else {
+                            alert('Form submit failed');
+                        }
+                    });
+
+                e.target.reset();
+                updateProgress();
+                currentStep = 1;
+                renderStep(1);
+            });
+
+            updateProgress();
+        });
+    </script> -->
+
+
+    <script>
+        document.querySelector('input[name="page_url"]').value = window.location.href;
+
+        jQuery(document).ready(function ($) {
+
+    let step = 0;
+    const steps = $('.form-step');
+    const totalSteps = steps.length;
+
+    function showStep(i) {
+        steps.removeClass('active');
+        steps.eq(i).addClass('active');
+        updateProgress();
+    }
+
+   function updateProgress() {
+    let percent = Math.round((step * 100) / totalSteps); // 4 steps → 0, 25, 50, 75%
+    // last step ko 100% set karna
+    if(step === totalSteps) percent = 100;
+    let width = percent === 0 ? 40 : percent + '%';
+    $('.progress-inner').css('width', width).text(percent + '%');
+}
+
+
+    function validateStep(i) {
+        let valid = true;
+        let current = steps.eq(i);
+
+        current.find('.error-msg').remove();
+        current.find('.error').removeClass('error');
+
+        current.find('input[required], select[required]').each(function () {
+            if (!$(this).val()) {
+                valid = false;
+                $(this).addClass('error')
+                       .after('<div class="error-msg">This field is required</div>');
+            }
+        });
+
+        current.find('input[type="radio"][required]').each(function () {
+            let name = $(this).attr('name');
+            if (!$('input[name="'+name+'"]:checked').length) {
+                valid = false;
+                $(this).closest('.form-step')
+                       .append('<div class="error-msg">Please select an option</div>');
+                return false;
+            }
+        });
+
+        current.find('input[type="url"]').each(function () {
+            let url = $(this).val().trim();
+            if (url !== '') {
+                let urlPattern = /^(https?:\/\/)?([\w-]+\.)+[\w-]{2,}(\/[\w\-._~:/?#[\]@!$&'()*+,;=]*)?$/;
+                if (!urlPattern.test(url)) {
+                    valid = false;
+                    $(this)
+                        .addClass('error')
+                        .after('<div class="error-msg">Please enter a valid website URL</div>');
+                }
+            }
+        });
+
+        return valid;
+    }
+
+    $('.next-btn').click(function () {
+        if (!validateStep(step)) return;
+        if (step < totalSteps - 1) {
+            step++;
+            showStep(step);
+        }
+    });
+
+    $('.prev-btn').click(function () {
+        if (step > 0) {
+            step--;
+            showStep(step);
+        }
+    });
+
+    $('#multiStepForm').submit(function (e) {
+        e.preventDefault();
+        if (!validateStep(step)) return;
+
+        $.ajax({
+            url: $(this).attr('action'),
+            type: 'POST',
+            data: $(this).serialize(),
+            beforeSend: function () {
+                $('#formResponse').html('Submitting...');
+            },
+            success: function (res) {
+                if (res.trim() === 'success') {
+                $('#formResponse').html('<span style="color:green">Form submitted successfully!</span>');
+                    $('#multiStepForm')[0].reset();
+                    step = 0;
+                    showStep(step);
+                    window.location.replace('thankyou.html');
+                } else {
+                    $('#formResponse').html('<span style="color:red">Submission failed</span>');
+                }
+            }
+        });
+    });
+
+    $('.progress-inner').css('width', '40px').text('0%');
+
+    showStep(step);
+});
+
+</script>
+
+
+    <script>
+        function loadVideo(img) {
+            const iframe = img.parentElement.querySelector("iframe");
+            iframe.src = "https://www.youtube.com/embed/l1Cnz4Jeq5Q?autoplay=1";
+            iframe.style.display = "block";
+            img.style.display = "none";
+        }
+    </script>
+    <script>
+        const items = document.querySelectorAll(".acc-item");
+
+        items.forEach(item => {
+            const header = item.querySelector(".acc-header");
+            const content = item.querySelector(".acc-content");
+            const btn = item.querySelector(".acc-btn");
+
+            header.addEventListener("click", () => {
+
+                // Close all others
+                items.forEach(other => {
+                    if (other !== item) {
+                        other.querySelector(".acc-content").style.maxHeight = null;
+                        other.querySelector(".acc-btn").textContent = "+";
+                    }
+                });
+
+                // Toggle this one
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    btn.textContent = "+";
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    btn.textContent = "-";
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.our-clients .row.started-vids.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 18,
+                nav: true,
+                navText: [
+                    '<div class="arrow-container"><img src="Assets/images/pre-arrow.png" alt=""></div>',
+                    '<div class="arrow-container"><img src="Assets/images/next-arrow.png" alt=""></div>'
+                ],
+                responsive: {
+                    0: { items: 2 },
+                    600: { items: 2 },
+                    1000: { items: 2 }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('section.feedback .row.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [
+                '<div class="arrow-container"><img src="Assets/images/pre-arrow.png" alt=""></div>',
+                '<div class="arrow-container"><img src="Assets/images/next-arrow.png" alt=""></div>'
+            ],
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+
+        jQuery(document).ready(function ($) {
+
+
+    $('.video-thumb').on('click', function () {
+
+        let videoId = $(this).data('video-id');
+        let iframe  = $(this).siblings('iframe');
+
+        iframe
+            .attr(
+                'src',
+                'https://www.youtube.com/embed/' + videoId +
+                '?autoplay=1&mute=1&playsinline=1'
+            )
+            .show();
+
+        $(this).hide();
+    });
+
+});
+
+
+
+
+
+
+    </script>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

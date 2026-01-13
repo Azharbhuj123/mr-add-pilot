@@ -3048,13 +3048,25 @@ section.website-analysis {
     font-weight: 400;
     font-size: 13px;
 }
-
+section.Business-designeds.inner_pad_none {
+    height: 100% !important;
+}
+.stats-img img {
+    border-radius: 50px 50px 0px 0px;
+}
+.service-card img {object-fit: cover;border-radius: 20px 0px 0px 20px;}
 body#website-analysis .designed-col,
 body#website-analysis .contact-icons {
     width: 50%;
     text-align: left;
 }
+.Information-col ul li a {
+    transition: 0.5s;
+}
 
+.Information-col ul li a:hover {
+    color: #d11f2a;
+}
 .designed-col h2 {
     width: 100%;
 }
@@ -3063,7 +3075,12 @@ body#website-analysis .contact-icons {
          position: fixed;
         top: 260px;
         right: -0px;
-        background: #43afc98a;
+          z-index: 999;
+}
+
+.whatappbox a {
+
+          background: #d11f2a;
         border-radius: 5px 0px 0px 5px;
         padding: 10px;
         height: 90px;
@@ -3071,8 +3088,10 @@ body#website-analysis .contact-icons {
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 999;
+      
 }
+
+
 body#website-analysis section.Business-designeds .header-btn {
     margin: 81px 0 0
 }
@@ -3094,7 +3113,9 @@ body#marketing-agencys section.youtube-videos .container {
 body#website-analysis section.website-analysis h5 {
     padding-bottom: 15px;
 }
-
+.dropdown:hover .dropdown-content{
+    display: block !important;
+}
 body#website-analysis section.website-analysis .owl-nav {
     display: none;
 }
@@ -9092,7 +9113,7 @@ section.services-sections .row {
     align-items: center;
     justify-content: center;
     gap: 14px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .fact-box {
@@ -9103,7 +9124,13 @@ section.services-sections .row {
     line-height: normal;
 }
 
-section.facts .row {}
+.banner_left_side p {
+    font-size: 16px !important;
+}
+
+.banner_left_side h1 {
+    font-size: 30px !important;
+}
 
 .count-content h5 {
     font-size: 18px;

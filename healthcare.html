@@ -71,7 +71,7 @@
 <body id="Healthcare-marketing">
 <div class="whatappbox">
  <a 
-  href="tel:+19452297999"
+  href="tel:945-229-7999"
 >
 <img src="Assets/images/call.svg.svg" alt="">
 </a>
@@ -147,7 +147,7 @@
                                 <a href="success-stories.html">Success Stories</a> 
                                 <a href="blogs.html">Blogs</a>
                                 <!-- <a href="case-study-holiday-lighting.html">Pivot to Holiday Lighting</a> -->
-                                <a href="./Mr-adpilot-landing-page.html">Get Started</a> </div>
+                                <a href="./get-started.html">Get Started</a> </div>
                         </li>
                         <li class="dropdown"> 
                             <button class="dropbtn"> <a href="#">Services</a> <img src="Assets/images/Vector (3).svg"></button>
@@ -194,7 +194,7 @@
 
             <div class="row">
                 <div class="hero-content">
-                    <h1>Healthcare Internet Marketing</h1>
+                    <h1>Healthcare </h1>
                     <p>Attract more patients and establish your practice as the most trusted name in your local market.
                         Outperform your competition and grow your healthcare business with MrAdpilot.</p>
                    <div class="inner_btn padding-top">
@@ -338,7 +338,8 @@
             <div class="adss-col">
                 <h2> Reviews</h2>
                 <div class="main_btn">
-                    <a href="#">Review us</a>
+                    <a href="javascript:void(0)" class="openPopup">Review us</a>
+
                 </div>
             </div>
             <div class="row owl-carousel owl-theme">
@@ -631,9 +632,67 @@
         </div>
 
         <div class="copyright">
-            <p>© Copyright 2025, All Rights Reserved by Mr. Adpilot Ventures Inc.</p>
+            <p>© Copyright 2026, All Rights Reserved by Mr. Adpilot Internet Marketing</p>
         </div>
     </footer>
+
+
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup-box">
+            <span class="close-popup" id="closePopup">&times;</span>
+
+            <div class="popup_logo">
+                <img src="Assets/images/fav.png" alt="" />
+            </div>
+            <h3>Add Reviews</h3>
+
+            <form id="reviewForm">
+                <div class="popup-field">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name" name="name" required />
+                </div>
+
+                <div class="popup-field">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter email" name="email" required />
+                </div>
+                <input type="hidden" name="page_url" value="">
+
+
+
+                <div class="popup-field">
+                    <label>Description</label>
+                    <textarea placeholder="Write description" name="description" required></textarea>
+                </div>
+
+                <button type="submit" class="popup-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+       <script>
+        const popup = document.getElementById("popup");
+        const closePopup = document.getElementById("closePopup");
+        const openButtons = document.querySelectorAll(".openPopup");
+
+        openButtons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                popup.style.display = "flex";
+            });
+        });
+
+        closePopup.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+            if (e.target === popup) {
+                popup.style.display = "none";
+            }
+        });
+    </script>
 
     <script src="script.js"></script>
 
