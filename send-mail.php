@@ -13,7 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-$adminEmails = "azharbhuj@gmail.com, info@mradpilot.com, usamabrandsales@gmail.com";
+// $adminEmails = "azharbhuj@gmail.com, info@mradpilot.com, usamabrandsales@gmail.com";
+$adminEmails = "basitkarimbrandrevam@gmail.com";
 $fromEmail   = "info@mradpilot.com";
 
 // ADMIN EMAIL TEMPLATE
