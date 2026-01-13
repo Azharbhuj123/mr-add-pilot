@@ -1363,6 +1363,8 @@
         <h3>Get Started</h3>
 
         <form id="getStarted-popup">
+          <input type="hidden" name="page_url" value="">
+
           <div class="popup-field">
             <label>Full Name</label>
             <input type="text" placeholder="Enter full name" name="name"/>
@@ -1382,8 +1384,6 @@
             <label>Description</label>
             <textarea placeholder="Write description" name="description"></textarea>
           </div>
-
-          <input type="hidden" name="page_url" value="">
           <button type="submit" class="popup-btn">Submit</button>
         </form>
       </div>
@@ -1431,66 +1431,35 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-      document.querySelector('input[name="page_url"]').value =
-        window.location.href;
+   jQuery(document).ready(function ($) {
+  $('input[name="page_url"]').val(window.location.href);
 
-      jQuery(document).ready(function ($) {
-        $("#landingPageForm").on("submit", function (e) {
-          e.preventDefault(); // Page reload rok do
+  $("#landingPageForm, #getStarted-popup").on("submit", function (e) {
+    e.preventDefault();
 
-          var formData = $(this).serialize(); // Form data ready
+    var $form = $(this);
 
-          $.ajax({
-            type: "POST",
-            url: "send-mail.php", // PHP file
-            data: formData,
-            success: function (response) {
-              if (response.trim() == "success") {
-                $(".thank-you").show(); // Thank you message
-                $("#landingPageForm")[0].reset(); // Form reset
-                window.location.replace("thankyou.html");
-              } else {
-                alert("Something went wrong. Please try again.");
-              }
-            },
-            error: function () {
-              alert("Error sending form.");
-            },
-          });
-        });
-      });
+    $.ajax({
+      type: "POST",
+      url: "send-mail.php",
+      data: $form.serialize(),
+      success: function (response) {
+        if (response.trim() === "success") {
+          $form[0].reset();
+          window.location.replace("thankyou.html");
+        } else {
+          alert("Something went wrong. Please try again.");
+        }
+      },
+      error: function () {
+        alert("Error sending form.");
+      },
+    });
+  });
+});
+
     </script>
-    
-    <script>
-      document.querySelector('input[name="page_url"]').value =
-        window.location.href;
-
-      jQuery(document).ready(function ($) {
-        $("#getStarted-popup").on("submit", function (e) {
-          e.preventDefault(); 
-
-          var formData = $(this).serialize(); // Form data ready
-
-          $.ajax({
-            type: "POST",
-            url: "send-mail.php", // PHP file
-            data: formData,
-            success: function (response) {
-              if (response.trim() == "success") {
-                $(".thank-you").show(); // Thank you message
-                $("#getStarted-popup")[0].reset(); // Form reset
-                window.location.replace("thankyou.html");
-              } else {
-                alert("Something went wrong. Please try again.");
-              }
-            },
-            error: function () {
-              alert("Error sending form.");
-            },
-          });
-        });
-      });
-    </script>
+   
    
     <script>
       const popup = document.getElementById("popup");
