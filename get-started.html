@@ -1362,25 +1362,25 @@
         </div>
         <h3>Get Started</h3>
 
-        <form>
+        <form id="getStarted-popup">
           <div class="popup-field">
             <label>Full Name</label>
-            <input type="text" placeholder="Enter full name" />
+            <input type="text" placeholder="Enter full name" name="name"/>
           </div>
 
           <div class="popup-field">
             <label>Email Address</label>
-            <input type="email" placeholder="Enter email" />
+            <input type="email" placeholder="Enter email" name="email" />
           </div>
 
           <div class="popup-field">
             <label>Phone Number</label>
-            <input type="tel" placeholder="Enter number" />
+            <input type="tel" placeholder="Enter number" name="phone" />
           </div>
 
           <div class="popup-field">
             <label>Description</label>
-            <textarea placeholder="Write description"></textarea>
+            <textarea placeholder="Write description" name="description"></textarea>
           </div>
 
           <input type="hidden" name="page_url" value="">
@@ -1459,9 +1459,14 @@
           });
         });
       });
+    </script>
+    
+    <script>
+      document.querySelector('input[name="page_url"]').value =
+        window.location.href;
 
       jQuery(document).ready(function ($) {
-        $("#popup").on("submit", function (e) {
+        $("#getStarted-popup").on("submit", function (e) {
           e.preventDefault(); 
 
           var formData = $(this).serialize(); // Form data ready
@@ -1473,7 +1478,7 @@
             success: function (response) {
               if (response.trim() == "success") {
                 $(".thank-you").show(); // Thank you message
-                $("#popup")[0].reset(); // Form reset
+                $("#getStarted-popup")[0].reset(); // Form reset
                 window.location.replace("thankyou.html");
               } else {
                 alert("Something went wrong. Please try again.");
@@ -1486,7 +1491,7 @@
         });
       });
     </script>
-
+   
     <script>
       const popup = document.getElementById("popup");
       const closePopup = document.getElementById("closePopup");

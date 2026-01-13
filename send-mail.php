@@ -5,7 +5,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $phone = htmlspecialchars($_POST['phone']);
     $page_url = trim(htmlspecialchars($_POST['page_url'] ?? 'Unknown'));
-    $description = isset($_POST['description']) ? trim($_POST['description']) : '';
+    $description = htmlspecialchars($_POST['description']) ? trim($_POST['description']) : '';
+    $descriptionHtml = '';
+    if (!empty($description)) {
+    $descriptionHtml = '<p>Description: <strong>' . htmlspecialchars($description) . '</strong></p>';
+}
 
 
 
@@ -41,12 +45,10 @@ $adminMessage = '
                 <!-- Body -->
                 <tr>
                     <td style="padding:30px; color:#333333; font-size:15px; line-height:1.6;">
-                        <p>Name: <strong>'.htmlspecialchars($name).'</strong>,</p>
-                        <p>Email: <strong>'.htmlspecialchars($email).'</strong>,</p>
-                        <p>Phone: <strong>'.htmlspecialchars($phone).'</strong>,</p>
-                        <?php if (!empty($description)) : ?>
-                            <p>Description: <strong><?= htmlspecialchars($description) ?></strong>,</p>
-                        <?php endif; ?>
+                        <p>Name: <strong>'.htmlspecialchars($name).'</strong></p>
+                        <p>Email: <strong>'.htmlspecialchars($email).'</strong></p>
+                        <p>Phone: <strong>'.htmlspecialchars($phone).'</strong></p>
+                         ' . $descriptionHtml . '
 
 
                        <p>----------------------------------</p> 
