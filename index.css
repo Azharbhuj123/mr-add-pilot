@@ -138,16 +138,19 @@ div#chat-widget-container {
     display: none !important;
 }
 .service-images {
-    width: 48%;
+    width: 48% !important;
 }
 
 .service-images img {
-    width: 100%;
+    width: 100% !important;
 }
 
 .service-texts {
-    width: 48%;
+    width: 48% !important;
 }
+
+
+
 @media screen and (max-width: 1440px) {
 
 body#marketing-agencys section.facts {
@@ -651,6 +654,17 @@ h1,h3,h4,h5,h6,p{
 .mobile-flexx {
     padding-top: 25px !important;
 }
+
+
+.banner_left_side h1 {
+    font-size: 28px !important;
+}
+
+.banner_left_side p {
+    font-size: 14px !important;
+}
+
+p {}
 }
 
 
