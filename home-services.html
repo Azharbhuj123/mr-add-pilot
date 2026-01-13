@@ -65,7 +65,7 @@
 <body id="marketing-agencys">
 <div class="whatappbox">
  <a 
-  href="tel:945-229-7999"
+ href="tel:+19452297999"
 >
 <img src="Assets/images/call.svg.svg" alt="">
 </a>
@@ -413,7 +413,7 @@
             <div class="adss-col">
                 <h2> Reviews</h2>
                 <div class="main_btn">
-                    <a href="#">Review us</a>
+                     <a href="javascript:void(0)" class="openPopup">Review us</a>
                 </div>
             </div>
             <div class="row owl-carousel owl-theme">
@@ -699,7 +699,61 @@
         </div>
     </footer>
 
+    <div class="popup-overlay" id="popup">
+        <div class="popup-box">
+            <span class="close-popup" id="closePopup">&times;</span>
 
+            <div class="popup_logo">
+                <img src="Assets/images/fav.png" alt="" />
+            </div>
+            <h3>Add Reviews</h3>
+
+            <form id="reviewForm">
+                <div class="popup-field">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name" name="name" required />
+                </div>
+
+                <div class="popup-field">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter email" name="email" required />
+                </div>
+                <input type="hidden" name="page_url" value="">
+
+
+
+                <div class="popup-field">
+                    <label>Description</label>
+                    <textarea placeholder="Write description" name="description" required></textarea>
+                </div>
+
+                <button type="submit" class="popup-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+       <script>
+        const popup = document.getElementById("popup");
+        const closePopup = document.getElementById("closePopup");
+        const openButtons = document.querySelectorAll(".openPopup");
+
+        openButtons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                popup.style.display = "flex";
+            });
+        });
+
+        closePopup.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+            if (e.target === popup) {
+                popup.style.display = "none";
+            }
+        });
+    </script>
 <script src="script.js"></script>
 
     <script>

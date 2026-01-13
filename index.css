@@ -137,7 +137,17 @@ div#page-default {
 div#chat-widget-container {
     display: none !important;
 }
+.service-images {
+    width: 48%;
+}
 
+.service-images img {
+    width: 100%;
+}
+
+.service-texts {
+    width: 48%;
+}
 @media screen and (max-width: 1440px) {
 
 body#marketing-agencys section.facts {
@@ -560,7 +570,17 @@ a#button-z3iOzvKxyF_btn {
 
 
 
+.service-images {
+    width: 100%;
+}
 
+.service-images img {
+    width: 100%;
+}
+
+.service-texts {
+    width: 100%;
+}
 
 
 .vc_col-sm-12.bannerWrapper.wpb_column.vc_column_container.list-none.text-align-none.text-rp-left.mpc-column {
