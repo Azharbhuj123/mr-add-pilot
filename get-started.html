@@ -1383,6 +1383,7 @@
             <textarea placeholder="Write description"></textarea>
           </div>
 
+          <input type="hidden" name="page_url" value="">
           <button type="submit" class="popup-btn">Submit</button>
         </form>
       </div>
@@ -1447,6 +1448,32 @@
               if (response.trim() == "success") {
                 $(".thank-you").show(); // Thank you message
                 $("#landingPageForm")[0].reset(); // Form reset
+                window.location.replace("thankyou.html");
+              } else {
+                alert("Something went wrong. Please try again.");
+              }
+            },
+            error: function () {
+              alert("Error sending form.");
+            },
+          });
+        });
+      });
+
+      jQuery(document).ready(function ($) {
+        $("#popup").on("submit", function (e) {
+          e.preventDefault(); 
+
+          var formData = $(this).serialize(); // Form data ready
+
+          $.ajax({
+            type: "POST",
+            url: "send-mail.php", // PHP file
+            data: formData,
+            success: function (response) {
+              if (response.trim() == "success") {
+                $(".thank-you").show(); // Thank you message
+                $("#popup")[0].reset(); // Form reset
                 window.location.replace("thankyou.html");
               } else {
                 alert("Something went wrong. Please try again.");

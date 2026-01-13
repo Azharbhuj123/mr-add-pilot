@@ -15,7 +15,7 @@ $summary  = trim(strip_tags($_POST['summary'] ?? ''));
 $page_url = trim(strip_tags($_POST['page_url'] ?? 'Unknown'));
 
 $adminEmails = "azharbhuj@gmail.com, info@mradpilot.com, usamabrandsales@gmail.com";
-$fromEmail   = "admin@mradpilot.com";
+$fromEmail   = "info@mradpilot.com";
 
 // ADMIN EMAIL TEMPLATE
 $adminSubject = "New Contact Form Submission";

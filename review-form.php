@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 $adminEmails = "azharbhuj@gmail.com, info@mradpilot.com, usamabrandsales@gmail.com";
-$fromEmail   = "admin@mradpilot.com";
+$fromEmail   = "info@mradpilot.com";
 
 // ADMIN EMAIL TEMPLATE
 $adminSubject = "New Review Form Submission";

@@ -5,10 +5,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $phone = htmlspecialchars($_POST['phone']);
     $page_url = trim(htmlspecialchars($_POST['page_url'] ?? 'Unknown'));
+    $description = isset($_POST['description']) ? trim($_POST['description']) : '';
+
 
 
 $adminEmails = "azharbhuj@gmail.com, info@mradpilot.com, usamabrandsales@gmail.com";
-$fromEmail   = "admin@mradpilot.com";
+$fromEmail   = "info@mradpilot.com";
 
 // ADMIN EMAIL TEMPLATE
 $adminSubject = "New Contact Form Submission";
@@ -42,7 +44,10 @@ $adminMessage = '
                         <p>Name: <strong>'.htmlspecialchars($name).'</strong>,</p>
                         <p>Email: <strong>'.htmlspecialchars($email).'</strong>,</p>
                         <p>Phone: <strong>'.htmlspecialchars($phone).'</strong>,</p>
-                      
+                        <?php if (!empty($description)) : ?>
+                            <p>Description: <strong><?= htmlspecialchars($description) ?></strong>,</p>
+                        <?php endif; ?>
+
 
                        <p>----------------------------------</p> 
                         <p>Submitted From: <strong>'.htmlspecialchars($page_url).'</strong>,</p>

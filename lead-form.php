@@ -25,7 +25,7 @@ Email: $email
 Phone: $phone
 ";
 
-$headers  = "From: Lead Form <admin@mradpilot.com>\r\n";
+$headers  = "From: Lead Form <info@mradpilot.com>\r\n";
 $headers .= "Reply-To: $email\r\n";
 
 if (mail($to, $subject, $message, $headers)) {

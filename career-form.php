@@ -47,7 +47,7 @@ URL: $source_url
 Resume File: " . ($resume_path ? $resume_path : "No file uploaded") . "
 ";
 
-$headers  = "From: MrAdpilot Careers <admin@mradpilot.com>\r\n";
+$headers  = "From: MrAdpilot Careers <info@mradpilot.com>\r\n";
 $headers .= "Reply-To: $email\r\n";
 
 
