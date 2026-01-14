@@ -23,8 +23,7 @@ $adminMessage = '
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>NEW CONTACT FORM SUBMISSION</title>
+    <meta charset="UTF-8">NEW CONTACT FORM SUBMISSION</title>
 </head>
 <body style="margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, Helvetica, sans-serif;">
 
@@ -88,8 +87,7 @@ $customerMessage = '
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>We’ve received your request</title>
+    <meta charset="UTF-8">We’ve received your request</title>
 </head>
 <body style="margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, Helvetica, sans-serif;">
 

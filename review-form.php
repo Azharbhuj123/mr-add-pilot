@@ -17,8 +17,7 @@ $adminMessage = '
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>NEW Review FORM SUBMISSION</title>
+    <meta charset="UTF-8">NEW Review FORM SUBMISSION</title>
 </head>
 <body style="margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, Helvetica, sans-serif;">
 
