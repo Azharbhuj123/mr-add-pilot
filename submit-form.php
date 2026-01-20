@@ -174,6 +174,6 @@ if ($adminSent && $customerSent) {
 } else {
     echo "fail";
 }
-?>
+ 
 
 
