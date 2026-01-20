@@ -782,27 +782,27 @@
         });
     </script>
 
-    <script>
-        jQuery(document).ready(function ($) {
+        <script>
+            jQuery(document).ready(function ($) {
 
-            $('.video-thumb').on('click', function () {
-                let videoId = $(this).data('video-id');
+                $('.video-thumb').on('click', function () {
+                    let videoId = $(this).data('video-id');
 
-                $('#popup-video').attr(
-                    'src',
-                    'https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=1'
-                );
+                    $('#popup-video').attr(
+                        'src',
+                        'https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=1'
+                    );
 
-                $('.video-modal').fadeIn();
+                    $('.video-modal').fadeIn();
+                });
+
+                $('.video-close, .video-modal-overlay').on('click', function () {
+                    $('.video-modal').fadeOut();
+                    $('#popup-video').attr('src', '');
+                });
+
             });
-
-            $('.video-close, .video-modal-overlay').on('click', function () {
-                $('.video-modal').fadeOut();
-                $('#popup-video').attr('src', '');
-            });
-
-        });
-    </script>
+        </script>
 
 
 

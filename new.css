@@ -1,0 +1,297 @@
+header.Header_L {
+    padding: 20px 0px !important;
+}
+
+header.Header_L h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+}
+
+section.Hero_L {
+    width: 100%;
+    padding: 84px 0px;
+    background-color: #101727;
+}
+
+.container_L {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Main_Hero_L {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Hero_L_title {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Hero_L_form {
+    width: 35%;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 50px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.Hero_L_logo {
+    width: 300px;
+}
+
+.Hero_L_logo img {
+    width: 100%;
+}
+
+.Hero_L_title h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.Hero_L_title h2 span {
+    color: #E9BA44;
+}
+
+.Hero_L_title p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    padding: 20px 0px 30px 0px;
+}
+
+.Hero_L_title a {
+    border-radius: 8px;
+    background: #D02029;
+    padding: 14px 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Hero_L_form_group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.Hero_L_form_group label {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Hero_L_form_group input {
+    border-radius: 8px;
+    border: 1px solid #DADEE7;
+    background: #FFF;
+    padding: 16px;
+    width: 100%;
+    color: #000;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Hero_L_form_btn {
+    width: 100%;
+}
+
+.Hero_L_form_btn button {
+    border-radius: 8px;
+    background: #25B15F;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 153.846% */
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.Local_Businesses_L {
+    background: #101727;
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.Main_Local_Businesses {
+    width: 100%;
+}
+
+.Local_Businesses_title {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.Local_Businesses_title h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 171.429% */
+}
+
+.Local_Businesses_carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+section.Home_Service_L {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.Main_Home_Service_L {
+    width: 100%;
+}
+
+.Home_Service_L_title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.Home_Service_L_title h2 {
+    width: 55%;
+    color: #1A1B1C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+}
+
+.Home_Service_L_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home_Service_L_left {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.Home_Service_L_card {
+    width: 100%;
+    border-radius: 30px 30px 40px 0;
+    background: #FFF;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 24px;
+    height: 130px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.Home_Service_L_right {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 145px;
+}
+
+.Home_Service_L_card span {
+    border-radius: 63021700px;
+    background: #FFE2E2;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home_Service_L_card span svg {
+    width: 15px;
+    height: 15px;
+}
+
+.Home_Service_L_card p {
+    color: #494E5B;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 170% */
+}
+
+.Home_Service_L_imge {
+    width: 38%;
+}
+
+.Home_Service_L_imge img {
+    width: 100%;
+}
+
+.Home_Service_L_bottom {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.Home_Service_L_bottom p {
+    color: #494E5B;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    text-align: center;
+}
