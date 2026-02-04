@@ -4925,6 +4925,164 @@ section.carousel_sec {
   right: 0;
 }
 
+section#casestudies {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.main_case_studies {
+    width: 100%;
+}
+
+.case_studies_heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 65px;
+}
+
+.case_studies_heading h2 {
+    TEXT-ALIGN: center;
+}
+
+.case_studies_heading p {
+    width: 40%;
+    color: #494E5B;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.25px; /* 162.5% */
+}
+
+.case_studies_heading {}
+
+.case_studies_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.case_studies_card {
+    width: 100%;
+    padding: 50px 0px;
+    border-bottom: 1px solid #9d939378;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.case_studies_img {
+    width: 48%;
+}
+
+.case_studies_title {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.case_studies_img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.case_studies_title span {
+    border-radius: 27998458px;
+    background: rgba(74, 222, 128, 0.10);
+    color: #4ADE80;
+    font-family: Arial;
+    font-size: 11.682px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.688px; /* 142.857% */
+    letter-spacing: 0.584px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+}
+
+.case_studies_title h3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    padding: 18px 0px 40px 0px;
+    border-bottom: 1px solid #D1D5DC;
+    width: 100%;
+}
+
+.case_studies_title p {
+    padding: 25px 0px;
+    color: #364153;
+    font-family: Arial;
+    font-size: 15.02px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.407px; /* 162.5% */
+}
+
+.Results_box {
+    border-radius: 5.007px;
+    border: 0.834px solid #25B15F;
+    background: rgba(67, 175, 201, 0.05);
+    padding: 20px;
+    width: 100%;
+}
+
+.Results_box h5 {
+    color: #22AAD8;
+    font-family: Arial;
+    font-size: 11.682px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.688px; /* 142.857% */
+    letter-spacing: 0.584px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.Results_box h6 {
+    color: #000;
+    font-family: Arial;
+    font-size: 15.02px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.364px; /* 155.556% */
+}
+
+.Case_link_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-bottom: 30px;
+}
+
+.case_studies_title a button {
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Arial;
+    font-size: 11.682px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.688px; /* 142.857% */
+    letter-spacing: 0.584px;
+    text-transform: uppercase;
+    padding: 0px !important;
+}
 /* Responsive breakpoints: desktop -> tablet -> mobile */
 @media (max-width: 1440px) {
     body.holiday_lighting .text-with-bg-image .main-container {
@@ -5581,7 +5739,7 @@ body#marketing-agencys .service-box, body#internet-marketing .service-box, body#
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
 .dropdown:hover .dropdown-content {
     display: none;
@@ -5609,7 +5767,42 @@ button.dropbtn.img-rotate img {
         padding-left: 4% !important;
         padding-right: 4% !important;
     }
+section#casestudies {
+    padding: 80px 0px;
 }
+
+.case_studies_heading p {
+    font-size: 16px;
+    width: 52%;
+}
+
+.case_studies_card {
+    padding: 25px 0px;
+}
+
+.case_studies_title h3 {
+    font-size: 20px;
+    padding: 14px 0px 25px 0px;
+}
+
+.case_studies_title p {
+    padding: 15px 0px;
+    font-size: 14px;
+}
+
+.Case_link_box {
+    padding-bottom: 25px;
+}
+
+.case_studies_title a button {
+    height: 100% !important;
+}
+
+    
+}
+
+
+
 
 @media screen and (min-width: 768px) and (max-width: 850px) {
 
@@ -8022,6 +8215,61 @@ footer {
         font-size: 16px;
     }
 }
+@media screen and (max-width: 768px) {
+    section#casestudies {
+    padding: 50px 0px;
+}
+
+.case_studies_heading {
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.case_studies_heading p {
+    font-size: 16px;
+    width: 60%;
+}
+
+.case_studies_card {
+           flex-direction: column-reverse;  
+    gap: 30px;
+}
+.case_studies_card.studies_card_wrap {
+    flex-direction: column !important;
+}
+.case_studies_title {
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.case_studies_title h3 {
+    font-size: 18px;
+    padding: 12px 0px 15px 0px;
+    text-align: center;
+}
+
+.Results_box h5 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.Results_box h6 {
+    text-align: center;
+}
+
+.case_studies_title p {
+    text-align: center;
+}
+
+.Case_link_box {
+    justify-content: center;
+}
+
+.case_studies_img {
+    width: 75%;
+}
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -10004,8 +10252,46 @@ li.footer_logo a {
     font-size: 14px !important;
 }
 
-p {}
+
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
     /* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen *//* my_new_code_css_mobile_screen */
+
+
+
+
+
+
+    .case_studies_heading p {
+    width: 95%;
+    line-height: normal;
+}
+
+.case_studies_heading {
+    padding-bottom: 20px;
+}
+
+.case_studies_title span {
+    font-size: 10px;
+}
+
+.case_studies_title h3 {
+    line-height: normal;
+}
+
+.case_studies_title {
+    width: 94%;
+}
+
+.case_studies_img {
+    width: 95%;
+}
+
+.Results_box h6 {
+    font-size: 14px;
+}
+
+.Results_box {
+    padding: 12px 5px;
+}
 }
