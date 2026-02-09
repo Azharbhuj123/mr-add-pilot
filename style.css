@@ -5082,7 +5082,26 @@ section#casestudies {
     letter-spacing: 0.584px;
     text-transform: uppercase;
     padding: 0px !important;
+
+    /* Smooth transition for color, background, and padding */
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
 }
+
+.case_studies_title a button svg path {
+    stroke: #000;
+    transition: stroke 0.3s ease;
+}
+
+.case_studies_title a button:hover {
+    color: #fff !important;
+    background-color: #B01F29 !important;
+    padding: 10px 20px !important;
+}
+
+.case_studies_title a button:hover svg path {
+    stroke: #fff !important;
+}
+
 /* Responsive breakpoints: desktop -> tablet -> mobile */
 @media (max-width: 1440px) {
     body.holiday_lighting .text-with-bg-image .main-container {
