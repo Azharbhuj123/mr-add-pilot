@@ -1557,3 +1557,9 @@ footer.landing_footer {
     text-decoration: none;
 }
 }
+@media screen and (max-width: 375px) {
+ .main_launch_btn a {
+    font-size: 14px;
+    padding: 4px 20px;
+}
+}
