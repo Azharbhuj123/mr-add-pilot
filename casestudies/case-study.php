@@ -10,11 +10,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = htmlspecialchars($_POST['phone']);
     $website_url = trim(htmlspecialchars($_POST['website_url'] ?? 'Unknown'));
     $page_url = trim(htmlspecialchars($_POST['page_url'] ?? 'Unknown'));
-    $description = htmlspecialchars($_POST['description']) ? trim($_POST['description']) : '';
-    $descriptionHtml = '';
-    if (!empty($description)) {
-        $descriptionHtml = '<p>Description: <strong>' . htmlspecialchars($description) . '</strong></p>';
-    }
+    // $description = htmlspecialchars($_POST['description']) ? trim($_POST['description']) : '';
+    $description = isset($_POST['description']) ? trim($_POST['description']) : '';
+    $description = htmlspecialchars($description, ENT_QUOTES, 'UTF-8');
 
 
 
@@ -28,7 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">NEW CONTACT FORM SUBMISSION</title>
+    <meta charset="UTF-8">
+    <title>NEW CONTACT FORM SUBMISSION</title>
 </head>
 <body style="margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, Helvetica, sans-serif;">
 
@@ -52,8 +51,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p>Name: <strong>' . htmlspecialchars($name) . '</strong></p>
                         <p>Email: <strong>' . htmlspecialchars($email) . '</strong></p>
                         <p>Phone: <strong>' . htmlspecialchars($phone) . '</strong></p>
-                        ' . $descriptionHtml . '
                         <p>Website: <strong>' . htmlspecialchars($website_url) . '</strong></p>
+                        <p>Description: <strong>' . htmlspecialchars($description) . '</strong></p>
 
 
                        <p>----------------------------------</p> 
@@ -96,7 +95,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
 
-    <meta charset="UTF-8">We’ve received your request</title>
+    <meta charset="UTF-8">
+    <title>NEW CONTACT FORM SUBMISSION</title>
 </head>
 <body style="margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, Helvetica, sans-serif;">
 
