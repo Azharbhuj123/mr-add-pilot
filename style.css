@@ -5082,7 +5082,7 @@ section#casestudies {
     letter-spacing: 0.584px;
     text-transform: uppercase;
     padding: 0px !important;
-
+    border: none;
     /* Smooth transition for color, background, and padding */
     transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
 }
