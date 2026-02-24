@@ -404,8 +404,99 @@ section.act-sec-1 {
     padding-top: 15px;
         justify-content: center;
 }
+section.contact-us.act_sec_10 {
+    background: #272f3d;
+}
 
-button.red-btn {
+.act_sec_10 .get-start-heading h2 {
+    color: #fff;
+    width: 55%;
+}
+
+.get-start-heading h3 {}
+
+.Leads_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px 45px 0px;
+}
+
+.Leads_list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+}
+
+.Leads_list p {
+    color: #C8CDD6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.rate_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.start_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rate_box p {
+    color: #8B94A3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
+.lable_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.lable_box label {
+    color: #fff;
+}
+.get-start-heading h3 {
+    color: #00B1ED;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    letter-spacing: 1.5px;
+}
+
+.act_sec_10 .estimate-container {
+    border-radius: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #2F3745;
+}
+
+.act_sec_10 .estimate-container input, .estimate-container select, .estimate-container textarea {
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+    background: #272F3D !important;
+    color: #6e6e70 !important; 
+}
+
+section.contact-us.act_sec_10 .estimate-container button {
+    background: #00B1ED !important;
+}
+.red-btn {
     font-family: "Satoshi";
     font-weight: 500;
     font-size: 16px;
@@ -1273,7 +1364,7 @@ padding: 0px 3% !important;
     padding: 10px 0px 40px 0px;
 }
 
-button.red-btn {
+.red-btn {
           padding: 10px 24px;
 }
 button.transparent-btn {
@@ -1528,7 +1619,7 @@ details {
     padding: 10px 0px 30px 0px;
 }
 
-button.red-btn {
+.red-btn {
     font-size: 14px;
     padding: 10px 20px;
 }
@@ -1874,7 +1965,7 @@ section.act-sec-hero {
     padding: 0px 0px 18px 0px;
 }
 
-button.red-btn {
+.red-btn {
     border-radius: 6px;
     font-size: 14px;
     padding: 10px 20px;
