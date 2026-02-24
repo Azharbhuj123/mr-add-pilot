@@ -1,4 +1,6 @@
-
+button {
+    cursor: pointer;
+}
 
 form#_builder-form {
     width: 100% !important;

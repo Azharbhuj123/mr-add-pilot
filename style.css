@@ -5,6 +5,9 @@ body {
     font-family: 'Satoshi', sans-serif;
     font-family: "Urbanist", sans-serif;
 }
+button {
+    cursor: pointer;
+}
 section.Thank_you {
     width: 100%;
     position: relative;
